@@ -4,7 +4,7 @@ title: web~sites
 date: "2024-07-06"
 description: web experiments and browser lab
 tags: ['experiment']
-thumbnail: ./stickeys.png
+# thumbnail: ./stickeys.png
 tech: ['code','html','js']
 ---
 [Explore all the sites here.](https://leils.github.io/web-sites/)
@@ -20,4 +20,7 @@ The criteria for the websites are as follows:
 The result was 30 consecutive days of websites exploring novel interactions and precious moments within the browser. This included experiments in [drawing with HTML](https://leils.github.io/web-sites/asterisk_drawing.html), in [revealing hidden things](https://leils.github.io/web-sites/flashlight.html), in using [sliders](https://leils.github.io/web-sites/10to10.html) and [selectors](https://leils.github.io/web-sites/ripple.html) and [pop-ups](https://leils.github.io/web-sites/stickynotebrain.html) as tools for expression. 
 This repository became a lab for browser experimentation, and remains as a record of those trials. 
 
-`youtube: https://youtu.be/abJGerZZ_AQ`
+https://youtu.be/abJGerZZ_AQ
+
+
+https://www.instagram.com/p/DHHKrtHSMd2/?img_index=1

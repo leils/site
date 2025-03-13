@@ -1,0 +1,11 @@
+
+body {
+    background-color: bisque;
+    max-width: 80vw;
+    margin: 64px;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}

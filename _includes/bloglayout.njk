@@ -1,8 +1,8 @@
 ---
-title: My Rad Blog
+title: blogPost
 ---
-
 <!doctype html>
+<link rel="stylesheet" href="/bundle.css">
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -11,6 +11,9 @@ title: My Rad Blog
   </head>
   <body>
     <h1>{{title}}</h1>
+    {% if thumbnail %}
+      <img alt={{thumbnail}} src={{thumbnail}}>
+    {% endif %}
     {{ content | safe }}
   </body>
 </html>
