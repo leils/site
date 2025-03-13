@@ -3,7 +3,8 @@ title: Soft
 date: "2019-10-20"
 description: projection mapping onto soft bodies
 thumbnail: ./still1.jpg
-tags: ["experiment", "projection"]
+tags: ["experiment"]
+tech: ["projection"]
 ---
 
 **Soft** is an exploration in projecting on soft bodies outside of geometric space.

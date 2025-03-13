@@ -10,10 +10,32 @@ title: blogPost
     <title>{{ title }}</title>
   </head>
   <body>
-    <h1>{{title}}</h1>
-    {% if thumbnail %}
-      <img alt={{thumbnail}} src={{thumbnail}}>
-    {% endif %}
+    <div class="blogHeader">
+      <h1>{{title}}</h1>
+      {% if thumbnail %}
+        <img alt={{thumbnail}} src={{thumbnail}}>
+      {% endif %}
+    </div>
+
     {{ content | safe }}
+
+    <hr>
+    <div class="blogFooter">
+      <div class="pageTags">
+        {% set comma = joiner() %}
+        Tagged: 
+        {% for tag in tags %}
+          {{ comma() }} {{ tag }}
+        {%- endfor %}
+      </div>
+      {% if tech.length > 0 %}
+        <div class="pageTech">
+          Tech: 
+          {% for t in tech %}
+            {{ comma() }} {{ t }}
+          {%- endfor %}
+        </div>
+      {% endif %}
+    </div>
   </body>
 </html>

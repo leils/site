@@ -5,6 +5,9 @@ body {
     margin: 64px;
 }
 
+.thumbnail {
+    max-width: 300px;
+}
 img {
     max-width: 50%;
     height: auto;

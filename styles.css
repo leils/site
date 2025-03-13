@@ -4,3 +4,7 @@ body {
     max-width: 80vw;
     margin: 64px;
 }
+
+.thumbnail {
+    max-width: 300px;
+}
