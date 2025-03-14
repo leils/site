@@ -1,0 +1,117 @@
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNC Entry Table</title>
+  </head>
+  <body>
+    <div class="blogHeader">
+      <h1>CNC Entry Table</h1>
+      
+        <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7957.jpg&width=2048&format=webp&via=transform 2048w"><img alt="./IMG_7957.jpg" src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7957.jpg&width=2048&format=jpeg&via=transform" width="2048" height="1551"></picture>
+      
+    </div>
+
+    <p>I wanted a catch-all table by my front door. It’s a narrow space with a few requirements:</p>
+<ol>
+<li>Fits in this area (14 inches wide) without intruding on the entry path</li>
+<li>Easy to reach from outside the door, to place keys/mail while I take off my shoes</li>
+<li>A shelf along the bottom to hold my indoor slippers while I’m not home, or my backpack when I get home.</li>
+</ol>
+<p>I took inspiration from this render:</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FScreen_Shot_2022-09-26_at_3.27.18_PM.png&width=2022&format=webp&via=transform 2022w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FScreen_Shot_2022-09-26_at_3.27.18_PM.png&width=2022&format=jpeg&via=transform" alt="Screen_Shot_2022-09-26_at_3.27.18_PM.png" width="2022" height="1564"></picture></p>
+<hr>
+<h2>Designing</h2>
+<h3>Sketches</h3>
+<p>I started on paper, because working on paper at the beginning is much easier &amp; allows me to flesh out ideas quickly.</p>
+<p>I made a few sketches of various potential shapes before settling on this one, which utilizes slot and tenon joins to hold itself together. I’d previously done some <a href="https://www.leiac.me/2022/2022-10-05_cnc-joinery/">joinery tests</a> to determine what I wanted to use for this type of plywood.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2Fcnc-project-01-05.jpg&width=2048&format=webp&via=transform 2048w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2Fcnc-project-01-05.jpg&width=2048&format=jpeg&via=transform" alt="cnc-project-01-05.jpg" width="2048" height="1536"></picture></p>
+<h3>Cardboard Prototypes</h3>
+<p>Bringing things into real physical space always helps me work, so I created a mockup to stand in its place. I utilized an 80W laser cutter to cut out pieces I’d mocked up in Fusion 360, and used hot glue to put it all together.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2Ftable_cardboard-prototype.png&width=1226&format=webp&via=transform 1226w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2Ftable_cardboard-prototype.png&width=1226&format=jpeg&via=transform" alt="table_cardboard-prototype.png" width="1226" height="640"></picture></p>
+<h3>CAD</h3>
+<p>After living with the cardboard prototype for a few days, I updated my design and got to modeling it in Fusion 360. I designed the whole thing based on set parameters, and constrained it so I could change measurements when needed (such as material thickness, leg height, and tolerance).</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FScreen_Shot_2022-10-12_at_3.20.14_PM.png&width=1460&format=webp&via=transform 1460w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FScreen_Shot_2022-10-12_at_3.20.14_PM.png&width=1460&format=jpeg&via=transform" alt="Screen_Shot_2022-10-12_at_3.20.14_PM.png" width="1460" height="1528"></picture></p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FScreen_Shot_2022-11-30_at_9.30.13_PM.png&width=2456&format=webp&via=transform 2456w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FScreen_Shot_2022-11-30_at_9.30.13_PM.png&width=2456&format=jpeg&via=transform" alt="Screen Shot 2022-11-30 at 9.30.13 PM.png" width="2456" height="1058"></picture></p>
+<p>While doing this, I also designed a tolerance test to run once I got my material, so I could test it all with the correct setup and update my numbers as needed.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FScreen_Shot_2022-10-12_at_3.23.19_PM.png&width=1656&format=webp&via=transform 1656w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FScreen_Shot_2022-10-12_at_3.23.19_PM.png&width=1656&format=jpeg&via=transform" alt="Screen_Shot_2022-10-12_at_3.23.19_PM.png" width="1656" height="918"></picture></p>
+<h3>Material</h3>
+<p>I bought a 4x8’ sheet of 3/4” 5-ply Canadian Birch, pre-cut into 4x3’ pieces to be broken further into 24x36” pieces to fit the ShopBot bed sizes.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2Fcnc-project-01-14.jpg&width=2048&format=webp&via=transform 2048w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2Fcnc-project-01-14.jpg&width=2048&format=jpeg&via=transform" alt="cnc-project-01-14.jpg" width="2048" height="1118"></picture></p>
+<hr>
+<h2>Fabrication</h2>
+<h3>Shopbots</h3>
+<p>I cut out the top, bottom slats, and back panel on a Shopbot. You can <a href="https://www.leiac.me/2022/2022-10-12_cnc-table/">read more on this in an older post</a>, but generally this went off without a hitch before the machines unfortunately went out of service.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2Fcnc-project-01-07.jpg&width=2048&format=webp&via=transform 2048w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2Fcnc-project-01-07.jpg&width=2048&format=jpeg&via=transform" alt="cnc-project-01-07.jpg" width="2048" height="1296"></picture></p>
+<h3>Shaper Origin</h3>
+<p>After the untimely downfall of the Shopbots, I pivoted to using the Shaper Origin instead, a handheld CNC machine I had access to.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7806.jpg&width=2048&format=webp&via=transform 2048w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7806.jpg&width=2048&format=jpeg&via=transform" alt="IMG_7806.jpg" width="2048" height="1536"></picture></p>
+<p>There were a few hiccups I had running the Shaper Origin the first time, but I chose to run it on a sacrificial scrap piece I had lying around.</p>
+<p>After the sacrificial learning cut, I set up a fresh plywood sheet with Shaper tape, scanned it, and ran about a half-dozen passes to cut it out. It was a pretty simple setup once I understood the Shaper UI (see my later section on the hiccups around this). The shaper is fairly straightforward, if tedious to use. I also attempted to stabilize the worktable by shimming one of the legs, because it was more wobbly than I wanted it to be.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7808.jpg&width=2048&format=webp&via=transform 2048w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7808.jpg&width=2048&format=jpeg&via=transform" alt="IMG_7808.jpg" width="2048" height="1536"></picture></p>
+<p>https://media.giphy.com/media/wtcxeXadfpIXynFneZ/giphy.gif</p>
+<p>The legs of the table took about an hour each to cut out, having to move the machine by hand and adjust the depth between each pass. This was painfully slow compared to the full CNCs, but it got the job done.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7839.jpg&width=2048&format=webp&via=transform 2048w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7839.jpg&width=2048&format=jpeg&via=transform" alt="IMG_7839.jpg" width="2048" height="1079"></picture></p>
+<p>After all my pieces were cut, I did a quick test fit of some of the joints to make sure they still fit correctly.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7815.jpg&width=1536&format=webp&via=transform 1536w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7815.jpg&width=1536&format=jpeg&via=transform" alt="IMG_7815.jpg" width="1536" height="2048"></picture></p>
+<p>Satisfied with the tolerance and fit, I moved on to sanding and finishing. I sanded all the pieces down by hand from 120 to 360 grit, wiped them down with a damp towel, and then gave them 2-3 coats of Danish oil.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7935.jpg&width=2048&format=webp&via=transform 2048w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7935.jpg&width=2048&format=jpeg&via=transform" alt="IMG_7935.jpg" width="2048" height="1104"></picture></p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7942.jpg&width=2048&format=webp&via=transform 2048w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7942.jpg&width=2048&format=jpeg&via=transform" alt="IMG_7942.jpg" width="2048" height="1519"></picture></p>
+<p>I left these overnight to cure, and then assembled them! Here’s the finished piece.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7955.jpg&width=1536&format=webp&via=transform 1536w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7955.jpg&width=1536&format=jpeg&via=transform" alt="IMG_7955.jpg" width="1536" height="2048"></picture></p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7949.jpg&width=2048&format=webp&via=transform 2048w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7949.jpg&width=2048&format=jpeg&via=transform" alt="IMG_7949.jpg" width="2048" height="1595"></picture></p>
+<p><code>youtube: https://youtu.be/DksNMPupLfs</code></p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7957.jpg&width=2048&format=webp&via=transform 2048w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-30_cnc-table%2FIMG_7957.jpg&width=2048&format=jpeg&via=transform" alt="IMG_7957.jpg" width="2048" height="1551"></picture></p>
+<hr>
+<p>Tools &amp; Materials:</p>
+<ul>
+<li>Autodesk Fusion 360</li>
+<li>Epilog Laser Cutter</li>
+<li>Shopbot CNC</li>
+<li>Shaper Origin</li>
+<li>4-ply Birch Ply</li>
+<li>Danish Oil</li>
+</ul>
+<p>Frustration points:</p>
+<ul>
+<li>The Shaper interface was useful, but required a different mindset than the Shopbot. It took some time to get used to setting up the parameters in the Shaper UI, and I disliked the possibility of additional human error every time I needed to change the depth for the next path.</li>
+<li>I couldn’t find a way of precisely placing my design onto the board after scanning. I’ve seen some youtube videos about using grids to do so, but the shaper just seemed a bit fast and loose with placement.</li>
+<li>I think having a designated spoilboard might be useful here; one that I could screw my wood down onto, rather than fussing about with clamps. Clamps really got in the way of placing designs.</li>
+</ul>
+<p>Reflections:</p>
+<ul>
+<li>The Shaper Origin is a fairly intuitive and powerful tool, but I think these table legs were not the ideal project for it. In the future I’d use the Shaper for projects with thinner material, or to do cutouts/pockets in large boards.</li>
+<li>In the future, I’d consider doing a wet sand for the plywood, as the Danish Oil seemed to raise the grain after soaking in.</li>
+<li>The whole piece is actually a tiny bit back-heavy. This isn’t an issue because it’s going to be up against a wall, but it’s something I couldn’t feel until it was cut from ply, and I’ll have to be careful about in future pieces.</li>
+<li>For now, I’ve chosen not to glue it together for ease of transport. However, I realize the joints will probably loosen up as I assemble &amp; disassemble it, so I’ll probably end up gluing it in the end.</li>
+</ul>
+
+
+    <hr>
+    <div class="blogFooter">
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           content
+          , itp
+          , subtraction
+          , experiment
+          , fabrication
+      </div>
+      
+        <div class="pageTech">
+          Tech: 
+          
+            , cnc
+            , CAD
+            , Fusion
+            , Shopbot
+            , Shaper
+        </div>
+      
+    </div>
+  </body>
+</html>

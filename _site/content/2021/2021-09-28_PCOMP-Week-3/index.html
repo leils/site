@@ -1,0 +1,66 @@
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCOMP Week 3</title>
+  </head>
+  <body>
+    <div class="blogHeader">
+      <h1>PCOMP Week 3</h1>
+      
+    </div>
+
+    <p>This week, some PWM and starting with servos!</p>
+<h2>Servo</h2>
+<p>This was pretty straightforward. A simple map from analog input to motor output. I found that the motor was chittering, and I had a suspicion that the potentiometer output was a bit noisy. <a href="https://www.norwegiancreations.com/2015/10/tutorial-potentiometers-with-arduino-and-filtering/">I found this tutorial to filter potentiometer output</a>, but there was still plenty of noise in the servo after applying this. Not sure what this was exactly, but definitely something I'd like to work out before using servos and potentiometers together in the future.</p>
+<p><code>video: [https://youtu.be/6eRpLKSuHto](https://youtu.be/6eRpLKSuHto)</code></p>
+<h2>Volume</h2>
+<p>I had a fun time with this, and by fun, I mean awful.</p>
+<p>I was able to get my little speaker to work, hooked up to a potentiometer. After some issues (read: I had things plugged in backwards) I was also able to get the amplifier working, though the bump in volume was pretty marginal.</p>
+<p><code>video: [https://youtu.be/rWaAigbn6lo](https://youtu.be/rWaAigbn6lo)</code></p>
+<p>However, I had a really interesting issue where anytime the potentiometer went lower than 120 (out of 1024), the entire microcontroller froze. It seemed like it may have short-circuited or something. In the end, I have to restart/reset the microcontroller to get it back to working.</p>
+<p>It's not terrible, but there's something going on here that I'd like to understand and avoid in the future.</p>
+<h2>The Interactive Project</h2>
+<p>I got a bit of a jump on this last week, with my idea about a little tent that lights up in the dark. I may have been a bit too enthusiastic, because I now realize I need quite a bit more interactivity than I'd planned. Really reinforces the lesson, <em>Don't solder until you know exactly what you want</em>. I put in an order for a new Trinket, a few more breadboards, and some more proto boards.</p>
+<p>Anyway, I had a little brainstorm, and there are two things I'm now aiming to add to the project:</p>
+<ol>
+<li>A little moon that rises behind the scene</li>
+<li>A way to control the moon &amp; LED simultaneously, on demand, besides the phototransistor</li>
+</ol>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-09-28_PCOMP-Week-3%2Fsketch-with-moon.jpg&width=2000&format=webp&via=transform 2000w"><img src="/.11ty/image/?src=content%2F2021%2F2021-09-28_PCOMP-Week-3%2Fsketch-with-moon.jpg&width=2000&format=jpeg&via=transform" alt="Sketch of the new setup with moon" width="2000" height="1500"></picture></p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-09-28_PCOMP-Week-3%2Fsketch-pieces.jpg&width=2000&format=webp&via=transform 2000w"><img src="/.11ty/image/?src=content%2F2021%2F2021-09-28_PCOMP-Week-3%2Fsketch-pieces.jpg&width=2000&format=jpeg&via=transform" alt="Sketch of individual pieces to be laser cut" width="2000" height="1500"></picture></p>
+<p>The second thing stems from a desire to show off the scene to other people, without having to grab a flashlight or dim the lights in the room. This implies two modes: an automatic light-sensing mode, and a manual user-driven mode. So overall, I'm adding:</p>
+<ul>
+<li>A servo for the moon</li>
+<li>A slide potentiometer, for analog input</li>
+<li>A latching switch, for mode changes</li>
+</ul>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-09-28_PCOMP-Week-3%2Fforest-scene-schematic.png&width=1988&format=webp&via=transform 1988w"><img src="/.11ty/image/?src=content%2F2021%2F2021-09-28_PCOMP-Week-3%2Fforest-scene-schematic.png&width=1988&format=jpeg&via=transform" alt="Breadboard diagram for forest scene" width="1988" height="1182"></picture></p>
+<p>I set up the circuit on a breadboard to test out (with some substitutions with parts I had nearby), and it was mostly successful!</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-09-28_PCOMP-Week-3%2Fforest-scene-breadboard.jpg&width=2000&format=webp&via=transform 2000w"><img src="/.11ty/image/?src=content%2F2021%2F2021-09-28_PCOMP-Week-3%2Fforest-scene-breadboard.jpg&width=2000&format=jpeg&via=transform" alt="Breadboard setup for the proposed circuit" width="2000" height="1500"></picture></p>
+<p><code>youtube: [https://youtu.be/x_qZfo1QWig](https://youtu.be/x_qZfo1QWig)</code></p>
+<p>A couple of surprises or issues:</p>
+<ul>
+<li>The phototransistor output was very noisy, and I ended up with a very &quot;bouncy&quot; servo and LED. This wasn't an issue last week, but then again, I wasn't using a servo either.</li>
+<li>The toggle switch turns &quot;on&quot; the side I don't expect; switching to the right, the left pin is connected.</li>
+<li>There's an interesting experience when switching from automatic to manual mode. Essentially the LED and servo &quot;jump&quot; to wherever the potentiometer is set, which can be a bit jarring and unexpected if the potentiometer was not reset to 0.</li>
+</ul>
+<p>A bit more work to do, but definitely on it's way.</p>
+
+
+    <hr>
+    <div class="blogFooter">
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           content
+          , itp
+          , pcomp
+      </div>
+      
+    </div>
+  </body>
+</html>

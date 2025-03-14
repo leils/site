@@ -1,0 +1,56 @@
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Together</title>
+  </head>
+  <body>
+    <div class="blogHeader">
+      <h1>Bloom Together</h1>
+      
+        <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-12-21_bloom-together%2Fbloom-hero.png&width=2742&format=webp&via=transform 2742w"><img alt="./bloom-hero.png" src="/.11ty/image/?src=content%2F2021%2F2021-12-21_bloom-together%2Fbloom-hero.png&width=2742&format=jpeg&via=transform" width="2742" height="1472"></picture>
+      
+    </div>
+
+    <p><em>Bloom Together</em> is a collaboration with <a href="https://shirleywu.studio">Shirley Wu</a> exploring the use of light as an interaction tool. Roughly fabricated to resemble a small window, the inside sill supports three potted plants that await the attention and care of the viewer.</p>
+<p>With this piece, we provide the viewers with two flashlights with narrow beams. When the viewer shines the lights on the plant pots, the projected flowers bloom.</p>
+<p><code>youtube: https://youtu.be/lWxl4aIA5CY</code></p>
+<h2>Concept</h2>
+<p>This idea went through several iterations before we settled on this version. We used this version to test out the concept of using a physical light to create digital change, and hope to explore this further in the future. The blooming flowers are intended as a metaphor for attention and care; you as the viewer can only take care of a few things at once, but with the collaboration of others, it’s possible to provide care and attention to the whole community. We intentionally only provide two flashlights when there are three flowers, making the flowers’ growth a challenge for a single-person interaction.</p>
+<h2>Build</h2>
+<p>The Arduino part of this project is somewhat simple; a Nano Iot 33 is connected to three photoresistors, which are in turn embedded into the surface that we want the viewer to shine a light on. Below is the Fritzing sketch for two resistors and a reset button. (However, note that these resistors are labelled incorrectly as pull-up resistors, when they are actually pull-down resistors).</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-12-21_bloom-together%2Fprototype_bb.jpg&width=1755&format=webp&via=transform 1755w"><img src="/.11ty/image/?src=content%2F2021%2F2021-12-21_bloom-together%2Fprototype_bb.jpg&width=1755&format=jpeg&via=transform" alt="prototype_bb.jpeg" width="1755" height="783"></picture></p>
+<p>The digital portion of the project includes a set of flowers blooming based on the light available to that &quot;plant&quot;.  For demonstration purposes, we used video of real flowers blooming in timelapse and rendered them in a simple browser site.</p>
+<p>These images are rear-projected onto a satin ice acrylic sheet. While we originally intended to use a milky white acrylic, some initial testing showed that satin ice acrylic created a much crisper image with brighter colors.</p>
+<p><code>youtube: https://youtu.be/HWSiiLwIZkY</code></p>
+<p>With a simple fabricated housing of cardboard, this prototype is physically ready for testing. We created the housing for this acrylic to mimic a window sill from the viewer’s perspective, placing halved plant pots on the sill to hide the wiring and sensors. The original faux plants from the pots underwent a little surgery and were placed back into the pots, sensors embedded into the forefront leaf.</p>
+<p>This prototype was also created with material reuse in mind; the acrylic panel sits inside of a slot in the base and is held up without any fixative, so it may be removed and reused in future projects.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-12-21_bloom-together%2FIMG_3709.jpg&width=2425&format=webp&via=transform 2425w"><img src="/.11ty/image/?src=content%2F2021%2F2021-12-21_bloom-together%2FIMG_3709.jpg&width=2425&format=jpeg&via=transform" alt="IMG_3709.jpeg" width="2425" height="1945"></picture></p>
+<p>Later, Shirley ported the digital portion of the project to Unity and smoothed out the video playback by cutting the video into frames. This version allowed for more control of the aesthetic through Unity's lighting and effect controls.</p>
+<h2>Retrospective thoughts</h2>
+<ul>
+<li>Rear projection is a medium that holds a lot of potential, and I'd like to continue to explore it.</li>
+<li>This is my 4th project in a row that's dealt with photoresistors and lights ... perhaps it's time to change it up.</li>
+<li>This project definitely proved the interaction of physical light and digital change to hold some potential.</li>
+</ul>
+
+
+    <hr>
+    <div class="blogFooter">
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           content
+          , experiment
+          , itp
+          , pcomp
+          , projection
+          , interactive
+      </div>
+      
+    </div>
+  </body>
+</html>

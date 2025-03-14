@@ -1,0 +1,23 @@
+---
+title: about
+---
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <div class="blogHeader">
+      <h1>{{title}}</h1>
+      {% if thumbnail %}
+        <img alt={{thumbnail}} src={{thumbnail}}>
+      {% endif %}
+    </div>
+
+    {{ content | safe }}
+    <hr>
+  </body>
+</html>

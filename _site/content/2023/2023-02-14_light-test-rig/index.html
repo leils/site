@@ -1,0 +1,63 @@
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lighting Test Rig</title>
+  </head>
+  <body>
+    <div class="blogHeader">
+      <h1>Lighting Test Rig</h1>
+      
+    </div>
+
+    <p>This week, we were tasked to creating a test rig for a 12V DC lamp. A few of us went in on a set of E26 bulb sockets, which were unfortunately not delivered until Tuesday. In the end, I managed to set up a bit of a test rig.</p>
+<p>Requirements for the test rig:</p>
+<ul>
+<li>1m cable</li>
+<li>Dim bulb + on/off control</li>
+</ul>
+<p>I based this rig on my setup for the LED fade; a rotary encoder and Nano IOT 33 are central components to the circuit. I’d worked a bit with the TIP120s in an earlier project controlling solenoids, so I grabbed parts from prototypes of that project.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-02-14_light-test-rig%2Flighting-rig-2.jpg&width=2048&format=webp&via=transform 2048w"><img src="/.11ty/image/?src=content%2F2023%2F2023-02-14_light-test-rig%2Flighting-rig-2.jpg&width=2048&format=jpeg&via=transform" alt="lighting-rig-2.jpg" width="2048" height="1536"></picture></p>
+<p>After setting the circuit up for 12V control I tested out my original fade code and wow! it works!</p>
+<div id="xThp0QMPPRU" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/xThp0QMPPRU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<p>I made up a little box for it to make carrying it around easier.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-02-14_light-test-rig%2Flighting-rig-3.jpg&width=2048&format=webp&via=transform 2048w"><img src="/.11ty/image/?src=content%2F2023%2F2023-02-14_light-test-rig%2Flighting-rig-3.jpg&width=2048&format=jpeg&via=transform" alt="lighting-rig-3.jpg" width="2048" height="1536"></picture></p>
+<p>This is where I stalled; the LED bulb faded well, but a) made a high pitched noise that I didn’t love, and b) got a bit unnervingly hot. So I put a pin in this and hope to go over the circuit once more before building a more permanent version of this.</p>
+<p>Notes:</p>
+<ul>
+<li>
+<p>Wire joints are my best friends. They are so incredibly convenient.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-02-14_light-test-rig%2Flighting-rig-1.jpg&width=2048&format=webp&via=transform 2048w"><img src="/.11ty/image/?src=content%2F2023%2F2023-02-14_light-test-rig%2Flighting-rig-1.jpg&width=2048&format=jpeg&via=transform" alt="lighting-rig-1.jpg" width="2048" height="1538"></picture></p>
+</li>
+<li>
+<p>I definitely shocked myself at least once. It’s not terrible, but it’s certainly uncomfortable.</p>
+</li>
+</ul>
+<hr>
+<p>Also, some lights that I enjoy:</p>
+<p><a href="https://vibekefonnesbergschmidt.dk/lighting/">https://vibekefonnesbergschmidt.dk/lighting/</a></p>
+
+
+    <hr>
+    <div class="blogFooter">
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           content
+          , itp
+          , light-and-interactivity
+      </div>
+      
+        <div class="pageTech">
+          Tech: 
+          
+            , arduino
+            , lighting
+        </div>
+      
+    </div>
+  </body>
+</html>

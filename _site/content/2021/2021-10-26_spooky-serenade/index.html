@@ -1,0 +1,61 @@
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spooky Serenade</title>
+  </head>
+  <body>
+    <div class="blogHeader">
+      <h1>Spooky Serenade</h1>
+      
+        <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Fhero.jpg&width=2000&format=webp&via=transform 2000w"><img alt="./hero.jpg" src="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Fhero.jpg&width=2000&format=jpeg&via=transform" width="2000" height="1500"></picture>
+      
+    </div>
+
+    <p>This piece evolved into my larger project, <a href="https://www.leiac.me/2022/2022-02-01_Grim-Grinning-Ghosts/">Grim Grinning Ghosts</a>.
+Read more about that piece as it was created for the ITP 2021 Winter Showcase.</p>
+<hr>
+<p>This week, I took a bit of a detour. A spooky detour.</p>
+<p>https://media.giphy.com/media/Ne9STnE70KnuYilRP3/giphy.gif</p>
+<p><code>youtube: https://youtu.be/sCgfHm83ieI</code></p>
+<p>This was created for the Social Genius Halloween Experience Event, taking place on the NYU ITP floor. Pulled from my fondness for Disneyland and Imagineering, I re-imagined the Singing Busts from the Haunted Mansion as an interactive choir, a ghostly chorus that you could all up with candles. The ghosts are a 4k fan-generated video, created for Halloween projections. You can find the <a href="https://youtu.be/HECrCf73Jv8">video here on Youtube</a>.</p>
+<p>It's a pretty simple execution: each of the ghosts are obscured by a black box, which fades away when a candle is placed on the candle holder. In addition, the volume gets louder with each added candle. A simple end-screen effect of lightning and text is added when all 5 candles are placed in the holder.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Fcandle_holder.jpg&width=2000&format=webp&via=transform 2000w"><img src="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Fcandle_holder.jpg&width=2000&format=jpeg&via=transform" alt="Image of Candle Holder" width="2000" height="1500"></picture></p>
+<p>You might recognize this candle holder from my Out of Order Storytelling project. It is, in fact, repurposed from that project, though slightly updated and with a fresh new base. I laser cut a temporary cardboard base, as well as a tray for candles. I also cleaned up the wiring a bit, re-programing the Arduino to report which of the photoresistors were covered or uncovered, rather than the number of photoresistors that were reading below the threshold.</p>
+<p>The other side of this is all P5. I started by <a href="https://editor.p5js.org/leils/sketches/hVpZ-QWi4">prototyping a simple fade-in fade-out program using key inputs</a>. This program just renders three circles (used to represent three of the ghosts), using keystrokes as input. By pressing the keys 1-3, you can &quot;reveal&quot; a ghost.</p>
+<p>After that, it was time to hook up the Arduino. I set up <a href="https://editor.p5js.org/leils/sketches/xMh3R0dUP">a very simple serial input with the same circle-ghosts</a>, just to prove that I could read serial and parse the output.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Fcircles-serial.png&width=790&format=webp&via=transform 790w"><img src="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Fcircles-serial.png&width=790&format=jpeg&via=transform" alt="Image of circles taking in serial input" width="790" height="598"></picture></p>
+<p>Then, it was on to video. It took a while to get the video to play at the right resolution and size (especially with the web editor's 5mb upload limit), so I ended up prototyping further with a heavily compressed version of the final video. With this, I was able to run some user tests and get good feedback to iterate on.</p>
+<p><code>youtube: https://youtu.be/JgJaLWfyUz4</code></p>
+<p>In order to play the actual video, I moved off the web editor onto the desktop. This local version let me play a high resolution video and iterate a little faster for the final details. Below are some photos of the final install.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Fcontext_view.jpg&width=1500&format=webp&via=transform 1500w"><img src="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Fcontext_view.jpg&width=1500&format=jpeg&via=transform" alt="Context view" width="1500" height="2000"></picture></p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Fside-view-candles.jpg&width=2000&format=webp&via=transform 2000w"><img src="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Fside-view-candles.jpg&width=2000&format=jpeg&via=transform" alt="Side View of Candles" width="2000" height="1500"></picture></p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Ffinal-frame.png&width=2370&format=webp&via=transform 2370w"><img src="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Ffinal-frame.png&width=2370&format=jpeg&via=transform" alt="Final frame" width="2370" height="1986"></picture>
+All of the P5 code and relevant files are <a href="https://github.com/leils/grinning-ghosts">available here on Github</a>, including the Arduino code.</p>
+
+
+    <hr>
+    <div class="blogFooter">
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           content
+          , experiment
+          , itp
+          , pcomp
+          , interactive
+      </div>
+      
+        <div class="pageTech">
+          Tech: 
+          
+            , Arduino
+            , P5
+        </div>
+      
+    </div>
+  </body>
+</html>

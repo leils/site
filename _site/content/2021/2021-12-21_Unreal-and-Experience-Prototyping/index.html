@@ -1,0 +1,86 @@
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unreal and Experience Prototyping</title>
+  </head>
+  <body>
+    <div class="blogHeader">
+      <h1>Unreal and Experience Prototyping</h1>
+      
+        <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Fshrine-hero.png&width=2236&format=webp&via=transform 2236w"><img alt="./shrine-hero.png" src="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Fshrine-hero.png&width=2236&format=jpeg&via=transform" width="2236" height="1138"></picture>
+      
+    </div>
+
+    <p><em>A test in experience prototyping using Unreal.</em></p>
+<p>While the majority of my interest lies in the creation of real-world physical installations, it still can be useful to leverage digital tools to create and prototype spatial interactions that may be difficult to realize physically. This final assignment in Hypercinema gave me the time to begin exploring the world of 3D game engines as a way of creating digital mockups.</p>
+<p>Using Unreal, I created a simple room to demonstrate the effect of an “impossible” interaction. In this room, a shrine holds a glowing object of interest. When you walk behind that shrine, the object disappears; but the next time you walk around it, it reappears once more.</p>
+<p><code>youtube: https://youtu.be/6Gql-UUlAy0</code></p>
+<hr>
+<h2>Thinking about Game Engines</h2>
+<p>I began by asking myself a few questions about game engines. In prototyping for a project, I try to follow the “fail fast and early” ideal. Because of this, any way of making early prototypes cheap, quick, and expressive of the desired interaction is extremely desirable.</p>
+<h3><strong>What do game engines excel at?</strong></h3>
+<p>IE. What might be easier, faster, or more feasible to make in a game engine versus the real world?</p>
+<ul>
+<li>Creating full-scale models for POV experience. Creating a full-scale model is a project intensive both in time and resources; getting space, let alone the time and materials to build enough to express the desired effect may be difficult. Instead, it can be easier to generate that world digitally and place a camera at the intended eye-level, simulating the space instead.</li>
+<li>“Impossible” effects. Many effects (such as making something appear and disappear, or animating a large object) may not technically be impossible, but are physically challenging or time consuming. To create an animatronic in real life takes tremendous skill and effort. To convincingly make something disappear requires large attention to detail and environmental control. These are things that may be done “magically” through digital means instead.</li>
+</ul>
+<h3><strong>What are game engines bad at?</strong></h3>
+<p>IE. What is easier to do in real life, or what do game engines have difficulty portraying?</p>
+<ul>
+<li>Tangibility. Currently, no commercial solutions exist for adding convincing tangibility to VR or AR experiences. In order to test something where the guest may have to physically touch, grab, or manipulate an object, it may be better to approach that with physically fabricated prototypes.</li>
+<li>Edge case testing. Game engines are both extremely capable but incredibly limited. Each action that the guest/user may take must by programmed in to the project, and programmed interactions may miss out on unexpected or desired interactions. It’s hard to think of every case, and the guest or user is inherently limited in their possible interactions when using an interface for VR or AR.</li>
+</ul>
+<hr>
+<h2>Building the Shrine</h2>
+<p>With these constraints and strengths in mind, I settled on a sample project to execute. I wanted this to be a simple proof of concept for a spacial experience that required a physically difficult effect. In this case, I aimed for the following:</p>
+<ul>
+<li>A room-sized experience with minimal mood setting</li>
+<li>requiring guest spacial tracking</li>
+<li>resulting in an object disappearing and reappearing.</li>
+</ul>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Fstoryboards.jpg&width=2687&format=webp&via=transform 2687w"><img src="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Fstoryboards.jpg&width=2687&format=jpeg&via=transform" alt="Storyboards" width="2687" height="2824"></picture></p>
+<p>The room is built out of 6 planes, styled with a wooded material. I chose a set of naturalistic materials and objects (trees, bamboo) to place inside the room to give the effect of an unnatural forest; one with clearly natural elements, but in an impossible structure (implying perhaps the inside of a massive tree). To further this mysterious and natural mood, I placed only two point lights in this space, low to the ground and fairly dim. At the center of the space is a marble fountain, within which a glowing cube floats.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Flayout.png&width=2562&format=webp&via=transform 2562w"><img src="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Flayout.png&width=2562&format=jpeg&via=transform" alt="Screenshot of various perspectives of the level" width="2562" height="1586"></picture></p>
+<p>The trick of a disappearing object is done through a set of two animations and a box trigger. The trigger is placed to take up the majority of the space behind the fountain/shrine, such that the player triggers the animation to run when behind the fountain. The animation, meanwhile, is extremely simplistic; when triggered, the glowing cube drops through the floor of the world, making it seem to disappear. A flip-flop node ensures that this animation alternates with another one that raises the cube up out of the floor and back into place.</p>
+<p>https://media.giphy.com/media/4arPf8yf114a9Md8Dg/giphy.gif</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Flevel_blueprint.png&width=2372&format=webp&via=transform 2372w"><img src="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Flevel_blueprint.png&width=2372&format=jpeg&via=transform" alt="Level Blueprint used to trigger the box disappearing" width="2372" height="1098"></picture></p>
+<p>Overall I consider this a first-try success; this project would have been difficult to execute physically, considering the physical computing/sensor needs and the trick of making the object of interest disappear. While there are quite a few improvements I’d like to make to this scene, I think that it has been effective in communicating the basic experience I set out to create.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Fscreenshot-1.png&width=1964&format=webp&via=transform 1964w"><img src="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Fscreenshot-1.png&width=1964&format=jpeg&via=transform" alt="Screenshot showing the full cube" width="1964" height="1102"></picture>
+<picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Fscreenshot-2.png&width=2402&format=webp&via=transform 2402w"><img src="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Fscreenshot-2.png&width=2402&format=jpeg&via=transform" alt="Screenshot showing a top-down view of the interactable area" width="2402" height="1012"></picture>
+<picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Fscreenshot-3.png&width=2164&format=webp&via=transform 2164w"><img src="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Fscreenshot-3.png&width=2164&format=jpeg&via=transform" alt="Screenshot of a closer view of the space" width="2164" height="1186"></picture></p>
+<hr>
+<h2>Side notes</h2>
+<h3>Revolving Cameras</h3>
+<p>While a camera revolving around an object does not directly simulate the experience of a guest, it does capture a sense of what an object of interest may look like or appear as from all angles. I followed this tutorial on how to attach a camera to a spring arm, and take over the player character. However, I could not manage to get the newly sprung camera to trigger any box or sphere triggers, making it useless for my chosen scenario.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Fsprung_camera_preview.png&width=1258&format=webp&via=transform 1258w"><img src="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Fsprung_camera_preview.png&width=1258&format=jpeg&via=transform" alt="Screenshot of the preview for a sprung camera" width="1258" height="1034"></picture>
+<picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Fsprung_camera_nodes.png&width=1742&format=webp&via=transform 1742w"><img src="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Fsprung_camera_nodes.png&width=1742&format=jpeg&via=transform" alt="Screenshot of the sprung camera's node graph" width="1742" height="642"></picture></p>
+<h3>Glowing Materials</h3>
+<p>Creating the glowing cube was remarkably easy. I followed this tutorial and created a material with a high emissive value. I’d like to next dynamically generate glowing on objects based on guest position.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Femissive_mat.png&width=2398&format=webp&via=transform 2398w"><img src="/.11ty/image/?src=content%2F2021%2F2021-12-21_Unreal-and-Experience-Prototyping%2Femissive_mat.png&width=2398&format=jpeg&via=transform" alt="Screenshot of the emissive material" width="2398" height="1338"></picture></p>
+
+
+    <hr>
+    <div class="blogFooter">
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           content
+          , itp
+          , hypercinema
+          , blog
+          , virtual
+      </div>
+      
+        <div class="pageTech">
+          Tech: 
+          
+            , Unreal Engine
+        </div>
+      
+    </div>
+  </body>
+</html>
