@@ -1,15 +1,10 @@
-<!doctype html>
-<link rel="stylesheet" href="/bundle.css">
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <h1>all available pages</h1>
-    ~~~
+---
+layout: siteheader.njk
+---
+    <h1>everything</h1>
+    <hr>
   <ul>
-{%- for post in collections.all-%}
+{%- for post in collections.content | reverse -%}
   <li><a href="{{ post.url }}">{{ post.data.title }} -- {{ post.url }}</a>  || 
   {% if post.data.thumbnail %}
     {%set path = post.filePathStem.substring(0, post.filePathStem.lastIndexOf("/") + 1)%}
@@ -19,7 +14,4 @@
   </li>
 {%- endfor -%}
 </ul>
-
-~~~
-  </body>
-</html>
+<hr>

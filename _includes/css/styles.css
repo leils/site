@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Overall CSS for main pages
+/* ---------------------------------------------------------- */
+body {
+    background-color: bisque;
+    /* background-color: skyblue; */
+    max-width: 60vw;
+    margin: 0 auto;
+    padding: 24px; /* Optional: Adds some padding for better spacing */
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.heroline {
+  font-style: italic;
+  text-align: center;
+}
+
+.thumbnail {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      max-width: 90vw;
+      padding: 8px;
+    }
+  }

@@ -1,5 +1,4 @@
 ---
-layout: bloglayout.njk
 title: Stop Being the Intern
 date: "2017-01-03"
 description: Make your summer count

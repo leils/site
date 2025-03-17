@@ -1,19 +1,14 @@
-<!doctype html>
-<link rel="stylesheet" href="/bundle.css">
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <h1>all available pages</h1>
-    ~~~
-  <ul>
-{%- for post in collections.all -%}
-  <li><a href="{{ post.url }}">{{ post.data.title }} -- {{ post.url }}</a>  || {{post.data.description}}</li>
-{%- endfor -%}
-</ul>
+---
+layout: siteheader.njk
+---
 
-~~~
-  </body>
-</html>
+<h1>all available pages</h1>
+<hr>
+  <ul>
+    {%- for post in collections.all | reverse -%}
+      <li>
+        <a href="{{ post.url }}">{{ post.data.title }} -- {{ post.url }}</a>
+        || {{ post.data.description }}</li>
+    {%- endfor -%}
+  </ul>
+  <hr>
