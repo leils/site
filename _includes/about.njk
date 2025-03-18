@@ -3,12 +3,11 @@ layout: siteheader.njk
 title: about
 ---
 
-    <div class="blogHeader">
-      <h1>{{title}}</h1>
-      {% if thumbnail %}
-        <img alt={{thumbnail}} src={{thumbnail}}>
-      {% endif %}
-    </div>
-
-    {{ content | safe }}
-    <hr>
+<div class="blogHeader">
+  <h1>{{ title }}</h1>
+  {% if thumbnail %}
+    <img alt={{ thumbnail }} src={{ thumbnail }}>
+    {% endif %}
+  </div>
+  {{ content | safe }}
+  <hr>
