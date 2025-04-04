@@ -5,9 +5,15 @@ description: "About"
 tags: []
 ---
 
+*last updated Apr 2025*
+
 Leia S. Chang (they/them, b. 1995) is an artist, creative technologist, and educator exploring the complexities of identity from their perspective as a second-generation non-binary Asian American. With a strong command over creative fabrication and materiality, Leia integrates digital media into physical forms to build interactive installations that spotlight the connection between memory, identity, and storytelling. Leia's work captures ephemeral moments in both poetic texts and tangible objects made from wood, resin, and other found material.
 
 Leia is currently an exhibit developer at the Exploratorium. They have been a member of Gray Area Incubator and has shown work at La Mama, The Blanc Gallery, Gray Area SF, SYZYGY CoOp, and Resistor NYC, has co-curated an exhibition on Useless Machines with artist/educator Blair Simmons. They organize and facilitate workshops on digital fabrication and creative coding. Leia holds an MPS from NYU TISCH’s Interactive Telecommunications Program (2023), and a BS in Computer Science from California Polytechnic University of San Luis Obispo (2017).
+
+---
+
+*Currently thinking about ... fiber art and woven material, what is a body, [plot田](https://www.instagram.com/plooooooot/), sunlight.*
 
 ---
 
