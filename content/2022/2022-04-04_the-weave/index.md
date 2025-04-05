@@ -2,7 +2,7 @@
 title: The Weave
 date: "2022-04-04"
 description: Embroidery as embodying
-tags: ["itp", 'media making as healing practice', 'portfolio', 'showcase']
+tags: ["itp", 'media making as healing practice', 'showcase']
 thumbnail: ./closeup-hero.jpg
 tech: ['fiber arts']
 ---

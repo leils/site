@@ -2,7 +2,7 @@
 title: Grim Grinning Ghosts
 date: "2022-02-01"
 description: A spooky serenade
-tags: ["itp", "physical computing", "showcase", "portfolio", "fabrication", "interactive"]
+tags: ["itp", "physical computing", "showcase", "fabrication", "interactive"]
 thumbnail: ./ggg-hero.png
 ---
 

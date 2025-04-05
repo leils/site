@@ -1,0 +1,22 @@
+{# ---
+layout: sitewrapper.njk
+pagination:
+  data: collections.techTags
+  size: 1
+  alias: techEntry
+permalink: "/tech/{{ 'techtag-' + (techEntry[0] | slug )}}/"
+eleventyComputed:
+  title: "Posts about {{ techEntry[0] }}"
+  techPosts: "{{ techEntry[1] }}"
+---
+<pre>
+techEntry: {{ techEntry | dump }}
+</pre>
+
+<h1>{{ title }}</h1>
+
+<ul>
+  {% for post in techPosts %}
+    <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+  {% endfor %}
+</ul> #}

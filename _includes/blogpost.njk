@@ -1,5 +1,5 @@
 ---
-layout: siteheader.njk
+layout: sitewrapper.njk
 ---
   <div class="blogHeader">
     <h1>{{title}}</h1>
@@ -13,18 +13,19 @@ layout: siteheader.njk
 
   <hr>
   <div class="blogFooter">
+    <p> Posted {{date}} </p>
     <div class="pageTags">
       {% set comma = joiner() %}
       Tagged: 
       {% for tag in tags %}
-        {{ comma() }} {{ tag }}
+        {{ comma() }} <a href="/tags/{{ tag | slug }}">{{ tag }}</a>
       {%- endfor %}
     </div>
     {% if tech.length > 0 %}
       <div class="pageTech">
         Tech: 
         {% for t in tech %}
-          {{ comma() }} {{ t }}
+          {{ comma() }} <a href="/tech/{{ t }}">{{ t }}</a>
         {%- endfor %}
       </div>
     {% endif %}

@@ -2,7 +2,7 @@
 title: p l a n t
 date: "2022-06-21"
 description: "A responsive kinetic sculpture"
-tags: ["physical computing", "fabrication", "portfolio", "itp", "showcase", 'interactive', 'theme-park-eng']
+tags: ["physical computing", "fabrication", "itp", "showcase", 'interactive', 'theme-park-eng']
 thumbnail: ./Plant-1.jpg
 tech: ['laser cutting', 'Arduino', 'Max MSP', 'Kinect', 'OSC']
 ---

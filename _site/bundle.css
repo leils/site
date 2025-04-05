@@ -44,6 +44,24 @@ body {
     font-family: "IBM Plex Mono", monospace;
 }
 
+a {
+  color: orangered;
+}
+
+.siteheader {
+  background-color: orangered;
+  color: white;
+  padding: 4px;
+  margin: 4px 0px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 .heroline {
   font-style: italic;
   text-align: center;
@@ -56,6 +74,19 @@ body {
 
 :is(h1, h2, h3, h4, h5, h6) {
   font-style: italic;
+}
+
+.card-display {
+  display: flex ;
+  flex-wrap: wrap;
+}
+
+.post-card {
+  border: 3px black dotted;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  max-width: 300px;
 }
 
 @media only screen and (max-width: 600px) {

@@ -2,7 +2,7 @@
 title: The Sounds of Home
 date: "2021-09-20"
 description: Sound Walk No. 1, Coming Home
-tags: ["itp", "hypercinema"]
+tags: ["itp", "hypercinema", "blog"]
 ---
 
 A first assignment for ITP's Hypercinema class; a sound walk. I collaborated

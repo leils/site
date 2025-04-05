@@ -1,0 +1,13 @@
+---
+layout: page.njk
+title: absolutely everything 
+subtitle: including this
+---
+  <ul>
+    {%- for post in collections.all | reverse -%}
+      <li>
+        <a href="{{ post.url }}">{{ post.data.title }} -- {{ post.url }}</a>
+        || {{ post.data.description }}</li>
+    {%- endfor -%}
+  </ul>
+  <hr>

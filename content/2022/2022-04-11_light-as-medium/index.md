@@ -2,7 +2,7 @@
 title: Light as Medium
 date: "2021-11-20"
 description: Exploring light with movement
-tags: ["itp", 'physical computing', 'showcase', 'portfolio', 'interactive']
+tags: ["itp", 'physical computing', 'showcase', 'interactive']
 thumbnail: ./two-hands-clasped.jpg
 ---
 Created in collaboration with [Nunnapat ‘Spencer’ Ratanavanh](https://ratanav.com) and Bruce Mk Arthur.

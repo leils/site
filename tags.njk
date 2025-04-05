@@ -1,10 +1,10 @@
 ---
-layout: siteheader.njk
+layout: sitewrapper.njk
 pagination:
   data: collections
   size: 1
   alias: tag
-permalink: /tags/{{ tag }}/
+permalink: /tags/{{ tag | slug}}/
 ---
 
 <h1>Tagged “{{ tag }}”</h1>

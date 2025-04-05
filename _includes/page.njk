@@ -1,0 +1,13 @@
+---
+layout: sitewrapper.njk
+---
+  <div class="blogHeader">
+    <h1>{{ title }}</h1>
+    {% if subtitle %}
+      <h4>{{ subtitle }}</h4>
+    {% endif %}
+    <hr>
+  </div>
+  
+  {{ content | safe }}
+ 

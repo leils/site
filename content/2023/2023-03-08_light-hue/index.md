@@ -11,7 +11,7 @@ Requirements:
 - Control a Hue bulb/lamp (check!)
 - Allow for on/off, and adjustment. (oops)
 
-https://youtube.com/shorts/Vkv7ah0Aj7U
+[It's a short, and shorts can't be embedded I guess ...](https://youtube.com/shorts/Vkv7ah0Aj7U)
 
 I’ve used MaxMSP before in other projects, so I thought I’d give it a try first. The setup is pretty simple, but here’s the thing. 
 

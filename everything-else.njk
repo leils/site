@@ -1,0 +1,10 @@
+---
+layout: page.njk
+title: everything else
+subtitle: The other content, writing, posts, experiments that have been posted to this site.  
+---
+{%- for p in collections.blog | reverse -%}
+  {% set post = p %}
+  {% include "blogcard.njk" %}
+{%- endfor -%}
+</div>

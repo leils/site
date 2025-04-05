@@ -1,0 +1,12 @@
+---
+layout: page.njk
+title: "& more"
+subtitle: experiments, sketches, & other projects
+---
+
+<div class="card-display">
+{%- for p in collections.experiment | reverse -%}
+  {% set post = p %}
+  {% include "blogcard.njk" %}
+{%- endfor -%}
+</div>
