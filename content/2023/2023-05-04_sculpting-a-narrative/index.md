@@ -54,7 +54,7 @@ then
 
 Here's a quick video of the editing process for (1.0, default). 
 
-`youtube: https://youtube.com/shorts/sQkJE6KKBDE`
+`https://youtube.com/shorts/sQkJE6KKBDE`
 
 Then, for each temp-topk pair, I created a combined text from the 5 strings. For example, the strings created for (2.0, 100): 
 ```

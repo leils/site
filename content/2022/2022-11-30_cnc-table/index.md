@@ -96,7 +96,7 @@ I left these overnight to cure, and then assembled them! Here’s the finished p
 
 ![IMG_7949.jpg](./IMG_7949.jpg)
 
-`youtube: https://youtu.be/DksNMPupLfs`
+`https://youtu.be/DksNMPupLfs`
 
 ![IMG_7957.jpg](./IMG_7957.jpg)
 

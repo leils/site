@@ -16,7 +16,7 @@ First up, let's make a button that switches between LEDs.
 
 This basic circuit allows a button to control which of two LEDs are lit.
 See a little demo below:
-`youtube: https://youtu.be/huugGcWJD0U`
+`https://youtu.be/huugGcWJD0U`
 
 Ok, so that's a pretty simple digital input.
 Onward to analog input! First up, something we're already familiar with: a
@@ -24,7 +24,7 @@ potentiometer.
 
 ![Breadboard with Nano 33 IOT, potentiometer,and single LED.](./potentiometer.jpg)
 
-`youtube: https://youtu.be/De6hdBnsRFc`
+`https://youtu.be/De6hdBnsRFc`
 And now, a new analog input. I chose to use a phototransistor for my explorations here.
 This actually made some things way more difficult ... phototransistors measure
 light, which means ambient light can affect your readings as time goes by (for
@@ -33,7 +33,7 @@ to my dark couch).
 
 I had a little inkling of an idea about things occurring only when it's night, so
 I hooked up a circuit to light up an LED when it gets too dark.
-`youtube: https://youtu.be/qloSASxM07Y`
+`https://youtu.be/qloSASxM07Y`
 This is where I go down a bit of a rabbit-hole ... I want to make a cute little
 forest scene piece where a miniature tent lights up at night. A sketch of this:
 
@@ -48,7 +48,7 @@ has a much smaller footprint (and far fewer pins!).
 
 So I re-built the circuit using the Trinket! The trinket came with CircuitPython on it,
 so I had to put Arduino on it instead, following the [instructions here](https://www.notion.so/PCOMP-Week2-HW-b18840d9398e43249ec5c22eee4bd06d#cf5cbfda2c2a436f93144c324e6103e2).
-`youtube: https://youtu.be/t9tXw4suKr4`
+`https://youtu.be/t9tXw4suKr4`
 
 Next, I soldered this all to a PCB. This is the first time I've done this, so I learned
 the hard way that:
@@ -64,7 +64,7 @@ the LEDs onto stranded wire to be loosely coiled inside of a box. The terminals 
 let me swap out the LEDs at will, since they don't get soldered to the board.
 
 A quick test:
-`youtube: https://youtu.be/Np_jfTaCvCM`
+`https://youtu.be/Np_jfTaCvCM`
 
 I didn't have time to put together a final product, so this is just a prototype.
 I grabbed a spare box, cut two holes in it for the LED and the phototransistor,

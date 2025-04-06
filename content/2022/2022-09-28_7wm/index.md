@@ -24,7 +24,7 @@ The rest of my interactive browser-based poems are viewable here at [https://lei
 
 What you see below is the culmination of those embodiments; a few highlights of this challenge.
 
-`youtube: https://youtu.be/MTFJdHixIGY`
+`https://youtu.be/MTFJdHixIGY`
 
 ![D49CD2B8-B167-4DE6-A20A-DB666730C3B4_1_105_c.jpeg](./D49CD2B8-B167-4DE6-A20A-DB666730C3B4_1_105_c.jpeg)
 

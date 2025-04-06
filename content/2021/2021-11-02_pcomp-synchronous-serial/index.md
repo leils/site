@@ -13,7 +13,7 @@ QR code ... more specifically, I found that the framerate didn't play well with 
 camera. When I tried to take a picture of it, I could only capture part of the QR
 code at any time. This video below shows what my phone camera sees:
 
-`youtube: https://youtu.be/oQtItf5R9LU`
+`https://youtu.be/oQtItf5R9LU`
 
 
 ---

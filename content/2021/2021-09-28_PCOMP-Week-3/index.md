@@ -49,7 +49,7 @@ I set up the circuit on a breadboard to test out (with some substitutions with p
 
 ![Breadboard setup for the proposed circuit](./forest-scene-breadboard.jpg)
 
-`youtube: [https://youtu.be/x_qZfo1QWig](https://youtu.be/x_qZfo1QWig)`
+`[https://youtu.be/x_qZfo1QWig](https://youtu.be/x_qZfo1QWig)`
 
 A couple of surprises or issues:
 

@@ -20,7 +20,7 @@ Instructions to experience this dream:
 Keep your eyes closed for the entire experience.
 ```
 
-`youtube: https://youtu.be/u1hWHc3lTPk`
+`https://youtu.be/u1hWHc3lTPk`
 
 ---
 

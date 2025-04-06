@@ -14,7 +14,7 @@ This week, I took a bit of a detour. A spooky detour.
 
 https://media.giphy.com/media/Ne9STnE70KnuYilRP3/giphy.gif
 
-`youtube: https://youtu.be/sCgfHm83ieI`  
+`https://youtu.be/sCgfHm83ieI`  
 
 This was created for the Social Genius Halloween Experience Event, taking place on the NYU ITP floor. Pulled from my fondness for Disneyland and Imagineering, I re-imagined the Singing Busts from the Haunted Mansion as an interactive choir, a ghostly chorus that you could all up with candles. The ghosts are a 4k fan-generated video, created for Halloween projections. You can find the [video here on Youtube](https://youtu.be/HECrCf73Jv8).
 
@@ -32,7 +32,7 @@ After that, it was time to hook up the Arduino. I set up [a very simple serial i
 
 Then, it was on to video. It took a while to get the video to play at the right resolution and size (especially with the web editor's 5mb upload limit), so I ended up prototyping further with a heavily compressed version of the final video. With this, I was able to run some user tests and get good feedback to iterate on.
 
-`youtube: https://youtu.be/JgJaLWfyUz4`
+`https://youtu.be/JgJaLWfyUz4`
 
 In order to play the actual video, I moved off the web editor onto the desktop. This local version let me play a high resolution video and iterate a little faster for the final details. Below are some photos of the final install.
 

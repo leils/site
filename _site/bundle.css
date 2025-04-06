@@ -79,15 +79,46 @@ a {
 .card-display {
   display: flex ;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .post-card {
-  border: 3px black dotted;
+  border: 2px black dashed;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
   margin: 10px;
   padding: 10px;
   border-radius: 4px;
   max-width: 300px;
+
+  background-image: linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+  background-position: left top, right bottom, left bottom, right top;
 }
+
+.card:hover {
+  background-image: linear-gradient(90deg, orangered 50%, transparent 50%), linear-gradient(90deg, orangered 50%, transparent 50%), linear-gradient(0deg, orangered 50%, transparent 50%), linear-gradient(0deg, orangered 50%, transparent 50%);
+  background-size: 15px 3px, 15px 3px, 3px 15px, 3px 15px;
+  animation: border-dance 1s infinite linear;
+  }
+  
+  @keyframes border-dance {
+  0% {
+      background-position: left top, right bottom, left bottom, right top;
+  }
+  
+  100% {
+      background-position: left 15px top, right 15px bottom, left bottom 15px, right top 15px;
+  }
+  }
 
 @media only screen and (max-width: 600px) {
     body {

@@ -15,7 +15,7 @@ I worked with [Sammy](https://www.instagram.com/xx_napalmcutta_xx/) and [Lauren]
 
 Timelapse of our first test:
 
-`youtube: https://youtu.be/z7tf4KhHvbA`
+`https://youtu.be/z7tf4KhHvbA`
 
 Each of us cut some simple geometry this birch ply, following the process of designing the part, measuring the material and attaching it to the bed with double-sided tape.
 
@@ -33,7 +33,7 @@ I wanted to try making a few gears, having done them a few times before on the l
 
 Here’s a screenshot of the original generated gear files. In order to work with them on the Bantam, I removed the blue lines and separated each of the paths into separate files (”axle” and “teeth” paths for both gears, 4 files in total).
 
-`youtube: https://youtu.be/GrOkA57XIH4`
+`https://youtu.be/GrOkA57XIH4`
 
 I cut these at 1.5x size, realizing that I didn’t have the right bit sizes for the interior corners (and that the generated SVGs were incredibly small).
 
@@ -45,7 +45,7 @@ After cutting these out, I decided that I wanted a stand for these gears. I grab
 
 The black circles in the diagram on the far right depict the inset pockets under the gears. This cutout is to reduce the friction on the gears as they turn. The left side of the larger circle is cut off; this is where the edge of the underlying wood will sit, meaning that the gear would stick out on the left side for easier access.
 
-`youtube: https://youtu.be/O1Dzl9vyPXM`
+`https://youtu.be/O1Dzl9vyPXM`
 
 This process was pretty painless. As seen at 0:07, I initially did a 1mm test to ensure that my dimensions were correct, dry fitting the gears into the shallow pocket. After confirming that everything was correct, I ran the pocket at a deeper engraving level, adjusting for the new (shorter) material height.
 
@@ -55,7 +55,7 @@ The deepest pocket was a different file altogether, and I had some difficulty ge
 
 After some sanding, here’s the finished object(s):
 
-`youtube: https://youtu.be/92eSMp5BGbQ`
+`https://youtu.be/92eSMp5BGbQ`
 
 ![01_OthermillSkillbuild-12.jpg](./01_OthermillSkillbuild-12.jpg)
 
