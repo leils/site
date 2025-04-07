@@ -8,7 +8,13 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline">~ welcome ~ this site is bulk proofing ~</div>
+            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
+			<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="closeBtn">OK</button>
+			</form>
+			</dialog>
         </div>
 
 		<div class="navigation">
@@ -38,7 +44,7 @@
 <li>An almost-cylindrical form, with draft angle and rounded top edge for release from the vacuform material</li>
 <li>A lip on the bottom where the styrene can be mounted to something</li>
 </ul>
-<p><code>https://youtube.com/shorts/Y6uMVGYgFpM</code></p>
+<p><code>https://youtube.com/watch?v=Y6uMVGYgFpM</code></p>
 <p>So I turned this piece out, cut it with a pull saw, and used a Dremel to remove the tenon.</p>
 <p>A little note here; I didn’t bother to deal with the top face of the buck, which now has imprints of the drive center in it. I don’t really mind as this is a first prototype, but in the future I’ll be turning it from a shorter piece, likely using a bowl chuck.</p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-10-27_turning-skillbuild%2Fvacuform-buck-4.jpg&width=1538&format=webp&via=transform 1538w"><img src="/.11ty/image/?src=content%2F2022%2F2022-10-27_turning-skillbuild%2Fvacuform-buck-4.jpg&width=1538&format=jpeg&via=transform" alt="vacuform-buck-4.jpg" width="1538" height="2048"></picture></p>
@@ -79,8 +85,22 @@
 		<hr>
 
 		<div class="footer">
-			thanks for being here
+			thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.
 		</div>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const dialog = document.getElementById("herodialog");
+			const closeBtn = document.getElementById("closeBtn");
+
+			heroline.addEventListener("click", () => {
+			dialog.showModal();
+			});
+
+			closeBtn.addEventListener("click", () => {
+			dialog.close();
+			});
+		</script>
 
 	</body>
 </html>

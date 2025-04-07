@@ -25,7 +25,7 @@ A few days later, I came back to the round piece with my round scraper, a flat a
 - An almost-cylindrical form, with draft angle and rounded top edge for release from the vacuform material
 - A lip on the bottom where the styrene can be mounted to something
 
-`https://youtube.com/shorts/Y6uMVGYgFpM`
+`https://youtube.com/watch?v=Y6uMVGYgFpM`
 
 So I turned this piece out, cut it with a pull saw, and used a Dremel to remove the tenon.
 

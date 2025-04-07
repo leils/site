@@ -11,7 +11,7 @@ Earlier this month I moved across the country to attend NYU ITP, the 2-year Inte
 
 To make missing this fuzzy friend a little easier, I made a little timer to simulate her constant need for food.
 
-`vimeo: https://vimeo.com/596205642`
+https://vimeo.com/596205642
 
 It all started here: ![Picture of a paper cutout in the silhouette of a cat head and jaw, over sketches of a cat head that opens/closes its jaw](./cutout.jpg)
 

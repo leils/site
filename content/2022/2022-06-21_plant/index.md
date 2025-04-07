@@ -44,21 +44,21 @@ The first tests were done in paper. Inspired by the work of [Casey Curran](https
 
 ![Layered paper for motion tests](./paper-tests.jpg)
 
-`https://youtube.com/shorts/EEWEZEeWX1o`
+`https://youtube.com/watch?v=EEWEZEeWX1o`
 
 While these were satisfying in their own right, I wanted to see what this movement looked like with a more rigid material. The next step was to move into wood. I’d used kerf-cut wood to achieve bends before, but for pieces in motion. After a bit of experimentation, I put together a kerf pattern that allowed for enough give to move easily, but also could spring back to its original form when pressure was released.
 The kerf cuts I started from can be [found here](https://www.troteclaser.com/en-us/learn-support/helpcenter/bending-technique).
 
 ![Bending kerf-cut wooden leaf](./Plant-8.jpg)
 
-`https://youtube.com/shorts/1qh9yFkGbc4`
+`https://youtube.com/watch?v=1qh9yFkGbc4`
 
 
 ### A SINGLE LEAF
 After the leaf material and design were satisfactory, I put together a motorized test.
 This allowed me to create a proof-of-concept for the moving plant. I connected a single servo to an ESP32 Feather, and controlled that motor via wifi.
 
- `https://youtube.com/shorts/MM1_45ECQqQ`
+ `https://youtube.com/watch?v=MM1_45ECQqQ`
 
 ### MOCKUP
 

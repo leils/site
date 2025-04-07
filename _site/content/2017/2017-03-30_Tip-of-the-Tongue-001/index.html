@@ -8,7 +8,13 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline">~ welcome ~ this site is bulk proofing ~</div>
+            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
+			<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="closeBtn">OK</button>
+			</form>
+			</dialog>
         </div>
 
 		<div class="navigation">
@@ -61,8 +67,22 @@ I’m going in to an Apple Store to get a replacement footpad next week.</p>
 		<hr>
 
 		<div class="footer">
-			thanks for being here
+			thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.
 		</div>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const dialog = document.getElementById("herodialog");
+			const closeBtn = document.getElementById("closeBtn");
+
+			heroline.addEventListener("click", () => {
+			dialog.showModal();
+			});
+
+			closeBtn.addEventListener("click", () => {
+			dialog.close();
+			});
+		</script>
 
 	</body>
 </html>

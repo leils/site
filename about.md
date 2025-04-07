@@ -9,7 +9,7 @@ Leia is currently an exhibit developer at the Exploratorium. They have been a me
 
 ---
 
-*Currently thinking about ... fiber art and woven material, what is a body, [plot田](https://www.instagram.com/plooooooot/), sunlight.*
+*Currently thinking about ... fiber art and woven material, what is a body, [plot田](https://www.instagram.com/plooooooot/), sunlight, [this website](/absolutely-everything). Once, a long time ago, a professor looked at a list I'd made for the day, and called it the best poem he'd read all week.* 
 
 ---
 

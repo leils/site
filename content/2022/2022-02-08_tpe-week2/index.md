@@ -17,19 +17,19 @@ Unfortunately, I learned the hard way that Airlink requires your desktop to be h
 ### Toggle Light
 
 A simple light that toggles between red and blue when it detects collision.
-`youtube:https://youtu.be/D30axX8GxeI`
+https://youtu.be/D30axX8GxeI
 ![Blueprint for Toggle Light](./ToggleLight.png)
 
 ### A Button and a Bush
 
 This interaction was built on the level blueprint rather than an individual one, to see what level triggers might look like. In this case, the trigger causes the bush to either grow or shrink, and briefly shows a “sparks” particle effect for some pizzaz.
-`youtube:https://youtu.be/i67QJ0hQEyI`
+https://youtu.be/i67QJ0hQEyI
 ![Blueprint for Button Bush](./ButtonBush.png)
 
 ### SoundCube
 
 A pretty simple interaction, this trigger causes a sound to be played a single time.
-`youtube:https://youtu.be/Nt6QHyd0nIE`
+https://youtu.be/Nt6QHyd0nIE
 ![Blueprint for SoundCube](./SoundCube.png)
 
 ### GlowCube

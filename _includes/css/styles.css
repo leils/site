@@ -3,8 +3,7 @@
 /* Overall CSS for main pages
 /* ---------------------------------------------------------- */
 body {
-    background-color: bisque;
-    /* background-color: skyblue; */
+    background-color: whitesmoke;
     max-width: 60vw;
     margin: 0 auto;
     padding: 24px; /* Optional: Adds some padding for better spacing */
@@ -32,6 +31,14 @@ a {
 .heroline {
   font-style: italic;
   text-align: center;
+  cursor: help;
+}
+
+.content-body {
+  hr {
+    height: 40px;
+    border: none;
+  }
 }
 
 .thumbnail {
@@ -65,6 +72,7 @@ a {
   border-radius: 4px;
   max-width: 300px;
 
+  /* animation adapted from https://stackoverflow.com/a/52963366  */
   background-image: linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%);
   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
   background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
@@ -85,7 +93,11 @@ a {
   100% {
       background-position: left 15px top, right 15px bottom, left bottom 15px, right top 15px;
   }
-  }
+}
+
+dialog {
+  max-width: 60%;
+}
 
 @media only screen and (max-width: 600px) {
     body {

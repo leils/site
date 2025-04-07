@@ -8,7 +8,13 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline">~ welcome ~ this site is bulk proofing ~</div>
+            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
+			<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="closeBtn">OK</button>
+			</form>
+			</dialog>
         </div>
 
 		<div class="navigation">
@@ -30,7 +36,7 @@
 <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2019%2F2019-11-10_unclear%2Fmirror-still.jpg&width=3024&format=webp&via=transform 3024w"><img src="/.11ty/image/?src=content%2F2019%2F2019-11-10_unclear%2Fmirror-still.jpg&width=3024&format=jpeg&via=transform" alt="The mirror, still" width="3024" height="4032"></picture>
 This piece takes on the shape of a vanity, complete with Hollywood-style lights lining the edge of the mirror.
 The audience is invited to take a seat at the vanity to face themselves, and are confronted with a truer representation of their inner self; they are shrouded in fog, unfocused, hard to see.</p>
-<p><code>vimeo: https://player.vimeo.com/video/380874635</code></p>
+<p>https://player.vimeo.com/video/380874635</p>
 <p>In the process of discovering themselves in the mirror, the audience learns that they can clear this fog by &quot;wiping&quot; it away, sweeping the debris out of the frame. However, the further and more fervently they reach, the closer they get to the mirror, and suddenly, it breaks. They themselves have done this, have brought in a new obstacle to seeing. The lens cracks, and while there may be more clarity in certain spots, others become impossible to grasp.</p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2019%2F2019-11-10_unclear%2Fstill-broken.png&width=1910&format=webp&via=transform 1910w"><img src="/.11ty/image/?src=content%2F2019%2F2019-11-10_unclear%2Fstill-broken.png&width=1910&format=jpeg&via=transform" alt="Broken Mirror" width="1910" height="1058"></picture></p>
 <h2>Process</h2>
@@ -74,8 +80,22 @@ The audience is invited to take a seat at the vanity to face themselves, and are
 		<hr>
 
 		<div class="footer">
-			thanks for being here
+			thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.
 		</div>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const dialog = document.getElementById("herodialog");
+			const closeBtn = document.getElementById("closeBtn");
+
+			heroline.addEventListener("click", () => {
+			dialog.showModal();
+			});
+
+			closeBtn.addEventListener("click", () => {
+			dialog.close();
+			});
+		</script>
 
 	</body>
 </html>

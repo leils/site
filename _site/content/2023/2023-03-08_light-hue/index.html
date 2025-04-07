@@ -8,7 +8,13 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline">~ welcome ~ this site is bulk proofing ~</div>
+            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
+			<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="closeBtn">OK</button>
+			</form>
+			</dialog>
         </div>
 
 		<div class="navigation">
@@ -29,7 +35,7 @@
 <li>Control a Hue bulb/lamp (check!)</li>
 <li>Allow for on/off, and adjustment. (oops)</li>
 </ul>
-<p><a href="https://youtube.com/shorts/Vkv7ah0Aj7U">It's a short, and shorts can't be embedded I guess ...</a></p>
+<div id="Vkv7ah0Aj7U" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/Vkv7ah0Aj7U" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p>I’ve used MaxMSP before in other projects, so I thought I’d give it a try first. The setup is pretty simple, but here’s the thing.</p>
 <p>ITS BORING.</p>
 <p>I just find virtual interfaces so un-satisfying to map.  I started to tweak the Max file, but found myself just … unsatisfied with the controls that I was finding. Quickly uninspired by Max, I moved to trying out Arduino.</p>
@@ -51,7 +57,7 @@
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-03-08_light-hue%2FScreen_Shot_2023-03-07_at_10.32.21_PM.png&width=1514&format=webp&via=transform 1514w"><img src="/.11ty/image/?src=content%2F2023%2F2023-03-08_light-hue%2FScreen_Shot_2023-03-07_at_10.32.21_PM.png&width=1514&format=jpeg&via=transform" alt="Screen Shot 2023-03-07 at 10.32.21 PM.png" width="1514" height="100"></picture></p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-03-08_light-hue%2FScreen_Shot_2023-03-07_at_10.32.34_PM.png&width=970&format=webp&via=transform 970w"><img src="/.11ty/image/?src=content%2F2023%2F2023-03-08_light-hue%2FScreen_Shot_2023-03-07_at_10.32.34_PM.png&width=970&format=jpeg&via=transform" alt="Screen Shot 2023-03-07 at 10.32.34 PM.png" width="970" height="628"></picture></p>
 <p>After struggling with this for a while, Lifei pointed out to me that Tom actually had an example for Arduino available in the repo, which I'd somehow entirely forgotten about. I felt very silly, looked at the code, and then re-used Tom's send requests.</p>
-<p>https://youtube.com/shorts/QGU7NB-92Hs</p>
+<div id="QGU7NB-92Hs" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/QGU7NB-92Hs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p>Honestly a lot of this week was not thinking clearly, not referencing the available examples, and then spending way too much time trying to figure things out on my own. It may have been a more successful week if I’d stuck with MaxMSP rather than switching out halfway.</p>
 <p>The one thing that I <em>am</em> proud of is my code for only &quot;sending&quot; data after the encoder stops moving.</p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-03-08_light-hue%2Fencoderhandler.png&width=2846&format=webp&via=transform 2846w"><img src="/.11ty/image/?src=content%2F2023%2F2023-03-08_light-hue%2Fencoderhandler.png&width=2846&format=jpeg&via=transform" alt="Encoder handler code" width="2846" height="708"></picture></p>
@@ -64,7 +70,7 @@
 <p><a href="https://github.com/leils/itp_spr_2023/blob/main/light/06_ard_hue_control/06_ard_hue_control.ino">Anyway the code I wrote is here.</a></p>
 <h2>Update:</h2>
 <p>I got brightness control to work!!!! Whoo</p>
-<p>https://youtube.com/shorts/mdwIrtfADEQ</p>
+<div id="mdwIrtfADEQ" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/mdwIrtfADEQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <hr>
 <p>Resources used:</p>
 <ul>
@@ -97,8 +103,22 @@
 		<hr>
 
 		<div class="footer">
-			thanks for being here
+			thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.
 		</div>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const dialog = document.getElementById("herodialog");
+			const closeBtn = document.getElementById("closeBtn");
+
+			heroline.addEventListener("click", () => {
+			dialog.showModal();
+			});
+
+			closeBtn.addEventListener("click", () => {
+			dialog.close();
+			});
+		</script>
 
 	</body>
 </html>

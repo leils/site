@@ -9,7 +9,7 @@ tech: ['raspberryPi','python']
 
 ![Image of altar](./2V1A9537.jpg)
 
-`vimeo: https://vimeo.com/826379955` 
+https://vimeo.com/826379955 
 
 In Our Own Words is about the stories that make us who we are, and finding ways of sharing them. Part altar and part confessional, it was originally built as a tool to help me process and understand parts of myself. Now, it's an altar for everyone and an archive of the people that have visited it. By sharing personal stories, we give people a window into our shared identities, building empathy and understanding through printed words. 
 
@@ -32,7 +32,9 @@ When you sit at the altar it will ask you a question, showing you the responses 
 ---
 
 In Our Own Words has been showcased at [After the Imagination](https://www.instagram.com/p/CqMdQHeNFD9/) (Apr. 2023), The [ITP/IMA 2023 Spring Show](https://itp.nyu.edu/shows/spring2023/) (May 2023), [mid conversation](https://www.eventbrite.com/e/studio-45-presents-mid-conversation-a-solo-exhibition-by-leia-s-chang-tickets-714190160997) (Sept 2023), and the [Gray Area Artist Showcase](https://grayarea.org/event/gray-area-artist-showcase-and-member-happy-hour/) (Dec 2023).
-`youtube:https://youtu.be/uRzqG3wk5_4`
+
+https://youtu.be/uRzqG3wk5_4
+
 ![Overhead view of the altar. Person is sitting at it, typing on a keyboard. Strings of paper hang around it.](./overhead.jpg)
 ![Altar as seen through the forest archive](./overview.jpg)
 ![Altar at Gray Area 2023](./IMG_3730.jpg)

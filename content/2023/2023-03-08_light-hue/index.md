@@ -11,7 +11,7 @@ Requirements:
 - Control a Hue bulb/lamp (check!)
 - Allow for on/off, and adjustment. (oops)
 
-[It's a short, and shorts can't be embedded I guess ...](https://youtube.com/shorts/Vkv7ah0Aj7U)
+https://youtube.com/watch?v=Vkv7ah0Aj7U
 
 I’ve used MaxMSP before in other projects, so I thought I’d give it a try first. The setup is pretty simple, but here’s the thing. 
 
@@ -48,7 +48,7 @@ Here’s the setup:
 
 After struggling with this for a while, Lifei pointed out to me that Tom actually had an example for Arduino available in the repo, which I'd somehow entirely forgotten about. I felt very silly, looked at the code, and then re-used Tom's send requests. 
 
-https://youtube.com/shorts/QGU7NB-92Hs
+https://youtube.com/watch?v=QGU7NB-92Hs
 
 Honestly a lot of this week was not thinking clearly, not referencing the available examples, and then spending way too much time trying to figure things out on my own. It may have been a more successful week if I’d stuck with MaxMSP rather than switching out halfway.
 
@@ -68,7 +68,7 @@ What do I want for this future controller?
 ## Update: 
 I got brightness control to work!!!! Whoo 
 
-https://youtube.com/shorts/mdwIrtfADEQ
+https://youtube.com/watch?v=mdwIrtfADEQ
 
 ---
 

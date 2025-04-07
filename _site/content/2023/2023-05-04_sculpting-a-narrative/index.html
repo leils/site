@@ -8,7 +8,13 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline">~ welcome ~ this site is bulk proofing ~</div>
+            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
+			<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="closeBtn">OK</button>
+			</form>
+			</dialog>
         </div>
 
 		<div class="navigation">
@@ -59,7 +65,7 @@ then
  keep growing 
 </code></pre>
 <p>Here's a quick video of the editing process for (1.0, default).</p>
-<p><code>https://youtube.com/shorts/sQkJE6KKBDE</code></p>
+<div id="sQkJE6KKBDE" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/sQkJE6KKBDE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p>Then, for each temp-topk pair, I created a combined text from the 5 strings. For example, the strings created for (2.0, 100):</p>
 <pre><code>
 I am running away. I am running away, and 
@@ -209,8 +215,22 @@ broke easily
 		<hr>
 
 		<div class="footer">
-			thanks for being here
+			thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.
 		</div>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const dialog = document.getElementById("herodialog");
+			const closeBtn = document.getElementById("closeBtn");
+
+			heroline.addEventListener("click", () => {
+			dialog.showModal();
+			});
+
+			closeBtn.addEventListener("click", () => {
+			dialog.close();
+			});
+		</script>
 
 	</body>
 </html>
