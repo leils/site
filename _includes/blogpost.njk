@@ -1,6 +1,7 @@
 ---
 layout: sitewrapper.njk
 ---
+  <div class="content-background">
   <div class="blogHeader">
     <h1>{{title}}</h1>
     <hr>
@@ -8,19 +9,20 @@ layout: sitewrapper.njk
       <img alt={{thumbnail}} src={{thumbnail}}>
     {% endif %}
   </div>
-  
-  {{ content | safe }}
-
-  <hr>
+    {{ content | safe }}
+  </div>
   <div class="blogFooter">
-    <p> Posted {{date}} </p>
-    <div class="pageTags">
-      {% set comma = joiner() %}
-      Tagged: 
-      {% for tag in tags %}
-        {{ comma() }} <a href="/tags/{{ tag | slug }}">{{ tag }}</a>
-      {%- endfor %}
-    </div>
+    <p> Posted/updated {{date}} </p>
+
+    {% if tags.length > 0 %}
+      <div class="pageTags">
+        {% set comma = joiner() %}
+        Tagged: 
+        {% for tag in tags %}
+          {{ comma() }} <a href="/tags/{{ tag | slug }}">{{ tag }}</a>
+        {%- endfor %}
+      </div>
+    {% endif %}
     {% if tech.length > 0 %}
       <div class="pageTech">
         Tech: 

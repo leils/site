@@ -3,6 +3,8 @@ layout: page.njk
 ---
 {{ content | safe }}
 
+<br>
+
 <h3>and now, the index</h3>
   <ul>
     {%- for post in collections.all | reverse -%}

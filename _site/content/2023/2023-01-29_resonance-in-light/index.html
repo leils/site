@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Resonance in Light</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-01-29_resonance-in-light%2FIMG_8506.jpeg&width=1200&format=webp&via=transform 1200w"><img alt="./IMG_8506.jpeg" src="/.11ty/image/?src=content%2F2023%2F2023-01-29_resonance-in-light%2FIMG_8506.jpeg&width=1200&format=jpeg&via=transform" width="1200" height="900"></picture>
     
   </div>
-  
-  <p>I spent about 45 minutes wandering a single room, listening to the ringing bells, mesmerized by droplets of light and cast shadows.</p>
+    <p>I spent about 45 minutes wandering a single room, listening to the ringing bells, mesmerized by droplets of light and cast shadows.</p>
 <p>This exhibition deserved way more attention than it got. Resonance in Light is a combined light-and-sound experiment with a core in meditation and sound bath work. While individual artists that contributed to this work are laudable on their own, I have rarely seen collaborative works so moving and in sync with each other, particularly when so far into their own mediums.</p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-01-29_resonance-in-light%2FIMG_8505.jpeg&width=2000&format=webp&via=transform 2000w"><img src="/.11ty/image/?src=content%2F2023%2F2023-01-29_resonance-in-light%2FIMG_8505.jpeg&width=2000&format=jpeg&via=transform" alt="IMG_8505.jpeg" width="2000" height="1500"></picture></p>
 <p>Thoughts from the field notes:</p>
@@ -42,39 +36,66 @@
 <li>Each of the Gamelans were tastefully back-lit with an LED, which lit only when they were struck. This brought not only attention to which of the instruments was ringing, but also attention to the way they moved, with their shining surfaces reflecting light in ripples along the back wall.</li>
 </ul>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2023-01-29 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/field-notes">field-notes</a>
-        , <a href="/tags/blog">blog</a>
-    </div>
+    <p> Posted/updated 2023-01-29 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/field-notes">field-notes</a>
+          , <a href="/tags/blog">blog</a>
+      </div>
+    
     
   </div>
 
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

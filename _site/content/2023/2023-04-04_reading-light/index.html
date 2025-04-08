@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Bedtime Light</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-04-04_reading-light%2Flight_sketch.jpg&width=2837&format=webp&via=transform 2837w"><img alt="./light_sketch.jpg" src="/.11ty/image/?src=content%2F2023%2F2023-04-04_reading-light%2Flight_sketch.jpg&width=2837&format=jpeg&via=transform" width="2837" height="1967"></picture>
     
   </div>
-  
-  <p>Shuang and I brainstormed a lot this week, and have settled on a project that may be a bit of a stretch. We’ve decided to tackle the task of reading before bed; we want to make a light that is both a reading lamp and a timer to sleep.</p>
+    <p>Shuang and I brainstormed a lot this week, and have settled on a project that may be a bit of a stretch. We’ve decided to tackle the task of reading before bed; we want to make a light that is both a reading lamp and a timer to sleep.</p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-04-04_reading-light%2Fbed_placement_sketch.jpg&width=2543&format=webp&via=transform 2543w"><img src="/.11ty/image/?src=content%2F2023%2F2023-04-04_reading-light%2Fbed_placement_sketch.jpg&width=2543&format=jpeg&via=transform" alt="Sketch of the light placement above the bed" width="2543" height="2800"></picture></p>
 <p>Mounted above the head of the bed, this lamp is turned on about 20 minutes before you want to sleep. The lamp is actually two lights: one upwards-facing light that reflects off the wall it’s mounted on to give the room an ambient glow, and one downwards-facing light to point at the book that you are reading. The room light starts off bright, and over the next 20 minutes, dims, giving you a gentle ease into bedtime. The bottom light illuminates your reading, and turns off at the end of the 20 minutes.</p>
 <p>Things that we’re still figuring out about the lighting:</p>
@@ -79,39 +73,66 @@
 <hr>
 <p>(As a side note, the 12v control I made a while back came very much in handy while we tested various lights from Amazon! I've migrated it into <a href="https://www.instagram.com/p/Co3cTjyNDf8/?utm_source=ig_web_copy_link">a nice stable box</a>, and I'm very pleased with how sturdy and helpful it's been.)</p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2023-04-04 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/light-and-interactivity">light-and-interactivity</a>
-    </div>
+    <p> Posted/updated 2023-04-04 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/light-and-interactivity">light-and-interactivity</a>
+      </div>
+    
     
   </div>
 
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

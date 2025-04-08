@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>What I Can Remember</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-12-17_what-i-can-remember%2Fhero_01.jpg&width=5478&format=webp&via=transform 5478w"><img alt="./hero_01.jpg" src="/.11ty/image/?src=content%2F2022%2F2022-12-17_what-i-can-remember%2Fhero_01.jpg&width=5478&format=jpeg&via=transform" width="5478" height="3730"></picture>
     
   </div>
-  
-  <p><em>Photograph on acetate, laser-cut acrylic, rear-projected hand-drawn video</em></p>
+    <p><em>Photograph on acetate, laser-cut acrylic, rear-projected hand-drawn video</em></p>
 <hr>
 <p><em>What I Can Remember</em> is an exercise in retelling stories. It centers around a photograph, a memory captured in a moment. How much of a moment do you remember? What do you do to make it clear? What if it is never clear?</p>
 <div id="ywGGJQtFMoQ" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/ywGGJQtFMoQ" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
@@ -56,21 +50,23 @@
 <hr>
 <p><a href="https://vimeo.com/813251002">ITP Interview Video</a></p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2022-12-17 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/medium-of-memory">medium-of-memory</a>
-        , <a href="/tags/showcase">showcase</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/art">art</a>
-        , <a href="/tags/fabrication">fabrication</a>
-    </div>
+    <p> Posted/updated 2022-12-17 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/medium-of-memory">medium-of-memory</a>
+          , <a href="/tags/showcase">showcase</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/art">art</a>
+          , <a href="/tags/fabrication">fabrication</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -85,21 +81,46 @@
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

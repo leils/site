@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Week 6 - Candles</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-10-19_pcomp-serial%2Ffinal-with-candles.jpg&width=2000&format=webp&via=transform 2000w"><img alt="./final-with-candles.jpg" src="/.11ty/image/?src=content%2F2021%2F2021-10-19_pcomp-serial%2Ffinal-with-candles.jpg&width=2000&format=jpeg&via=transform" width="2000" height="1500"></picture>
     
   </div>
-  
-  <h2>Getting Everyone Talking</h2>
+    <h2>Getting Everyone Talking</h2>
 <p>This week was a dip into serial communication. Still wired, but much more talkative.</p>
 <p>Getting basic serial communication was pretty trivial, though it took me a minute to get back up to speed in P5. I also needed serial communication for a project in <em>Out of Order Storytelling</em> with Mia Rovegno and Kio Stark, so this was a perfect week to dive into making this work.</p>
 <h2>P5 to Arduino</h2>
@@ -56,40 +50,67 @@
 <p><code>video: https://www.youtube.com/watch?v=8fhWKUTtaE8</code></p>
 <p>We learned a lot about groupthink and directing attention during this run, but it turned out even better than I expected. There’s a lot more work here that could be done to polish and refine the experience, but I’m really pleased with how this interaction tested. Using photoresistors under the candles worked really well, and I’m hoping to iterate on this setup with a few different outputs.</p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2021-10-19 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/pcomp">pcomp</a>
-        , <a href="/tags/out-of-order-storytelling">Out of Order Storytelling</a>
-    </div>
+    <p> Posted/updated 2021-10-19 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/pcomp">pcomp</a>
+          , <a href="/tags/out-of-order-storytelling">Out of Order Storytelling</a>
+      </div>
+    
     
   </div>
 
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

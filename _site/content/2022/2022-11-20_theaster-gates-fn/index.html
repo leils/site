@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Field Notes ~ Theaster Gates</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-20_theaster-gates-fn%2FIMG_7725_2.jpg&width=4032&format=webp&via=transform 4032w"><img alt="./IMG_7725_2.jpg" src="/.11ty/image/?src=content%2F2022%2F2022-11-20_theaster-gates-fn%2FIMG_7725_2.jpg&width=4032&format=jpeg&via=transform" width="4032" height="3024"></picture>
     
   </div>
-  
-  <p>Last Friday I went to see the <a href="https://www.newmuseum.org/exhibitions/view/theaster-gates-young-lords-and-their-traces">Theaster Gates</a> exhibition at the New Museum, and found myself thinking about objecthood as portal to memory. Throughout all of the work showcased at the New Museum exhibition, I saw a thread of “preserving that which is crumbling” and throwing the material/process into sharp relief, rather than “elevating” the process as <em>Art</em>.</p>
+    <p>Last Friday I went to see the <a href="https://www.newmuseum.org/exhibitions/view/theaster-gates-young-lords-and-their-traces">Theaster Gates</a> exhibition at the New Museum, and found myself thinking about objecthood as portal to memory. Throughout all of the work showcased at the New Museum exhibition, I saw a thread of “preserving that which is crumbling” and throwing the material/process into sharp relief, rather than “elevating” the process as <em>Art</em>.</p>
 <p>Gates’ work is interesting in its choices. Coming right off the back of two highly relevant classes (one, with <a href="https://simonesalvo.com">Simone Salvo</a>, on the ways that memory can be held and channeled in objecthood; two, with <a href="http://blightdesign.com">Ben Light</a>, on how simple choices in framing/placement/presentation can change the entire attitude and reception of an object), I thought a lot about the choices that were made around the objects that I saw. It’s interesting to note that much of the exhibition consists of objects that found their way into Gates’ care; the art is sometimes more in the act of curation and presentation, less in the act of making.</p>
 <p>Some favorites:</p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-20_theaster-gates-fn%2FIMG_7733.jpg&width=4032&format=webp&via=transform 4032w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-20_theaster-gates-fn%2FIMG_7733.jpg&width=4032&format=jpeg&via=transform" alt="IMG_7733.jpg" width="4032" height="3024"></picture></p>
@@ -63,39 +57,66 @@
 </ul>
 <p>How does attention transform objects? How do we embody our attention? How do we embody and direct this attention for others?</p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2022-11-20 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/field-notes">field-notes</a>
-        , <a href="/tags/blog">blog</a>
-    </div>
+    <p> Posted/updated 2022-11-20 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/field-notes">field-notes</a>
+          , <a href="/tags/blog">blog</a>
+      </div>
+    
     
   </div>
 
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

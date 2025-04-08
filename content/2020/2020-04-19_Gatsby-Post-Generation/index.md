@@ -126,4 +126,4 @@ This does two things:
 1. Sets the date to one passed in (expecting a YYYY-DD-MM format), otherwise uses `date`.
 2. Sets the year to the first 4 characters of the datestring (where it was previously generated using `date`, redundantly).
 
-Also, you can now [grab the code from this codebin](http://codebin.herokuapp.com?s=5f07bc45e7615a0004000001), hope that's a little more useful.
+~~Also, you can now [grab the code from this codebin](http://codebin.herokuapp.com?s=5f07bc45e7615a0004000001), hope that's a little more useful.~~

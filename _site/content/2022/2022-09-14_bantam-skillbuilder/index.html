@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Bantam Skillbuild 01</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-09-14_bantam-skillbuilder%2F01_OthermillSkillbuild-12.jpg&width=2048&format=webp&via=transform 2048w"><img alt="./01_OthermillSkillbuild-12.jpg" src="/.11ty/image/?src=content%2F2022%2F2022-09-14_bantam-skillbuilder%2F01_OthermillSkillbuild-12.jpg&width=2048&format=jpeg&via=transform" width="2048" height="1536"></picture>
     
   </div>
-  
-  <h2>Round 1 - Legacy Software Test</h2>
+    <h2>Round 1 - Legacy Software Test</h2>
 <p>I worked with <a href="https://www.instagram.com/xx_napalmcutta_xx/">Sammy</a> and <a href="https://www.laurenlumbra.com/">Lauren</a> to do a simple first test, designing basic shapes in illustrator and cutting/engraving them with the Bantam. We “rescued” some used craft ply from the materials shelf and cut it down to size on the bandsaw.</p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-09-14_bantam-skillbuilder%2FGearbox-Documentation-02.png&width=1717&format=webp&via=transform 1717w"><img src="/.11ty/image/?src=content%2F2022%2F2022-09-14_bantam-skillbuilder%2FGearbox-Documentation-02.png&width=1717&format=jpeg&via=transform" alt="Gearbox-Documentation-02.png" width="1717" height="570"></picture></p>
 <p>Timelapse of our first test:</p>
@@ -78,19 +72,21 @@
 <li><strong>Question for later</strong>: When you’re relying on a milling process for its precision, how do you take into account finishing processes and the amount they may change your dimensions? For instance, how much does sanding really take off of a piece? How little is “negligible”?</li>
 </ul>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2022-09-14 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/subtraction">subtraction</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/fabrication">fabrication</a>
-    </div>
+    <p> Posted/updated 2022-09-14 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/subtraction">subtraction</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/fabrication">fabrication</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -105,21 +101,46 @@
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

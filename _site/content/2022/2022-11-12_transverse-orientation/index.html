@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,13 +18,13 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Field Notes ~ Transverse Orientation</h1>
     <hr>
     
   </div>
-  
-  <p>I have woken from a fever dream. I have sat for an hour and 45 minutes watching men run naked in joy and agony. I have been entranced by a bull and its minotaur son. I have watched birth. I have watched rebirth. I am left with three words: <em>what the fuck?</em></p>
+    <p>I have woken from a fever dream. I have sat for an hour and 45 minutes watching men run naked in joy and agony. I have been entranced by a bull and its minotaur son. I have watched birth. I have watched rebirth. I am left with three words: <em>what the fuck?</em></p>
 <p>I must admit I am completely out of my element here. This is, I think, the most avant-garde production I have ever seen. I came in knowing nothing except that many of my friends had decided to come see this show, and also that there was a naked man with a puppet bull in the trailer.</p>
 <p>Somewhere in the midst of the hour and 45 minutes of the show, I needed to let go of the question that sat in the forefront of my mind: “What’s going on?”. There was nothing and everything going on, and there was absolutely no explanation. Transverse Orientation was a series of connected and ongoing scenes, showcasing and exploring movement, themes of rebirth, and a few characters including a bull and a man-woman pair. 6? 7? men, and 1 woman. With no intermission, the piece never lets you rest, whisking you from one absurdity to another, from one feat to another, from one bewilderment to another. All of this is done on a minimalistic stage, with a white wall and door at the back that reminded my of the end of the Truman show.</p>
 <p>Papaioannou is masterful in control of lighting and attention; you are never confused where you are supposed to look, or what’s important. He is also an incredible movement designer, using the bodies of all of his dancers as a wave, or as chaos, or as synchronous clockwork. It seems that he takes ideas and explores them; a pattern of giving his dancers a job, and a way of doing it (move these blocks, frantically. Fold this ladder, precariously). it is imaginative, and laughs in the face of rationality or logic.</p>
@@ -55,39 +49,66 @@
 </ul>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-12_transverse-orientation%2F99EB4BE1-565B-4912-9734-D4F2642D4AFD_1_102_o.jpeg&width=1536&format=webp&via=transform 1536w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-12_transverse-orientation%2F99EB4BE1-565B-4912-9734-D4F2642D4AFD_1_102_o.jpeg&width=1536&format=jpeg&via=transform" alt="Image of the stage post-show, broken apart to reveal the water underneath" width="1536" height="2048"></picture></p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2022-11-12 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/field-notes">field-notes</a>
-        , <a href="/tags/blog">blog</a>
-    </div>
+    <p> Posted/updated 2022-11-12 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/field-notes">field-notes</a>
+          , <a href="/tags/blog">blog</a>
+      </div>
+    
     
   </div>
 
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

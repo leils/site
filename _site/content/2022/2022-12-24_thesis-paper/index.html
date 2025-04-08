@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,13 +18,13 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Thesis ~ Paper</h1>
     <hr>
     
   </div>
-  
-  <p>Attention is a very powerful thing. What do we pay attention to? How do we pay attention to it? Does our attention change the nature of that thing, or just our experience of it?</p>
+    <p>Attention is a very powerful thing. What do we pay attention to? How do we pay attention to it? Does our attention change the nature of that thing, or just our experience of it?</p>
 <p>In this thesis, I turn my attention to my cultural heritage, and the confusing inheritance of second-generation immigrants.</p>
 <h2>Where to start</h2>
 <p>My thesis is about culture, diaspora, and building new ways of experiencing heritage. Over the past few months, I have been exploring personal experience around second-generation Asian diaspora, specifically around the connections that bridge our experience of separation and the need to create a new translation of our culture. I ask the question, what <strong>is</strong> the culture that I create as a second-generation Asian American? How can I navigate this culture in ways that acknowledge it as authentic in of itself?</p>
@@ -69,40 +63,67 @@
 <li><em><strong><strong><strong><a href="https://www.leiac.me/2019/2019-11-10_unclear/">Unclear</a></strong></strong></strong></em> is a digital mirror that obscures your image with a “fog”, which can be dispelled with your hands. Move too close, and the mirror cracks.</li>
 </ol>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2022-12-24 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/itp-thesis">itp-thesis</a>
-        , <a href="/tags/blog">blog</a>
-    </div>
+    <p> Posted/updated 2022-12-24 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/itp-thesis">itp-thesis</a>
+          , <a href="/tags/blog">blog</a>
+      </div>
+    
     
   </div>
 
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

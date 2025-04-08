@@ -3,6 +3,9 @@ const embedEverything = require("eleventy-plugin-embed-everything");
 
 
 module.exports = async function(eleventyConfig) {
+	  const { EleventyRenderPlugin } = await import("@11ty/eleventy");
+    eleventyConfig.addPlugin(EleventyRenderPlugin);
+
     eleventyConfig.addPlugin(eleventyImageTransformPlugin);
     eleventyConfig.addPlugin(embedEverything);
 

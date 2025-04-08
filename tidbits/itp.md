@@ -1,0 +1,2 @@
+### ITP
+From 2021-2023, I attended a graduate school at NYU called ITP (the Interactive Telecommunications Program). I documented almost all of my work from that program [here on this site](/itp), categorized by class. 

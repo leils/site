@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,13 +18,13 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Fusion360 → Illustrator → BantamTools</h1>
     <hr>
     
   </div>
-  
-  <p><em>Note: This tutorial is written in Nov 2022 and reflects the software as such. This is a 2D SVG tutorial, and does not address 3D or GCODE workflows.</em></p>
+    <p><em>Note: This tutorial is written in Nov 2022 and reflects the software as such. This is a 2D SVG tutorial, and does not address 3D or GCODE workflows.</em></p>
 <p>Let’s say this is the object I’d like to mill using BantamTools. I already have it modeled in Fusion360, and a simple sketch. How do I export this sketch and process it to use in BantamTools as an SVG?</p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-15_fusion-to-bantam-tutorial%2FScreen_Shot_2022-11-15_at_3.26.55_PM.png&width=1684&format=webp&via=transform 1684w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-15_fusion-to-bantam-tutorial%2FScreen_Shot_2022-11-15_at_3.26.55_PM.png&width=1684&format=jpeg&via=transform" alt="View of a CAD model in Fusion360, a rectangular box with engraved circle and rectangle" width="1684" height="1574"></picture></p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-15_fusion-to-bantam-tutorial%2FScreen_Shot_2022-11-15_at_3.33.51_PM.png&width=1628&format=webp&via=transform 1628w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-15_fusion-to-bantam-tutorial%2FScreen_Shot_2022-11-15_at_3.33.51_PM.png&width=1628&format=jpeg&via=transform" alt="Fusion360 sketch; a rectangle with circle and smaller rectangle inside." width="1628" height="1176"></picture></p>
@@ -95,18 +89,20 @@
 <hr>
 <p>For more details on the Bantam Classic SVG workflow, check out <a href="https://support.bantamtools.com/hc/en-us/articles/360051958314-Classic-Advanced-SVG-Workflows">their official tutorial here</a>.</p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2022-11-15 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/blog">blog</a>
-        , <a href="/tags/tutorial">tutorial</a>
-    </div>
+    <p> Posted/updated 2022-11-15 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/blog">blog</a>
+          , <a href="/tags/tutorial">tutorial</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -121,21 +117,46 @@
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

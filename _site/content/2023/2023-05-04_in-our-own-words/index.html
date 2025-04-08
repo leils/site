@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,16 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>In Our Own Words</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-05-04_in-our-own-words%2Fhero.jpg&width=1581&format=webp&via=transform 1581w"><img alt="./hero.jpg" src="/.11ty/image/?src=content%2F2023%2F2023-05-04_in-our-own-words%2Fhero.jpg&width=1581&format=jpeg&via=transform" width="1581" height="1306"></picture>
     
   </div>
-  
-  <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-05-04_in-our-own-words%2F2V1A9537.jpg&width=6720&format=webp&via=transform 6720w"><img src="/.11ty/image/?src=content%2F2023%2F2023-05-04_in-our-own-words%2F2V1A9537.jpg&width=6720&format=jpeg&via=transform" alt="Image of altar" width="6720" height="4480"></picture></p>
-<div id="vimeo-826379955" class="eleventy-plugin-vimeo-embed" style="position:relative;width:100%;padding-top:56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" frameborder="0" src="https://player.vimeo.com/video/826379955?dnt=1" allowfullscreen></iframe></div>
+    <div id="vimeo-826379955" class="eleventy-plugin-vimeo-embed" style="position:relative;width:100%;padding-top:56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" frameborder="0" src="https://player.vimeo.com/video/826379955?dnt=1" allowfullscreen></iframe></div>
 <p>In Our Own Words is about the stories that make us who we are, and finding ways of sharing them. Part altar and part confessional, it was originally built as a tool to help me process and understand parts of myself. Now, it's an altar for everyone and an archive of the people that have visited it. By sharing personal stories, we give people a window into our shared identities, building empathy and understanding through printed words.</p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-05-04_in-our-own-words%2Fquestion.jpg&width=1269&format=webp&via=transform 1269w"><img src="/.11ty/image/?src=content%2F2023%2F2023-05-04_in-our-own-words%2Fquestion.jpg&width=1269&format=jpeg&via=transform" alt="Question and answer printed on thermal paper" width="1269" height="1269"></picture></p>
 <p>In Our Own Words is a set of questions.</p>
@@ -54,19 +47,21 @@ In Our Own Words is a forest of messages, of words, of questions, and most of al
 <p>The altar presents you not only with a question, but two responses to that question left by other people. These are all surfaced on three thermal printers mounted to the head of the altar. In this way the altar is not only the input but also the tool that creates the archive. It juxtaposes your words with everyone else’s, asking you to consider them together. The stories are printed on thermal paper each time a story is added to the archive. The length of the paper is a reflection of the number of people that have visited the altar, and as the scrolls grow they pool around the base of the altar. Eventually, I cut and hang in the “forest” by hand. The altar lives mostly on a Raspberry Pi 3+, hidden behind the tabletop screen.</p>
 <p>The altar’s program is written entirely in Python, created to always be on and and ready to be awakened as long as the altar is powered. This Raspberry Pi is connected to the three thermal printers via usb-to-serial convertors, with all the wiring routed in hidden channels under and behind the altar. The altar housing itself is made out of CNC-milled plywood and laser-cut and bent acrylic, all designed in Fusion360. In the case of future exhibitions, the it is designed to be disassembled and easily transportable.</p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2023-05-04 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/itp-thesis">itp-thesis</a>
-        , <a href="/tags/showcase">showcase</a>
-    </div>
+    <p> Posted/updated 2023-05-04 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/itp-thesis">itp-thesis</a>
+          , <a href="/tags/showcase">showcase</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -80,21 +75,46 @@ In Our Own Words is a forest of messages, of words, of questions, and most of al
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

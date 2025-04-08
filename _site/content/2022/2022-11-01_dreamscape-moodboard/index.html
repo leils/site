@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>dreamscape moodboard</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-01_dreamscape-moodboard%2Fdream.jpg&width=691&format=webp&via=transform 691w"><img alt="./dream.jpg" src="/.11ty/image/?src=content%2F2022%2F2022-11-01_dreamscape-moodboard%2Fdream.jpg&width=691&format=jpeg&via=transform" width="691" height="357"></picture>
     
   </div>
-  
-  <pre><code>As an interpreter of your partner’s dream world, answer:
+    <pre><code>As an interpreter of your partner’s dream world, answer:
 
 - What is the nature/essence of the dream world your partner described?
 - What are the most important elements you must communicate to us so we
@@ -51,39 +45,66 @@ for your partner’s dream.
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-01_dreamscape-moodboard%2FAdnans_Dream_(5).jpg&width=960&format=webp&via=transform 960w"><img src="/.11ty/image/?src=content%2F2022%2F2022-11-01_dreamscape-moodboard%2FAdnans_Dream_(5).jpg&width=960&format=jpeg&via=transform" alt="Adnan's Dream (5).jpg" width="960" height="540"></picture></p>
 <p>They reach the top of bridge, just about to reach the end of it, and the dream ends.</p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2022-11-01 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/outside-the-box">outside-the-box</a>
-    </div>
+    <p> Posted/updated 2022-11-01 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/outside-the-box">outside-the-box</a>
+      </div>
+    
     
   </div>
 
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

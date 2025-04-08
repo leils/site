@@ -1,7 +1,7 @@
 ---
 layout: page.njk
 title: about Leia
-tags: []
+date: 2025-04-07
 ---
 Leia S. Chang (they/them, b. 1995) is an artist, creative technologist, and educator exploring the complexities of identity from their perspective as a second-generation non-binary Asian American. With a strong command over creative fabrication and materiality, Leia integrates digital media into physical forms to build interactive installations that spotlight the connection between memory, identity, and storytelling. Leia's work captures ephemeral moments in both poetic texts and tangible objects made from wood, resin, and other found material.
 
@@ -13,7 +13,7 @@ Leia is currently an exhibit developer at the Exploratorium. They have been a me
 
 ---
 
-## also seen at ...
+### also seen at ...
 
 - [CultureHub Re-Fest](https://www.culturehub.org/re-fest-2025) | NYC La Mama ~ 2025
 - *mention* [From Arrangement to Engagement: shuang’s Curation as Art Practice](https://www.art-insider.com/from-arrangement-to-engagement-shuangs-curation-as-art-practice/7144) ~ 2025 
@@ -34,5 +34,4 @@ Leia is currently an exhibit developer at the Exploratorium. They have been a me
 - [Sell Out Art Show](https://www.syzygysf.com/event-details/sell-out-art-show) | SYZYGY SF - 2022 
 - *Facilitator* Feedback Collective | NYU ITP - 2022-23 
 
----
 ~*last updated Apr 2025*~

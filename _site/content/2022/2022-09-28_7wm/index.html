@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>7 Weeks of Words</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-09-28_7wm%2F1E37309C-9D5A-4B87-900A-71CA3D2AED02_1_102_o.jpeg&width=864&format=webp&via=transform 864w"><img alt="./1E37309C-9D5A-4B87-900A-71CA3D2AED02_1_102_o.jpeg" src="/.11ty/image/?src=content%2F2022%2F2022-09-28_7wm%2F1E37309C-9D5A-4B87-900A-71CA3D2AED02_1_102_o.jpeg&width=864&format=jpeg&via=transform" width="864" height="864"></picture>
     
   </div>
-  
-  <p>Over the course of 7 weeks over June-August 2022, I joined a cohort of ITP and ITP Camp students in a 49 day challenge to thematic work every day. For 49 days I worked with words; writing prose, poetry, and embodying words in visual or interactive media.</p>
+    <p>Over the course of 7 weeks over June-August 2022, I joined a cohort of ITP and ITP Camp students in a 49 day challenge to thematic work every day. For 49 days I worked with words; writing prose, poetry, and embodying words in visual or interactive media.</p>
 <p>All of the writings created for this challenge (42 in total) <a href="https://docs.google.com/document/d/1P34_8vXNXSsBtLgAt6PceGhSbBgbVaDttyu9LQNwaX4/edit?usp=sharing">can be read here</a>.</p>
 <p>The piece below is entitled <strong>Retrieval-Induced Distortion</strong>, best viewed on desktop.</p>
 <iframe width="300" height="400" src="https://leils.github.io/telescopic-poems/21_26-01.html">
@@ -54,19 +48,21 @@
 <li><a href="https://www.coem-lang.org">coem-lang</a></li>
 </ul>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2022-09-28 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/poetry">poetry</a>
-        , <a href="/tags/experiment">experiment</a>
-    </div>
+    <p> Posted/updated 2022-09-28 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/poetry">poetry</a>
+          , <a href="/tags/experiment">experiment</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -80,21 +76,46 @@
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

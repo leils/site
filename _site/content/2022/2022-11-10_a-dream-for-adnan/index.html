@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>A Dream for Adnan</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-11-10_a-dream-for-adnan%2Flighting-hero.png&width=1756&format=webp&via=transform 1756w"><img alt="./lighting-hero.png" src="/.11ty/image/?src=content%2F2022%2F2022-11-10_a-dream-for-adnan%2Flighting-hero.png&width=1756&format=jpeg&via=transform" width="1756" height="962"></picture>
     
   </div>
-  
-  <p>A bespoke experience for <a href="https://adnanaga.com/">Adnan</a>, based on a dream he described to me. See <a href="https://www.leiac.me/2022/2022-11-01_dreamscape-moodboard/">last week’s moodboard</a> for more context.</p>
+    <p>A bespoke experience for <a href="https://adnanaga.com/">Adnan</a>, based on a dream he described to me. See <a href="https://www.leiac.me/2022/2022-11-01_dreamscape-moodboard/">last week’s moodboard</a> for more context.</p>
 <pre><code>Instructions to experience this dream:
 
 - Place yourself in a dark room, sitting upright.
@@ -53,18 +47,20 @@ Keep your eyes closed for the entire experience.
 <p>Tools: <em>Adobe Audition / Touchdesigner / Davinci Resolve</em></p>
 <p>Materials: <em>Audio clips found on FreeSound / <a href="https://www.youtube.com/watch?v=yU2wkD-gbzI">What English Sounds Like to Non-English Speakers</a></em></p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2022-11-10 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/outside-the-box">outside-the-box</a>
-    </div>
+    <p> Posted/updated 2022-11-10 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/outside-the-box">outside-the-box</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -79,21 +75,46 @@ Keep your eyes closed for the entire experience.
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

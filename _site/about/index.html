@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -36,7 +30,7 @@
 <hr>
 <p><em>Currently thinking about ... fiber art and woven material, what is a body, <a href="https://www.instagram.com/plooooooot/">plot田</a>, sunlight, <a href="/absolutely-everything">this website</a>. Once, a long time ago, a professor looked at a list I'd made for the day, and called it the best poem he'd read all week.</em></p>
 <hr>
-<h2>also seen at ...</h2>
+<h3>also seen at ...</h3>
 <ul>
 <li><a href="https://www.culturehub.org/re-fest-2025">CultureHub Re-Fest</a> | NYC La Mama ~ 2025</li>
 <li><em>mention</em> <a href="https://www.art-insider.com/from-arrangement-to-engagement-shuangs-curation-as-art-practice/7144">From Arrangement to Engagement: shuang’s Curation as Art Practice</a> ~ 2025</li>
@@ -57,7 +51,6 @@
 <li><a href="https://www.syzygysf.com/event-details/sell-out-art-show">Sell Out Art Show</a> | SYZYGY SF - 2022</li>
 <li><em>Facilitator</em> Feedback Collective | NYU ITP - 2022-23</li>
 </ul>
-<hr>
 <p>~<em>last updated Apr 2025</em>~</p>
 
   </div>
@@ -66,21 +59,46 @@
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

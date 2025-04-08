@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Hypercinema - Stop Motion</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-10-25_hypercinema-stop-motion%2Fboo.jpg&width=2152&format=webp&via=transform 2152w"><img alt="./boo.jpg" src="/.11ty/image/?src=content%2F2021%2F2021-10-25_hypercinema-stop-motion%2Fboo.jpg&width=2152&format=jpeg&via=transform" width="2152" height="700"></picture>
     
   </div>
-  
-  <p>This week, we experimented with some stop motion! I worked with <a href="https://www.tatianatrebisacci.com">Tash Trebisacci</a> to create these tiny little animations.</p>
+    <p>This week, we experimented with some stop motion! I worked with <a href="https://www.tatianatrebisacci.com">Tash Trebisacci</a> to create these tiny little animations.</p>
 <p>To continue my obsession with the laser cutter, we decided to play around with cutting paper and cardboard. We figured it would be pretty easy to make &quot;morphing&quot; shapes (for example, the moon below) in illustrator and have them cut out, rather than trying to mould them by hand. This took inspiration from <a href="https://www.youtube.com/watch?v=Q-WM-x__BOk">Shugo Tokumaru's <em>Katachi</em></a> as well.</p>
 <p>Our aim was to make simple but delightful animations. After the initial brainstorming and idea generation, we each set off on a bit of personal exploration, and came up with these.</p>
 <p>Our first GIF is Tash's cute moon animation:</p>
@@ -54,40 +48,67 @@
 <li>These are REALLY FUN.</li>
 </ul>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2021-10-25 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/hypercinema">hypercinema</a>
-        , <a href="/tags/experiment">experiment</a>
-    </div>
+    <p> Posted/updated 2021-10-25 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/hypercinema">hypercinema</a>
+          , <a href="/tags/experiment">experiment</a>
+      </div>
+    
     
   </div>
 
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

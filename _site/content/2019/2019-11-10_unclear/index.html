@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Unclear</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2019%2F2019-11-10_unclear%2Fwipe-still1.png&width=2814&format=webp&via=transform 2814w"><img alt="./wipe-still1.png" src="/.11ty/image/?src=content%2F2019%2F2019-11-10_unclear%2Fwipe-still1.png&width=2814&format=jpeg&via=transform" width="2814" height="1588"></picture>
     
   </div>
-  
-  <p><em>Unclear</em> is an exploration in self-recognition. In meditation, the only way to get a grasp on the Self is through letting go, allowing the changing nature of your experience be the window into what is really going on beneath. <em>Unclear</em> asks the questions; How do you shape yourself? What does seeing yourself mean?
+    <p><em>Unclear</em> is an exploration in self-recognition. In meditation, the only way to get a grasp on the Self is through letting go, allowing the changing nature of your experience be the window into what is really going on beneath. <em>Unclear</em> asks the questions; How do you shape yourself? What does seeing yourself mean?
 <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2019%2F2019-11-10_unclear%2Fmirror-still.jpg&width=3024&format=webp&via=transform 3024w"><img src="/.11ty/image/?src=content%2F2019%2F2019-11-10_unclear%2Fmirror-still.jpg&width=3024&format=jpeg&via=transform" alt="The mirror, still" width="3024" height="4032"></picture>
 This piece takes on the shape of a vanity, complete with Hollywood-style lights lining the edge of the mirror.
 The audience is invited to take a seat at the vanity to face themselves, and are confronted with a truer representation of their inner self; they are shrouded in fog, unfocused, hard to see.</p>
@@ -61,40 +55,67 @@ The audience is invited to take a seat at the vanity to face themselves, and are
 <!-- TODO carpentering the whole thing -->
 <p><em>Used in this piece: LeapMotion, TouchDesigner</em></p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2019-12-20 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/showcase">showcase</a>
-        , <a href="/tags/fabrication">fabrication</a>
-        , <a href="/tags/interactive">interactive</a>
-    </div>
+    <p> Posted/updated 2019-12-20 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/showcase">showcase</a>
+          , <a href="/tags/fabrication">fabrication</a>
+          , <a href="/tags/interactive">interactive</a>
+      </div>
+    
     
   </div>
 
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Twilio for Door Intercoms</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2019%2F2019-11-12_Twilio-for-Door-Intercoms%2Fdoorbell-hero.jpeg&width=1400&format=webp&via=transform 1400w"><img alt="./doorbell-hero.jpeg" src="/.11ty/image/?src=content%2F2019%2F2019-11-12_Twilio-for-Door-Intercoms%2Fdoorbell-hero.jpeg&width=1400&format=jpeg&via=transform" width="1400" height="776"></picture>
     
   </div>
-  
-  <p><em>Photo by Bernard Hermant on Unsplash</em></p>
+    <p><em>Photo by Bernard Hermant on Unsplash</em></p>
 <p>Long story short, the apartment building I moved into has a rather old intercom, and doesn’t support any numbers outside of my local area code. I tried Google Voice and a series of other fake-number apps, but the type of call forwarding used still registered as a long-distance call. The following is a step-by-step guide for what worked: setting up a Twilio number to forward the call for me.</p>
 <p><em>Note: This will cost a very small amount of money. A Twilio phone number costs $1/mo plus a small charge per-call. I think I spend a total of about $2 per month, but YMMV.</em></p>
 <h2>Step 1: Get a Twilio Number</h2>
@@ -60,18 +54,20 @@ Give the Bin a name, and copy the following code into it, replacing the <code>yo
 <p>* <em>This referral code gives both myself and the referred person a $10 credit later. That’s 10 months worth of a phone number, so not bad!</em></p>
 <p><em>This article was originally <a href="https://medium.com/@leia.write/twilio-for-door-intercoms-b43416ddd69b">written and posted on Medium</a>.</em></p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2019-11-12 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/blog">blog</a>
-        , <a href="/tags/code">code</a>
-    </div>
+    <p> Posted/updated 2019-11-12 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/blog">blog</a>
+          , <a href="/tags/code">code</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -84,21 +80,46 @@ Give the Bin a name, and copy the following code into it, replacing the <code>yo
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

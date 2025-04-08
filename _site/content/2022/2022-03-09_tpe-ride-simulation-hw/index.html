@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Nyan Herd</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-03-09_tpe-ride-simulation-hw%2Fnyan.png&width=860&format=webp&via=transform 860w"><img alt="./nyan.png" src="/.11ty/image/?src=content%2F2022%2F2022-03-09_tpe-ride-simulation-hw%2Fnyan.png&width=860&format=jpeg&via=transform" width="860" height="413"></picture>
     
   </div>
-  
-  <p>This week <a href="https://wp.nyu.edu/tandonschoolofengineering-lm_amusementpark/">Linette</a>, <a href="https://sleeplessauthor.medium.com">Leigh</a> and I teamed up to bring forth a truly meme-y experience.
+    <p>This week <a href="https://wp.nyu.edu/tandonschoolofengineering-lm_amusementpark/">Linette</a>, <a href="https://sleeplessauthor.medium.com">Leigh</a> and I teamed up to bring forth a truly meme-y experience.
 Behold, the Nyan Herd.</p>
 <p><code>https://youtu.be/2Ysqca5n0gI</code></p>
 <p>In this experience you get to fly across the universe with your own personal herd of Nyan Cats. Leigh and Linette did the heavy lifting in Unreal, while I helped get it hooked into the Stewart Platform. The movements might be a little rough around the edges; we learned just how frustrating source control can be, and that left us little less time than we liked for the roll/yaw sequencing.</p>
@@ -40,19 +34,21 @@ Behold, the Nyan Herd.</p>
 <p>An earlier &quot;hello world&quot;:</p>
 <p><code>https://youtu.be/mM8lSl-OSeU</code></p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2022-03-09 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/theme-park-eng">theme-park-eng</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/virtual">virtual</a>
-    </div>
+    <p> Posted/updated 2022-03-09 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/theme-park-eng">theme-park-eng</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/virtual">virtual</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -67,21 +63,46 @@ Behold, the Nyan Herd.</p>
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

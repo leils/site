@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,13 +18,13 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Readings ~ Carrying Memory</h1>
     <hr>
     
   </div>
-  
-  <p>In our heads alone, or in the keepsakes we gather around us? How do these memories age, change, mutate, transform, channel, accumulate, settle? How do the mediums that these memories anchor to do the same? In this week’s readings, I’m left pondering what might be considered “true”, and how the cumulative body of a community might hold onto and cultivate that truth in memory.</p>
+    <p>In our heads alone, or in the keepsakes we gather around us? How do these memories age, change, mutate, transform, channel, accumulate, settle? How do the mediums that these memories anchor to do the same? In this week’s readings, I’m left pondering what might be considered “true”, and how the cumulative body of a community might hold onto and cultivate that truth in memory.</p>
 <h3>Reflection on <a href="https://www.yurenev.com/">Silent Hero, Alexi Yurenev</a></h3>
 <p>The thing that stands out to me is the searching for “truth”, in both a personal emotional sense and the outright global sense. Although the GAN explorations do not resonate with me, what does is the fact that the only global truth discovered in this project happens through the accumulation of other people; the generation and subsequent exploration of this database, where the artist discovers the fate of a long-lost relative.</p>
 <h3>Reflection on <a href="https://drive.google.com/file/d/1Xb_IIX_lyXNzVBDwcPboAHbB2lP5vKR6/view?usp=sharing">Nostalgia, Svetlana Boym</a> (article)</h3>
@@ -49,40 +43,67 @@
 <h3>Response to <a href="https://www.worldpressphoto.org/collection/photo-contest/2022/Isadora-Romero/1">Blood is a Seed (La Sangre Es Una Semilla), Isadora Romero</a></h3>
 <p>Flora as memory is a fascinating thought that reminds me of the work of my good friend Alice Yuan Zhang. I think often about the way that food acts as an extension of our identities and memory (and by extent, the flora and fauna that we create that food from). I hadn’t thought before of the way that our global farming industry has wiped out entire species of plants and animals, wiping out the memory that lives with it.</p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2022-11-10 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/medium-of-memory">medium-of-memory</a>
-        , <a href="/tags/media-collection">media-collection</a>
-    </div>
+    <p> Posted/updated 2022-11-10 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/medium-of-memory">medium-of-memory</a>
+          , <a href="/tags/media-collection">media-collection</a>
+      </div>
+    
     
   </div>
 
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>what identities do you choose to wear</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-12-09_what-identities-do-you-wear%2Fhero.jpg&width=1440&format=webp&via=transform 1440w"><img alt="./hero.jpg" src="/.11ty/image/?src=content%2F2022%2F2022-12-09_what-identities-do-you-wear%2Fhero.jpg&width=1440&format=jpeg&via=transform" width="1440" height="1440"></picture>
     
   </div>
-  
-  <p><em>what identities do you choose to wear?</em> is an exploration in embodying memory and identity. Fragments of material are suspended in a clear epoxy resin in the form of wearable, semi-clear rings. These are sized to fit my own hands, and are intended to be worn by me as I choose, on a semi-regular basis. Despite the gallery-like nature of their presentation, these rings are in fact created to be a part of my daily wardrobe.</p>
+    <p><em>what identities do you choose to wear?</em> is an exploration in embodying memory and identity. Fragments of material are suspended in a clear epoxy resin in the form of wearable, semi-clear rings. These are sized to fit my own hands, and are intended to be worn by me as I choose, on a semi-regular basis. Despite the gallery-like nature of their presentation, these rings are in fact created to be a part of my daily wardrobe.</p>
 <p>For presentation, each ring is accompanied by a short writing, and a sample of the material suspended within the piece.</p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-12-09_what-identities-do-you-wear%2Foverall-shot.jpg&width=960&format=webp&via=transform 960w"><img src="/.11ty/image/?src=content%2F2022%2F2022-12-09_what-identities-do-you-wear%2Foverall-shot.jpg&width=960&format=jpeg&via=transform" alt="overall" width="960" height="540"></picture></p>
 <p>The writings are more than documentation; they are a recording of my recollection of each fragment’s history and its impact on my path, an artifact of my reflections on how I have become the person I am today.</p>
@@ -67,20 +61,22 @@ This is a clipping of yarn from the last gift I made for someone else; a pair of
 <p>This project is as of yet incomplete, and I have no plans for it to be completed. My identity will continue to change, and I hope to honor these future inflection points in future artifacts.</p>
 <p><em>epoxy resin, collected materials, paper</em></p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2022-12-09 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/medium-of-memory">medium-of-memory</a>
-        , <a href="/tags/showcase">showcase</a>
-        , <a href="/tags/fabrication">fabrication</a>
-    </div>
+    <p> Posted/updated 2022-12-09 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/medium-of-memory">medium-of-memory</a>
+          , <a href="/tags/showcase">showcase</a>
+          , <a href="/tags/fabrication">fabrication</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -93,21 +89,46 @@ This is a clipping of yarn from the last gift I made for someone else; a pair of
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

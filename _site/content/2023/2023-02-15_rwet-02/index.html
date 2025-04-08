@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,13 +18,13 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>RWET Digital Cut-up</h1>
     <hr>
     
   </div>
-  
-  <blockquote>
+    <blockquote>
 <p>Assignment 2: The digital cut-up. Create a notebook program that reads in two or more texts and stores portions of them in Python data structures. The program should create textual output that creatively rearranges the contents of the text. Use functions from the random module as appropriate. You must use lists as part of your procedure. Choose one text that you created with your program to present in class.</p>
 </blockquote>
 <p>In this experiment, I take a poem I wrote last summer about retrieval-induced distortion and intermix it with the introduction to the Wikipedia article on retrieval-induced forgetting.</p>
@@ -86,18 +80,20 @@ practice of some studied material, and a final test of all studied material.
 <p>I really enjoy this final run, and how simultaneously in sync or in conflict the various lines are.
 <a href="https://github.com/leils/itp_spr_2023/blob/main/rwet/02_mixed_lines/mixed-lines.ipynb">Jupyter Notebook</a></p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2023-02-15 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/rwet">rwet</a>
-        , <a href="/tags/itp">itp</a>
-    </div>
+    <p> Posted/updated 2023-02-15 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/rwet">rwet</a>
+          , <a href="/tags/itp">itp</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -113,21 +109,46 @@ practice of some studied material, and a final test of all studied material.
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

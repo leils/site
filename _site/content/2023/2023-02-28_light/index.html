@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,13 +18,13 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Light at a Museum</h1>
     <hr>
     
   </div>
-  
-  <p>As I’ve been traveling for the last 6 days, I haven’t had a chance to set up a 24 hour timelapse. I’m still interested in doing so though, so I might take a stab at it this upcoming week.</p>
+    <p>As I’ve been traveling for the last 6 days, I haven’t had a chance to set up a 24 hour timelapse. I’m still interested in doing so though, so I might take a stab at it this upcoming week.</p>
 <p>Instead, I tried to study the lights that I encountered while on the go, which are showcased and described on my Tumblr collection.</p>
 <p>I also visited the SF Moma, which had a very interesting exhibition on display called Conversation Pieces. The premise of the exhibit was to showcase furniture and other household objects whose design diverges from strict usability or conventional expectations. The furniture pieces were quite interesting (you can see more of my thoughts and snapshots from this in my <a href="https://www.leiac.me/2023/2023-02-28_field-notes-moma/">Field Notes</a>), but the lights in particular were quite beautiful.
 The description of the exhibition explicitly calls out these lights as non-task lamps: lights that function more in the realm of aesthetic and intrigue over functionality. However, the way that each of these pieces approaches this is very different.</p>
@@ -62,39 +56,66 @@ Things that stand out to me:</p>
 <p>As a bonus, here's a cool fixture that, while it has a bare bulb, I enjoy for its creative use of the cord itself.</p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-02-28_light%2Flighting-rig-16.jpg&width=1536&format=webp&via=transform 1536w"><img src="/.11ty/image/?src=content%2F2023%2F2023-02-28_light%2Flighting-rig-16.jpg&width=1536&format=jpeg&via=transform" alt="Antifragile Hanging Piece No. 3 by Kwangho Lee" width="1536" height="2048"></picture></p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2023-02-28 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/light-and-interactivity">light-and-interactivity</a>
-    </div>
+    <p> Posted/updated 2023-02-28 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/light-and-interactivity">light-and-interactivity</a>
+      </div>
+    
     
   </div>
 
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

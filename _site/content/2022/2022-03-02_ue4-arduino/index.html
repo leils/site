@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Unreal Plant</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Fhero-unreal-plant.png&width=1870&format=webp&via=transform 1870w"><img alt="./hero-unreal-plant.png" src="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Fhero-unreal-plant.png&width=1870&format=jpeg&via=transform" width="1870" height="876"></picture>
     
   </div>
-  
-  <p>I seem to have a bit of a theme with plants; here's a plant that lives somewhere in between the digital and physical world.</p>
+    <p>I seem to have a bit of a theme with plants; here's a plant that lives somewhere in between the digital and physical world.</p>
 <p><code>https://www.youtube.com/watch?v=JPoUF5xHRXs</code></p>
 <p><a href="https://github.com/leils/spring_2022_theme_park_eng/blob/main/unreal_interactive_plant/unreal_plant/unreal_plant.ino">Arduino code is available on GitHub here.</a></p>
 <p>There are three things happening here:</p>
@@ -62,21 +56,23 @@ I ended up making a separate keypress interaction with the whole plant display i
 <h2>Other chores</h2>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Fmaterials-done.png&width=2574&format=webp&via=transform 2574w"><img src="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Fmaterials-done.png&width=2574&format=jpeg&via=transform" alt="Materials lesson complete" width="2574" height="848"></picture></p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2022-03-02 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/theme-park-eng">theme-park-eng</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/experiment">experiment</a>
-        , <a href="/tags/physical-computing">physical computing</a>
-        , <a href="/tags/virtual">virtual</a>
-    </div>
+    <p> Posted/updated 2022-03-02 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/theme-park-eng">theme-park-eng</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/experiment">experiment</a>
+          , <a href="/tags/physical-computing">physical computing</a>
+          , <a href="/tags/virtual">virtual</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -92,21 +88,46 @@ I ended up making a separate keypress interaction with the whole plant display i
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

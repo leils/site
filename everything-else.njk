@@ -3,9 +3,33 @@ layout: page.njk
 title: everything else
 subtitle: The other content, writing, posts, experiments that have been posted to this site.  
 ---
-<div class="card-display">
-  {%- for p in collections.blog | reverse -%}
-    {% set post = p %}
-    {% include "postcard.njk" %}
-  {%- endfor -%}
+
+<div class="tidbit-grid">
+  <div id="leftcolumn">
+    <div class="tidbit">
+      {% renderFile "./tidbits/itp.md" %}
+    </div>
+    <div class="tidbit">
+      {% renderFile "./tidbits/daily.md" %}
+    </div>
+    <div class="tidbit">
+      <embed src="https://leils.github.io/web-sites/stopmotion.html" height="300"/>
+    </div>
+  </div>
+  <div id="rightcolumn">
+    <div class="tidbit">
+      <h3>occassionally i write</h3>
+      <p>though honestly, i don't know what I'm looking for here</p>
+      <ul>
+        {%- for p in collections.blog | reverse -%}
+          <li>
+            <sup>
+              <sub>{{ p.data.date }}</sub>
+            </sup>
+            <a href="{{ p.url }}">{{ p.data.title }}</a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
+  </div>
 </div>

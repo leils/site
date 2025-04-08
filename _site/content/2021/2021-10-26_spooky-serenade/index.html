@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Spooky Serenade</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Fhero.jpg&width=2000&format=webp&via=transform 2000w"><img alt="./hero.jpg" src="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Fhero.jpg&width=2000&format=jpeg&via=transform" width="2000" height="1500"></picture>
     
   </div>
-  
-  <p>This piece evolved into my larger project, <a href="https://www.leiac.me/2022/2022-02-01_Grim-Grinning-Ghosts/">Grim Grinning Ghosts</a>.
+    <p>This piece evolved into my larger project, <a href="https://www.leiac.me/2022/2022-02-01_Grim-Grinning-Ghosts/">Grim Grinning Ghosts</a>.
 Read more about that piece as it was created for the ITP 2021 Winter Showcase.</p>
 <hr>
 <p>This week, I took a bit of a detour. A spooky detour.</p>
@@ -53,20 +47,22 @@ Read more about that piece as it was created for the ITP 2021 Winter Showcase.</
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Ffinal-frame.png&width=2370&format=webp&via=transform 2370w"><img src="/.11ty/image/?src=content%2F2021%2F2021-10-26_spooky-serenade%2Ffinal-frame.png&width=2370&format=jpeg&via=transform" alt="Final frame" width="2370" height="1986"></picture>
 All of the P5 code and relevant files are <a href="https://github.com/leils/grinning-ghosts">available here on Github</a>, including the Arduino code.</p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2021-10-26 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/experiment">experiment</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/pcomp">pcomp</a>
-        , <a href="/tags/interactive">interactive</a>
-    </div>
+    <p> Posted/updated 2021-10-26 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/experiment">experiment</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/pcomp">pcomp</a>
+          , <a href="/tags/interactive">interactive</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -80,21 +76,46 @@ All of the P5 code and relevant files are <a href="https://github.com/leils/grin
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

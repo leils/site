@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>L&amp;I 01 ~ LED Fade</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2023%2F2023-01-30_led-fade%2FIMG_8764.jpg&width=3848&format=webp&via=transform 3848w"><img alt="./IMG_8764.jpg" src="/.11ty/image/?src=content%2F2023%2F2023-01-30_led-fade%2FIMG_8764.jpg&width=3848&format=jpeg&via=transform" width="3848" height="2666"></picture>
     
   </div>
-  
-  <p>I put together a rotary encoder controlled LED. The rotation of the encoder controls the speed at which the fade occurs, and the button-press of the encoder resets that speed to a step of 1. The step can be changed from 0-30.</p>
+    <p>I put together a rotary encoder controlled LED. The rotation of the encoder controls the speed at which the fade occurs, and the button-press of the encoder resets that speed to a step of 1. The step can be changed from 0-30.</p>
 <p>This is built on top of the <a href="https://tigoe.github.io/LightProjects/fading.html">Sine wave example</a> provided.</p>
 <hr>
 <p><a href="https://github.com/leils/itp_spr_2023/tree/main/light/01_fade">code on github · leils/itp_spr_2023</a></p>
@@ -46,18 +40,20 @@
 <li>Using the EncoderStepCounter Library, the built-in position value rolls over at 128. Unexpected but not a roadblock, perhaps this position value is more built to track individual rotation changes (ie. one interaction) rather than an overall position number.</li>
 </ul>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2023-01-30 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/light-and-interactivity">light-and-interactivity</a>
-    </div>
+    <p> Posted/updated 2023-01-30 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/light-and-interactivity">light-and-interactivity</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -70,21 +66,46 @@
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

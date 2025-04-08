@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,13 +18,13 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Poetry Generation</h1>
     <hr>
     
   </div>
-  
-  <p><a href="https://github.com/leils/itp_spr_2023/blob/main/rwet/rwet_01_poetry_generator.ipynb">See the Jupyter Notebook here.</a></p>
+    <p><a href="https://github.com/leils/itp_spr_2023/blob/main/rwet/rwet_01_poetry_generator.ipynb">See the Jupyter Notebook here.</a></p>
 <p>In these poetry generators, I aimed to explore both the description and a recipe for a cultural food, Chinese Radish Cakes. This is also an expression of experiments for my Thesis as well.</p>
 <h2>Generator 01</h2>
 <pre><code class="language-python">import random
@@ -115,19 +109,21 @@ print(textwrap.fill(output1, 60))
 <p>Here, I'm most curious about swapping out the ingredients listed. All of the text and vocabulary this generator uses are my recordings of variations of this recipe learned from my mother, my experiments, and internet sources such as Woks of Life.</p>
 <p>Both of these poetry generators are interesting. I'm very satisfied with the first as a method of generating nonsense that provokes other thoughts. The second is proving more intriguing, and I'd like to try more randomness/generation in the instruction set itself rather than just replacing the ingredient names.</p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2023-02-02 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/itp">itp</a>
-        , <a href="/tags/rwet">rwet</a>
-        , <a href="/tags/poetry">poetry</a>
-    </div>
+    <p> Posted/updated 2023-02-02 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/rwet">rwet</a>
+          , <a href="/tags/poetry">poetry</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -141,21 +137,46 @@ print(textwrap.fill(output1, 60))
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

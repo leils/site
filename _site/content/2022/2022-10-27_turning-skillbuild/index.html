@@ -8,13 +8,7 @@
 	</head>
 	<body>
         <div class="siteheader">
-            <div class="heroline" id="heroline">~ lsc ~ this site is pre-fermenting ~</div>
-			<dialog id="herodialog">
-			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
-			<form method="dialog">
-				<button id="closeBtn">OK</button>
-			</form>
-			</dialog>
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
         </div>
 
 		<div class="navigation">
@@ -24,15 +18,15 @@
 			<a href="/everything-else">everything else</a>
 			
 		</div>
-		  <div class="blogHeader">
+		  <div class="content-background">
+  <div class="blogHeader">
     <h1>Turning Skillbuild</h1>
     <hr>
     
       <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-10-27_turning-skillbuild%2Flathe-hero.png&width=1340&format=webp&via=transform 1340w"><img alt="./lathe-hero.png" src="/.11ty/image/?src=content%2F2022%2F2022-10-27_turning-skillbuild%2Flathe-hero.png&width=1340&format=jpeg&via=transform" width="1340" height="848"></picture>
     
   </div>
-  
-  <p>A little simpler this week, what with being out of town. I wanted to make a rough vacuform buck to test out some ideas for a styrene lamp. I inadvisably had no sketches for this.</p>
+    <p>A little simpler this week, what with being out of town. I wanted to make a rough vacuform buck to test out some ideas for a styrene lamp. I inadvisably had no sketches for this.</p>
 <p>I found a large hunk of wood in the basement with a huge split in it that I <em><strong><strong>think</strong></strong></em> is poplar. Since the split went all the way down the length of the wood, I decided to cut the piece down to avoid problems while turning, using the miter saw and the bandsaw. (Honestly the bandsaw was probably a bad idea, I left a few burn marks on the cut side from where it was taking off just a bit too much material at once. Plus, it was pretty hard to keep a straight line, but I think that’s my bad for not having practice at it.)</p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-10-27_turning-skillbuild%2Fvacuform-buck-1.jpg&width=2048&format=webp&via=transform 2048w"><img src="/.11ty/image/?src=content%2F2022%2F2022-10-27_turning-skillbuild%2Fvacuform-buck-1.jpg&width=2048&format=jpeg&via=transform" alt="vacuform-buck-1.jpg" width="2048" height="1475"></picture></p>
 <p>I then turned my cut piece round with 1” round scraper, which thusfar has proven an excellent $30 investment. (The chisels got a real beating this week).</p>
@@ -60,19 +54,21 @@
 <p>Bonus: <a href="https://www.instagram.com/p/Chq4wJKu5Wa/">some of my candlesticks &amp; holders from a while ago</a>, and one of my candlesticks in use!</p>
 <p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-10-27_turning-skillbuild%2Fcandleholder.jpg&width=1686&format=webp&via=transform 1686w"><img src="/.11ty/image/?src=content%2F2022%2F2022-10-27_turning-skillbuild%2Fcandleholder.jpg&width=1686&format=jpeg&via=transform" alt="Candlestick in use" width="1686" height="2048"></picture></p>
 
-
-  <hr>
+  </div>
   <div class="blogFooter">
-    <p> Posted 2022-10-27 </p>
-    <div class="pageTags">
-      
-      Tagged: 
-      
-         <a href="/tags/content">content</a>
-        , <a href="/tags/subtraction">subtraction</a>
-        , <a href="/tags/fabrication">fabrication</a>
-        , <a href="/tags/itp">itp</a>
-    </div>
+    <p> Posted/updated 2022-10-27 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/subtraction">subtraction</a>
+          , <a href="/tags/fabrication">fabrication</a>
+          , <a href="/tags/itp">itp</a>
+      </div>
+    
     
       <div class="pageTech">
         Tech: 
@@ -85,21 +81,46 @@
 		<hr>
 
 		<div class="footer">
-			<p>thanks for being here. you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
 			<a href="/absolutely-everything">appendix</a>
 		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
 
 		<script>
 			const heroline = document.getElementById("heroline");
-			const dialog = document.getElementById("herodialog");
-			const closeBtn = document.getElementById("closeBtn");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
 
 			heroline.addEventListener("click", () => {
-			dialog.showModal();
+				herodialog.showModal();
 			});
 
-			closeBtn.addEventListener("click", () => {
-			dialog.close();
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
 			});
 		</script>
 

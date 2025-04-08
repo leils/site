@@ -7,8 +7,6 @@ thumbnail: ./hero.jpg
 tech: ['raspberryPi','python']
 ---
 
-![Image of altar](./2V1A9537.jpg)
-
 https://vimeo.com/826379955 
 
 In Our Own Words is about the stories that make us who we are, and finding ways of sharing them. Part altar and part confessional, it was originally built as a tool to help me process and understand parts of myself. Now, it's an altar for everyone and an archive of the people that have visited it. By sharing personal stories, we give people a window into our shared identities, building empathy and understanding through printed words. 

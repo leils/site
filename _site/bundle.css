@@ -47,6 +47,10 @@ a {
   color: orangered;
 }
 
+a:hover {
+  color: blue;
+}
+
 pre {
   background-color: darkolivegreen; 
   color: white;
@@ -72,14 +76,30 @@ pre {
 .heroline {
   font-style: italic;
   text-align: center;
+}
+
+.secrethint {
   cursor: help;
 }
+
+.content-background {
+  margin: 10px 0;
+  background: ivory;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+  
 
 .content-body {
   hr {
     height: 40px;
     border: none;
   }
+}
+
+.footer {
+  text-align: center;
 }
 
 .thumbnail {
@@ -108,10 +128,13 @@ pre {
 }
 
 .card{
-  margin: 10px;
-  padding: 10px;
-  border-radius: 4px;
+  margin: 4px;
   max-width: 300px;
+
+  background: ivory;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 
   /* animation adapted from https://stackoverflow.com/a/52963366  */
   background-image: linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%);
@@ -140,11 +163,34 @@ dialog {
   max-width: 60%;
 }
 
+.tidbit-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem; /* spacing between items */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.tidbit {
+  background: ivory;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
 @media only screen and (max-width: 600px) {
     body {
       max-width: 90vw;
       padding: 8px;
     }
+
+    .tidbit-grid {
+      grid-template-columns: 1fr;
+      padding: 0;
+    }
+
   }
 img {
     max-width: 50%;
