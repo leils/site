@@ -6,6 +6,9 @@ module.exports = async function(eleventyConfig) {
 	  const { EleventyRenderPlugin } = await import("@11ty/eleventy");
     eleventyConfig.addPlugin(EleventyRenderPlugin);
 
+    const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
+    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+
     eleventyConfig.addPlugin(eleventyImageTransformPlugin);
     eleventyConfig.addPlugin(embedEverything);
 
@@ -46,3 +49,7 @@ module.exports = async function(eleventyConfig) {
         return techMap; // Must return a plain object!
       });
 };
+
+module.exports.config = {
+	pathPrefix: "/site/",
+}
