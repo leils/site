@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="/bundle.css">
+<link rel="stylesheet" href="/site/bundle.css">
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -12,10 +12,10 @@
         </div>
 
 		<div class="navigation">
-			<a href="/">the work</a>
-			<a href="/more">& more</a>
-			<a href="/about">about</a>
-			<a href="/everything-else">everything else</a>
+			<a href="/site/">the work</a>
+			<a href="/site/more">& more</a>
+			<a href="/site/about">about</a>
+			<a href="/site/everything-else">everything else</a>
 			
 		</div>
 		  <div class="content-background">
@@ -34,7 +34,7 @@
 <p>ITS BORING.</p>
 <p>I just find virtual interfaces so un-satisfying to map.  I started to tweak the Max file, but found myself just … unsatisfied with the controls that I was finding. Quickly uninspired by Max, I moved to trying out Arduino.</p>
 <hr>
-<p><picture><source type="image/webp" srcset="/content/2023/2023-03-08_light-hue/wupzzXgken-4032.webp 4032w"><img src="/content/2023/2023-03-08_light-hue/wupzzXgken-4032.jpeg" alt="IMG_9361.jpeg" width="4032" height="3024"></picture></p>
+<p><picture><source type="image/webp" srcset="/site/content/2023/2023-03-08_light-hue/wupzzXgken-4032.webp 4032w"><img src="/site/content/2023/2023-03-08_light-hue/wupzzXgken-4032.jpeg" alt="IMG_9361.jpeg" width="4032" height="3024"></picture></p>
 <p>Things I got working pretty quickly:</p>
 <ul>
 <li>Flagging changes only after values stop moving</li>
@@ -48,13 +48,13 @@
 <p>What actually turned out to be the issue was I’d used a <code>port</code> setting. I’ve not worked much with HTTP requests on Arduino before, so I was used to setting a port. However, this sent my requests to a port on the Hue Hub that entirely derailed my requests.</p>
 <p>After getting rid of that port, I got each rotary encoder button to send a request; one off, one on.</p>
 <p>Here’s the setup:</p>
-<p><picture><source type="image/webp" srcset="/content/2023/2023-03-08_light-hue/33KvtlxvJg-1514.webp 1514w"><img src="/content/2023/2023-03-08_light-hue/33KvtlxvJg-1514.jpeg" alt="Screen Shot 2023-03-07 at 10.32.21 PM.png" width="1514" height="100"></picture></p>
-<p><picture><source type="image/webp" srcset="/content/2023/2023-03-08_light-hue/kJweD2TWsn-970.webp 970w"><img src="/content/2023/2023-03-08_light-hue/kJweD2TWsn-970.jpeg" alt="Screen Shot 2023-03-07 at 10.32.34 PM.png" width="970" height="628"></picture></p>
+<p><picture><source type="image/webp" srcset="/site/content/2023/2023-03-08_light-hue/33KvtlxvJg-1514.webp 1514w"><img src="/site/content/2023/2023-03-08_light-hue/33KvtlxvJg-1514.jpeg" alt="Screen Shot 2023-03-07 at 10.32.21 PM.png" width="1514" height="100"></picture></p>
+<p><picture><source type="image/webp" srcset="/site/content/2023/2023-03-08_light-hue/kJweD2TWsn-970.webp 970w"><img src="/site/content/2023/2023-03-08_light-hue/kJweD2TWsn-970.jpeg" alt="Screen Shot 2023-03-07 at 10.32.34 PM.png" width="970" height="628"></picture></p>
 <p>After struggling with this for a while, Lifei pointed out to me that Tom actually had an example for Arduino available in the repo, which I'd somehow entirely forgotten about. I felt very silly, looked at the code, and then re-used Tom's send requests.</p>
 <div id="QGU7NB-92Hs" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/QGU7NB-92Hs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p>Honestly a lot of this week was not thinking clearly, not referencing the available examples, and then spending way too much time trying to figure things out on my own. It may have been a more successful week if I’d stuck with MaxMSP rather than switching out halfway.</p>
 <p>The one thing that I <em>am</em> proud of is my code for only &quot;sending&quot; data after the encoder stops moving.</p>
-<p><picture><source type="image/webp" srcset="/content/2023/2023-03-08_light-hue/A28DgziJHY-2846.webp 2846w"><img src="/content/2023/2023-03-08_light-hue/A28DgziJHY-2846.jpeg" alt="Encoder handler code" width="2846" height="708"></picture></p>
+<p><picture><source type="image/webp" srcset="/site/content/2023/2023-03-08_light-hue/A28DgziJHY-2846.webp 2846w"><img src="/site/content/2023/2023-03-08_light-hue/A28DgziJHY-2846.jpeg" alt="Encoder handler code" width="2846" height="708"></picture></p>
 <p>At this point, it is 11pm on Tuesday and I feel silly. I hope to play around with this a bit more, and actually build a controller I like. Maybe if I have time before class.</p>
 <p>What do I want for this future controller?</p>
 <ul>
@@ -81,17 +81,17 @@
         
         Tagged: 
         
-           <a href="/tags/content">content</a>
-          , <a href="/tags/itp">itp</a>
-          , <a href="/tags/light-and-interactivity">light-and-interactivity</a>
+           <a href="/site/tags/content">content</a>
+          , <a href="/site/tags/itp">itp</a>
+          , <a href="/site/tags/light-and-interactivity">light-and-interactivity</a>
       </div>
     
     
       <div class="pageTech">
         Tech: 
         
-          , <a href="/tech/arduino">arduino</a>
-          , <a href="/tech/Phillips Hue">Phillips Hue</a>
+          , <a href="/site/tech/arduino">arduino</a>
+          , <a href="/site/tech/Phillips Hue">Phillips Hue</a>
       </div>
     
   </div>
@@ -100,7 +100,7 @@
 
 		<div class="footer">
 			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
-			<a href="/absolutely-everything">appendix</a>
+			<a href="/site/absolutely-everything">appendix</a>
 		</div>
 		<dialog id="herodialog">
 			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
@@ -146,4 +146,4 @@
 </html>
 
 <!doctype html>
-<link rel="stylesheet" href="/bundle.css">
+<link rel="stylesheet" href="/site/bundle.css">
