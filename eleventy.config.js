@@ -1,5 +1,6 @@
 const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 const embedEverything = require("eleventy-plugin-embed-everything");
+const process = require('node:process');
 
 
 module.exports = async function(eleventyConfig) {
@@ -11,6 +12,11 @@ module.exports = async function(eleventyConfig) {
 
     eleventyConfig.addPlugin(eleventyImageTransformPlugin);
     eleventyConfig.addPlugin(embedEverything);
+
+    console.log(process.env.NODE_ENV);
+    // if (process.env.NODE_ENV === 'production') {
+    //   eleventyConfig.
+    // }
 
     // eleventyConfig.addCollection("techTags", function(collectionApi) {
     //     let techMap = new Map();
@@ -28,28 +34,32 @@ module.exports = async function(eleventyConfig) {
     
     //     return techMap;
     //   });
-    eleventyConfig.addCollection("techTags", function(collectionApi) {
-        const techMap = {};
+    // eleventyConfig.addCollection("techTags", function(collectionApi) {
+    //     const techMap = {};
     
-        collectionApi.getAll().forEach(item => {
-          const techList = item.data.tech;
-          if (Array.isArray(techList)) {
-            techList.forEach(tag => {
-              if (!techMap[tag]) {
-                techMap[tag] = [];
-              }
-              techMap[tag].push(item);
-            });
-          }
-        });
+    //     collectionApi.getAll().forEach(item => {
+    //       const techList = item.data.tech;
+    //       if (Array.isArray(techList)) {
+    //         techList.forEach(tag => {
+    //           if (!techMap[tag]) {
+    //             techMap[tag] = [];
+    //           }
+    //           techMap[tag].push(item);
+    //         });
+    //       }
+    //     });
     
-        // console.log(Object.keys(techMap));
-        // console.log('HELLLO!!!!!!!!!')
-        // console.log(techMap);
-        return techMap; // Must return a plain object!
-      });
+    //     // console.log(Object.keys(techMap));
+    //     // console.log('HELLLO!!!!!!!!!')
+    //     // console.log(techMap);
+    //     return techMap; // Must return a plain object!
+    //   });
 };
 
-module.exports.config = {
-	pathPrefix: "/site/",
-}
+// module.exports.config = {
+//   const env = process.env.NODE_ENV || 'development';
+
+//   if (env == 'production') {
+// 	  pathPrefix: "/site/",
+//   }
+// }
