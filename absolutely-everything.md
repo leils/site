@@ -15,7 +15,7 @@ I strive for this website to:
 
 ---
 About the site: 
-The site is written in 11ty, a process seeded in 2024 and truly sprouting in 2025. It's on [Github](https://github.com/leils/site), using Github Actions to automatically build and deploy to Netlify. It strives to make as little use as possible of package dependencies and outside libraries, a goal of minimal tech for maximal longevity. It was written out of an exhaustion at struggling to maintain the previous version of this website in Gatsby. 
+The site is written in [11ty](https://www.11ty.dev/), a process seeded in 2024 and truly sprouting in 2025. It's on [Github](https://github.com/leils/site), using Github Actions to automatically build and deploy to Netlify. It strives to make as little use as possible of package dependencies and outside libraries, a goal of minimal tech for maximal longevity. It was written out of an exhaustion at struggling to maintain the previous version of this website in Gatsby. 
 
 I use [this custom script](http://localhost:8080/content/2020/2020-04-19_Gatsby-Post-Generation/) to generate a template within my desired file structure when I write a new post. 
 
@@ -27,5 +27,5 @@ Future ambitions:
 - needs more dialog 
 - what's a treasure hunt on a website 
 - the rite and the site, what's the site's rite
-- i keep thinking about web paper and [riso](https://codepen.io/crownedfoxes/pen/LYXMBEZ) ([colors](https://www.stencil.wiki/colors)) ([code gradient instead of image?](https://css-tricks.com/grainy-gradients/))
+- i keep thinking about web paper and [riso](https://codepen.io/crownedfoxes/pen/LYXMBEZ) ([colors](https://www.stencil.wiki/colors)) ([grainy gradients](https://css-tricks.com/grainy-gradients/)) ([and backgrounds](https://www.freecodecamp.org/news/grainy-css-backgrounds-using-svg-filters/)) ([and riso](https://tympanus.net/codrops/2024/06/27/digital-meets-physical-risograph-printing-with-webgl/))
 
