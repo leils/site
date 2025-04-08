@@ -25,6 +25,7 @@ Future ambitions:
 - needs more dialog 
 - what's a treasure hunt on a website 
 - the rite and the site, what's the site's rite
+- i keep thinking about web paper and [riso](https://codepen.io/crownedfoxes/pen/LYXMBEZ) ([colors](https://www.stencil.wiki/colors)) ([code gradient instead of image?](https://css-tricks.com/grainy-gradients/))
 
 ---
 
