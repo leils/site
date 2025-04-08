@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Laser Cut Puzzle</title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/more">& more</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		  <div class="content-background">
+  <div class="blogHeader">
+    <h1>Laser Cut Puzzle</h1>
+    <hr>
+    
+      <picture><source type="image/webp" srcset="/content/2021/2021-10-12_Laser-Cut-Puzzle/exV2se-nAc-967.webp 967w"><img alt="./2021-10-12.jpg" src="/content/2021/2021-10-12_Laser-Cut-Puzzle/exV2se-nAc-967.jpeg" width="967" height="1024"></picture>
+    
+  </div>
+    <p>A first-try at custom puzzle creation.</p>
+
+  </div>
+  <div class="blogFooter">
+    <p> Posted/updated 2021-10-12 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/experiment">experiment</a>
+      </div>
+    
+    
+      <div class="pageTech">
+        Tech: 
+        
+          , <a href="/tech/laser-cutter">laser-cutter</a>
+      </div>
+    
+  </div>
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">

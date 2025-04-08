@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Light at a Museum</title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/more">& more</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		  <div class="content-background">
+  <div class="blogHeader">
+    <h1>Light at a Museum</h1>
+    <hr>
+    
+  </div>
+    <p>As I’ve been traveling for the last 6 days, I haven’t had a chance to set up a 24 hour timelapse. I’m still interested in doing so though, so I might take a stab at it this upcoming week.</p>
+<p>Instead, I tried to study the lights that I encountered while on the go, which are showcased and described on my Tumblr collection.</p>
+<p>I also visited the SF Moma, which had a very interesting exhibition on display called Conversation Pieces. The premise of the exhibit was to showcase furniture and other household objects whose design diverges from strict usability or conventional expectations. The furniture pieces were quite interesting (you can see more of my thoughts and snapshots from this in my <a href="https://www.leiac.me/2023/2023-02-28_field-notes-moma/">Field Notes</a>), but the lights in particular were quite beautiful.
+The description of the exhibition explicitly calls out these lights as non-task lamps: lights that function more in the realm of aesthetic and intrigue over functionality. However, the way that each of these pieces approaches this is very different.</p>
+<hr>
+<p>First, this LED-and-plexi lamp by Johanna Grawunder
+Things that stand out to me:</p>
+<ul>
+<li>The modernist form accentuated by color seems bright and clean, while not being minimalist.</li>
+<li>Edge-lit acrylic doesn’t fully hide the shape of the LEDs, but the light shines in multiple directions and reminds me of a CMYK crystal.</li>
+<li>The power box behind the lamp is interestingly industrial; an almost clunky aluminum/steel box.</li>
+</ul>
+<p><picture><source type="image/webp" srcset="/content/2023/2023-02-28_light/3Dh2jkRm7l-1536.webp 1536w"><img src="/content/2023/2023-02-28_light/3Dh2jkRm7l-1536.jpeg" alt="Plexi lamp by Johanna Grawunder" width="1536" height="2048"></picture></p>
+<hr>
+<p>Next, this glass-blown lamp by Bethan Laura Wood</p>
+<ul>
+<li>This light looks incredibly different from all angles. The glass pieces catch the light in riveting, undulating ways like ripples in water as you move past.</li>
+<li>The overall tone of this is lamp is warm. Oranges and reds, almost browns are radiated from the lamp.</li>
+<li>The cables are strung through the clear parts of the lamp, not through the brass rods! Their fabric-like appearance contrasts with the solid brass and glass.</li>
+</ul>
+<p><picture><source type="image/webp" srcset="/content/2023/2023-02-28_light/gLTziFDrMO-1536.webp 1536w"><img src="/content/2023/2023-02-28_light/gLTziFDrMO-1536.jpeg" alt="Lamp by Bethan Laura Wood" width="1536" height="2048"></picture></p>
+<hr>
+<p>Lastly, this formed-acrylic lamp by Shiro Kuramata.</p>
+<ul>
+<li>This light absolutely blows me away. It’s simple, solid and liquid at the same time, soft and hard.</li>
+<li>I love how the layers of material change everything here. The thinner single layers really let the light through, and it almost floats on its own.</li>
+</ul>
+<p><picture><source type="image/webp" srcset="/content/2023/2023-02-28_light/Y8cS4FCnKD-1536.webp 1536w"><img src="/content/2023/2023-02-28_light/Y8cS4FCnKD-1536.jpeg" alt="Lamp by Shiro Kuramata" width="1536" height="2048"></picture></p>
+<hr>
+<p>As a bonus, here's a cool fixture that, while it has a bare bulb, I enjoy for its creative use of the cord itself.</p>
+<p><picture><source type="image/webp" srcset="/content/2023/2023-02-28_light/BMgyx2EwU_-1536.webp 1536w"><img src="/content/2023/2023-02-28_light/BMgyx2EwU_-1536.jpeg" alt="Antifragile Hanging Piece No. 3 by Kwangho Lee" width="1536" height="2048"></picture></p>
+
+  </div>
+  <div class="blogFooter">
+    <p> Posted/updated 2023-02-28 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/light-and-interactivity">light-and-interactivity</a>
+      </div>
+    
+    
+  </div>
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">

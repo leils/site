@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hypercinema - Runway Experiments</title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/more">& more</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		  <div class="content-background">
+  <div class="blogHeader">
+    <h1>Hypercinema - Runway Experiments</h1>
+    <hr>
+    
+      <picture><source type="image/webp" srcset="/content/2021/2021-10-18_hypercinema-runway/jdWxy2-t1u-2000.webp 2000w"><img alt="./runway-dance-cover.jpg" src="/content/2021/2021-10-18_hypercinema-runway/jdWxy2-t1u-2000.jpeg" width="2000" height="1106"></picture>
+    
+  </div>
+    <p>For this exercise I wanted to explore &quot;recreating&quot; as an idea. The <a href="https://youtu.be/hwFO5yXCT3o">original clip is from a competition</a> in a recreational, semi-historical dance. In this community, some amount of intentionality sits around re-creating the dance forms in as much authenticity as possible, to some extent &quot;freezing&quot; the dance in past and attempting to modify the modern community to mirror that of the historical one. In some ways I consider this an impossible task; to build a scene out of wholesale different cloth.
+There is something about this desire to capture the intangible past that I attempt to express here. Over time, the piece drags the performers out of their context, warping and freezing them, making them brighter and bolder until all that's left is the colorful imprint of their movements.</p>
+<p>The first pass at this is below, and I'm actually pretty partial to it. It required me exporting the masked clip in order to mirror it horizontally, which was pretty annoying. It uses the Kandinksy model to generate the colorful video in the background, and some simple &quot;light leaks&quot; effects for the other dancers.</p>
+<p><code>video: https://www.youtube.com/watch?v=EH2_9Eq522U</code></p>
+<p>For the second pass, I wanted to explore a more story-based approach, so I went back to the original clip and started working on a transition, rather than a full and immediate break from reality. Through a lot of trial and error, I ended up with the piece below.</p>
+<p><code>video: https://www.youtube.com/watch?v=iw-3rjNT3dQ</code></p>
+<p>A few hiccups along the way:</p>
+<ul>
+<li>I found a lot of features undiscoverable or difficult to unearth with Runway. Without the standard menu-and-search-bar interface, it took a bit of hunting around to find even the most basic of editing tools.</li>
+<li>Much of the time, runway would freeze clips while I was working on them, leaving ghostly and static silhouettes on the screen. These weren't reflected in the final piece, but that almost made it more unpredictable to work with.</li>
+</ul>
+<p>Either way, I think that Runway might make an interesting intermediate step in a filmmaking process for the future</p>
+<p><em>Dancers in the video are myself and Sarah Elise</em>.</p>
+
+  </div>
+  <div class="blogFooter">
+    <p> Posted/updated 2021-10-18 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/hypercinema">hypercinema</a>
+      </div>
+    
+    
+  </div>
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">

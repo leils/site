@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Week 2 - Unreal</title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/more">& more</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		  <div class="content-background">
+  <div class="blogHeader">
+    <h1>Week 2 - Unreal</h1>
+    <hr>
+    
+  </div>
+    <h2>Dear Angelica</h2>
+<p>I really enjoyed Angelica. Though it was a little unsettling to have the entire scene move with my head, once I got used to the rules of engagement I thought it was extremely well directed. The use of VR allowed for a very intense experience, where I could get up close to the characters. At times it felt too close, like I was getting swallowed up with Angelica herself. This use of space was strikingly effective. I thought this piece was well directed; lots of little lines and movements to draw the eye, sounds to make you turn your head. One thing that stood out in particular was the shuttle-explosion moment. That scene had to have been written such that the viewers’ choices were valid no matter what, and I think they executed this well. If I looked away quickly from the shuttle and towards Angelica, I got a heartwrenchingly long moment seeing her drift away. If I instead lingered on the shuttle and turned around later, Angelica would be unexpectedly far away, and I (a stand-in for the main character) would see her loss as a horrible surprise. Two takeaways; to draw the audience’s eyes and ears with interest, and to make multiple paths of engagement for the viewer.</p>
+<hr>
+<h2>3+ interactives in Unreal</h2>
+<p>Unfortunately, I learned the hard way that Airlink requires your desktop to be hardwired to the router, so I didn’t get a chance to test these interactions in VR. All videos are stand-ins with pawn game character collision.</p>
+<h3>Toggle Light</h3>
+<p>A simple light that toggles between red and blue when it detects collision.
+https://youtu.be/D30axX8GxeI
+<picture><source type="image/webp" srcset="/content/2022/2022-02-08_tpe-week2/-IKzqXncq_-1178.webp 1178w"><img src="/content/2022/2022-02-08_tpe-week2/-IKzqXncq_-1178.jpeg" alt="Blueprint for Toggle Light" width="1178" height="787"></picture></p>
+<h3>A Button and a Bush</h3>
+<p>This interaction was built on the level blueprint rather than an individual one, to see what level triggers might look like. In this case, the trigger causes the bush to either grow or shrink, and briefly shows a “sparks” particle effect for some pizzaz.
+https://youtu.be/i67QJ0hQEyI
+<picture><source type="image/webp" srcset="/content/2022/2022-02-08_tpe-week2/61xkR410BJ-2041.webp 2041w"><img src="/content/2022/2022-02-08_tpe-week2/61xkR410BJ-2041.jpeg" alt="Blueprint for Button Bush" width="2041" height="897"></picture></p>
+<h3>SoundCube</h3>
+<p>A pretty simple interaction, this trigger causes a sound to be played a single time.
+https://youtu.be/Nt6QHyd0nIE
+<picture><source type="image/webp" srcset="/content/2022/2022-02-08_tpe-week2/bFmZaN_azx-1450.webp 1450w"><img src="/content/2022/2022-02-08_tpe-week2/bFmZaN_azx-1450.jpeg" alt="Blueprint for SoundCube" width="1450" height="1192"></picture></p>
+<h3>GlowCube</h3>
+<p>This one I wasn’t able to test, but look forward to doing so when my tether cable gets shipped. This cube should glow when grabbed, and stop glowing when dropped.
+<picture><source type="image/webp" srcset="/content/2022/2022-02-08_tpe-week2/s90sf_HILZ-1102.webp 1102w"><img src="/content/2022/2022-02-08_tpe-week2/s90sf_HILZ-1102.jpeg" alt="Blueprint for GlowCube" width="1102" height="772"></picture></p>
+<hr>
+<h2>Unreal Materials</h2>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-02-08_tpe-week2/2izJZfK5ei-1778.webp 1778w"><img src="/content/2022/2022-02-08_tpe-week2/2izJZfK5ei-1778.jpeg" alt="Screenshot of Materials course showing 100%" width="1778" height="638"></picture></p>
+
+  </div>
+  <div class="blogFooter">
+    <p> Posted/updated 2022-02-08 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/theme-park-eng">theme-park-eng</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/virtual">virtual</a>
+      </div>
+    
+    
+  </div>
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">

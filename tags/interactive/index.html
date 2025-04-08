@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/more">& more</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		
+<h1>Tagged “interactive”</h1>
+
+<ol>
+
+
+  <li><a href="/content/2024/2024-01-01_Words-to-Remember-By/">Words to Remember By</a></li>
+
+  <li><a href="/content/2022/2022-06-21_plant/">p l a n t</a></li>
+
+  <li><a href="/content/2022/2022-02-15_tpe-sneaky-bunny/">Sneaky Houdini</a></li>
+
+  <li><a href="/content/2022/2022-02-01_Grim-Grinning-Ghosts/">Grim Grinning Ghosts</a></li>
+
+  <li><a href="/content/2021/2021-12-21_bloom-together/">Bloom Together</a></li>
+
+  <li><a href="/content/2022/2022-04-11_light-as-medium/">Light as Medium</a></li>
+
+  <li><a href="/content/2021/2021-10-26_spooky-serenade/">Spooky Serenade</a></li>
+
+  <li><a href="/content/2021/2021-10-05_pcomp-project-1/">Sweet Dreams</a></li>
+
+  <li><a href="/content/2021/2021-08-27_Meow-Maker/">She Hungers</a></li>
+
+  <li><a href="/content/2019/2019-11-10_unclear/">Unclear</a></li>
+
+  <li><a href="/content/2019/2019-10-05_shatter/">Shatter</a></li>
+
+</ol>
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">

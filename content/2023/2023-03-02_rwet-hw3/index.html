@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>A Meme Generator Genre Study</title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/more">& more</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		  <div class="content-background">
+  <div class="blogHeader">
+    <h1>A Meme Generator Genre Study</h1>
+    <hr>
+    
+  </div>
+    <blockquote>
+<p>The genre study: Choose a genre or form of writing. This can be anything from a literary genre to a meme format. Gather a small number of exemplars of the genre and make a list of the characteristics that are common to all of them. Write a program that produces texts that emulate a particular form or genre of language.</p>
+</blockquote>
+<p>A simple setup: &quot;It's like but for !&quot; There's a whole set of tech memes about startups, where all of them are &quot;Uber but for X&quot;. <a href="https://www.quora.com/Uber-for-X-What-startups-are-working-on-Uber-for-X">This is a good example</a> of (surprisingly not satire) companies and services that are based on this model. Here's a <a href="https://www.buzzfeednews.com/article/charliewarzel/like-uber-but-for-jokes">Buzzfeed Article</a> on the same thing.
+Examples: - It's Uber, but for food. - It's Uber, but for books. - It's Google, but for jobs. - It's LinkedIn, but for dates.
+Pretty straightforward! So here's a quick run of this: The &quot;things&quot; are random, pulled from the top of my head.</p>
+<p><picture><source type="image/webp" srcset="/content/2023/2023-03-02_rwet-hw3/d0Ttwb9bmf-1928.webp 1928w"><img src="/content/2023/2023-03-02_rwet-hw3/d0Ttwb9bmf-1928.jpeg" alt="The written grammar" width="1928" height="1384"></picture>
+<picture><source type="image/webp" srcset="/content/2023/2023-03-02_rwet-hw3/3g3pKceLsG-1144.webp 1144w"><img src="/content/2023/2023-03-02_rwet-hw3/3g3pKceLsG-1144.jpeg" alt="The generated output" width="1144" height="356"></picture></p>
+<p>It's not bad, but I wanted to be able to source my &quot;things&quot; from a database, not just manually thought of and written.
+Somewhere in the long list of tutorials was a link to the <a href="https://github.com/dariusk/corpora">Corpora Project</a>, and subsequently the <a href="https://github.com/aparrish/pycorpora">pycorpora port</a>.</p>
+<p>Now, I did try this late at night, so perhaps that has something to do with my inability to make this work. At first, I installed pycorpora via pip, but that install does not include any data by default.</p>
+<p>I re-installed defining the Corpora database. This gave me access to the categories I expected, but when trying to actually access words, I had a lot of issues.</p>
+<p><picture><source type="image/webp" srcset="/content/2023/2023-03-02_rwet-hw3/DQ_jYTWKib-1670.webp 1670w"><img src="/content/2023/2023-03-02_rwet-hw3/DQ_jYTWKib-1670.jpeg" alt="categories from pycorpora" width="1670" height="390"></picture>
+<picture><source type="image/webp" srcset="/content/2023/2023-03-02_rwet-hw3/XW1suzJzZ7-2218.webp 2218w"><img src="/content/2023/2023-03-02_rwet-hw3/XW1suzJzZ7-2218.jpeg" alt="loading errors" width="2218" height="424"></picture></p>
+<p>I'll have to take another look at this, perhaps locally first (rather than through Jupyter).</p>
+<p><a href="https://github.com/leils/itp_spr_2023/blob/main/rwet/Hw%2003.ipynb">The Jupyter Notebook is available here.</a></p>
+
+  </div>
+  <div class="blogFooter">
+    <p> Posted/updated 2023-03-02 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/rwet">rwet</a>
+      </div>
+    
+    
+      <div class="pageTech">
+        Tech: 
+        
+          , <a href="/tech/python">python</a>
+          , <a href="/tech/poetry">poetry</a>
+      </div>
+    
+  </div>
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">

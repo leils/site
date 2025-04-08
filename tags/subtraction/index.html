@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/more">& more</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		
+<h1>Tagged “subtraction”</h1>
+
+<ol>
+
+
+  <li><a href="/content/2022/2022-11-30_cnc-table/">CNC Entry Table</a></li>
+
+  <li><a href="/content/2022/2022-11-08_four-axis/">Four Axis Milling</a></li>
+
+  <li><a href="/content/2022/2022-11-02_mallet-attempt/">Attempted Mallet</a></li>
+
+  <li><a href="/content/2022/2022-10-27_turning-skillbuild/">Turning Skillbuild</a></li>
+
+  <li><a href="/content/2022/2022-10-12_cnc-table/">A Side Table 01</a></li>
+
+  <li><a href="/content/2022/2022-10-05_cnc-joinery/">CNC Joinery Test</a></li>
+
+  <li><a href="/content/2022/2022-09-28_shopbot-skillbuild/">Catch All Tray</a></li>
+
+  <li><a href="/content/2022/2022-09-21_bantam-skillbuilder-02/">Bantam Skillbuild 02</a></li>
+
+  <li><a href="/content/2022/2022-09-14_bantam-skillbuilder/">Bantam Skillbuild 01</a></li>
+
+  <li><a href="/content/2022/2022-09-02_router-skillbuild/">Router Skillbuild</a></li>
+
+</ol>
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">

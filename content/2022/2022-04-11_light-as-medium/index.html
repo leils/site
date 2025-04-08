@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Light as Medium</title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/more">& more</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		  <div class="content-background">
+  <div class="blogHeader">
+    <h1>Light as Medium</h1>
+    <hr>
+    
+      <picture><source type="image/webp" srcset="/content/2022/2022-04-11_light-as-medium/dkoTVoYzIi-2048.webp 2048w"><img alt="./two-hands-clasped.jpg" src="/content/2022/2022-04-11_light-as-medium/dkoTVoYzIi-2048.jpeg" width="2048" height="1366"></picture>
+    
+  </div>
+    <p>Created in collaboration with <a href="https://ratanav.com">Nunnapat ‘Spencer’ Ratanavanh</a> and Bruce Mk Arthur.</p>
+<p>Light as Medium was an exploration in creating motion-reactive and user-controlled light within the context of stage performance and movement exploration. Ideated and driven by Spencer’s experience as a modern dance artist, we integrated body-mounted sensors, a Kinect camera, and projector into a custom performance tool and space.</p>
+<p>The snapshots below are from a proof-of-concept showcase. In all recordings, the lights projected are fully controlled by Spencer (the dancer) through his hand placement and electromuscular signals.</p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-04-11_light-as-medium/3eL0rgFgYS-2048.webp 2048w"><img src="/content/2022/2022-04-11_light-as-medium/3eL0rgFgYS-2048.jpeg" alt="Silhouette of a dancer (Spencer), with hands clasped, facing 3/4 towards the camera. Spencer is in darkness, surrounded by a light background of projected light" width="2048" height="1366"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-04-11_light-as-medium/dkoTVoYzIi-2048.webp 2048w"><img src="/content/2022/2022-04-11_light-as-medium/dkoTVoYzIi-2048.jpeg" alt="Two circles of light, side by side, carve space out of the darkness. They reveal two hands, clenched, with palms facing forward, as well as the shoulders and masked chin of a person (Spencer)." width="2048" height="1366"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-04-11_light-as-medium/CxudhEo96u-2048.webp 2048w"><img src="/content/2022/2022-04-11_light-as-medium/CxudhEo96u-2048.jpeg" alt="One slightly rounded slit of light, horizontal across the frame, carves space out of the darkness. In the center of it is revealed the upper torso and lower face (masked) of a person (Spencer)." width="2048" height="1366"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-04-11_light-as-medium/hws-8DoYiT-2048.webp 2048w"><img src="/content/2022/2022-04-11_light-as-medium/hws-8DoYiT-2048.jpeg" alt="Two ovals of light, stretched with their wide parts horizontal and stacked one on top of the other, reveal a person (Spencer) in the darkness. Only the person's face, shoulders, and a single hand are visible. Their left hand reaches up into the uppermost oval of light." width="2048" height="1366"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-04-11_light-as-medium/-cKEw8ATF0-1366.webp 1366w"><img src="/content/2022/2022-04-11_light-as-medium/-cKEw8ATF0-1366.jpeg" alt="A person (Spencer) is standing, twisted away from the camera, left arm lifted and right arm meeting the crook of the left elbow. Spencer's face is not visible. On Spencer's chest and bicep are red sensors, with wires falling away from them; he is using his right hand to touch the sensor on his left bicep. Spencer is lit so that his shadow falls on the wall behind him. The top right corner and bottom half of the frame are in darkness." width="1366" height="2048"></picture></p>
+<p>Spencer continued this exploration in his <a href="https://ratanav.com/Wetware">Wetware project</a>.</p>
+
+  </div>
+  <div class="blogFooter">
+    <p> Posted/updated 2021-11-20 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/physical-computing">physical computing</a>
+          , <a href="/tags/showcase">showcase</a>
+          , <a href="/tags/interactive">interactive</a>
+      </div>
+    
+    
+  </div>
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">

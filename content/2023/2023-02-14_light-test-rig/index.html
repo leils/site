@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lighting Test Rig</title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/more">& more</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		  <div class="content-background">
+  <div class="blogHeader">
+    <h1>Lighting Test Rig</h1>
+    <hr>
+    
+  </div>
+    <p>This week, we were tasked to creating a test rig for a 12V DC lamp. A few of us went in on a set of E26 bulb sockets, which were unfortunately not delivered until Tuesday. In the end, I managed to set up a bit of a test rig.</p>
+<p>Requirements for the test rig:</p>
+<ul>
+<li>1m cable</li>
+<li>Dim bulb + on/off control</li>
+</ul>
+<p>I based this rig on my setup for the LED fade; a rotary encoder and Nano IOT 33 are central components to the circuit. I’d worked a bit with the TIP120s in an earlier project controlling solenoids, so I grabbed parts from prototypes of that project.</p>
+<p><picture><source type="image/webp" srcset="/content/2023/2023-02-14_light-test-rig/vREHZPfE5S-2048.webp 2048w"><img src="/content/2023/2023-02-14_light-test-rig/vREHZPfE5S-2048.jpeg" alt="lighting-rig-2.jpg" width="2048" height="1536"></picture></p>
+<p>After setting the circuit up for 12V control I tested out my original fade code and wow! it works!</p>
+<div id="xThp0QMPPRU" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/xThp0QMPPRU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<p>I made up a little box for it to make carrying it around easier.</p>
+<p><picture><source type="image/webp" srcset="/content/2023/2023-02-14_light-test-rig/sT3D_NyFI4-2048.webp 2048w"><img src="/content/2023/2023-02-14_light-test-rig/sT3D_NyFI4-2048.jpeg" alt="lighting-rig-3.jpg" width="2048" height="1536"></picture></p>
+<p>This is where I stalled; the LED bulb faded well, but a) made a high pitched noise that I didn’t love, and b) got a bit unnervingly hot. So I put a pin in this and hope to go over the circuit once more before building a more permanent version of this.</p>
+<p>Notes:</p>
+<ul>
+<li>
+<p>Wire joints are my best friends. They are so incredibly convenient.</p>
+<p><picture><source type="image/webp" srcset="/content/2023/2023-02-14_light-test-rig/RCqeU22ScT-2048.webp 2048w"><img src="/content/2023/2023-02-14_light-test-rig/RCqeU22ScT-2048.jpeg" alt="lighting-rig-1.jpg" width="2048" height="1538"></picture></p>
+</li>
+<li>
+<p>I definitely shocked myself at least once. It’s not terrible, but it’s certainly uncomfortable.</p>
+</li>
+</ul>
+<hr>
+<p>Also, some lights that I enjoy:</p>
+<p><a href="https://vibekefonnesbergschmidt.dk/lighting/">https://vibekefonnesbergschmidt.dk/lighting/</a></p>
+
+  </div>
+  <div class="blogFooter">
+    <p> Posted/updated 2023-02-14 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/light-and-interactivity">light-and-interactivity</a>
+      </div>
+    
+    
+      <div class="pageTech">
+        Tech: 
+        
+          , <a href="/tech/arduino">arduino</a>
+          , <a href="/tech/lighting">lighting</a>
+      </div>
+    
+  </div>
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">

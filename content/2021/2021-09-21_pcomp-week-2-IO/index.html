@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>PCOMP Week 2</title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/more">& more</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		  <div class="content-background">
+  <div class="blogHeader">
+    <h1>PCOMP Week 2</h1>
+    <hr>
+    
+      <picture><source type="image/webp" srcset="/content/2021/2021-09-21_pcomp-week-2-IO/gzCGi9SJ2Y-2000.webp 2000w"><img alt="./PCB_soldered.jpg" src="/content/2021/2021-09-21_pcomp-week-2-IO/gzCGi9SJ2Y-2000.jpeg" width="2000" height="1500"></picture>
+    
+  </div>
+    <p>This week, we introduce basic I/O with Arduino programming! It sounds funny, but
+this week's work is way more intuitive to me than last week's. Let's start off with
+the basics.</p>
+<p>First up, let's make a button that switches between LEDs.</p>
+<p><picture><source type="image/webp" srcset="/content/2021/2021-09-21_pcomp-week-2-IO/TZXD0AhejO-2000.webp 2000w"><img src="/content/2021/2021-09-21_pcomp-week-2-IO/TZXD0AhejO-2000.jpeg" alt="Breadboard with an Arduino Nano 33 IOT, button, and two LEDs (one red, one green). The red LED is lit." width="2000" height="1500"></picture></p>
+<p>This basic circuit allows a button to control which of two LEDs are lit.
+See a little demo below:
+<code>https://youtu.be/huugGcWJD0U</code></p>
+<p>Ok, so that's a pretty simple digital input.
+Onward to analog input! First up, something we're already familiar with: a
+potentiometer.</p>
+<p><picture><source type="image/webp" srcset="/content/2021/2021-09-21_pcomp-week-2-IO/5heKcNj99q-2000.webp 2000w"><img src="/content/2021/2021-09-21_pcomp-week-2-IO/5heKcNj99q-2000.jpeg" alt="Breadboard with Nano 33 IOT, potentiometer,and single LED." width="2000" height="1222"></picture></p>
+<p><code>https://youtu.be/De6hdBnsRFc</code>
+And now, a new analog input. I chose to use a phototransistor for my explorations here.
+This actually made some things way more difficult ... phototransistors measure
+light, which means ambient light can affect your readings as time goes by (for
+example, when the sun goes down, or when I moved the board from my well-lit desk
+to my dark couch).</p>
+<p>I had a little inkling of an idea about things occurring only when it's night, so
+I hooked up a circuit to light up an LED when it gets too dark.
+<code>https://youtu.be/qloSASxM07Y</code>
+This is where I go down a bit of a rabbit-hole ... I want to make a cute little
+forest scene piece where a miniature tent lights up at night. A sketch of this:</p>
+<p><picture><source type="image/webp" srcset="/content/2021/2021-09-21_pcomp-week-2-IO/z2RaJIZ87w-2000.webp 2000w"><img src="/content/2021/2021-09-21_pcomp-week-2-IO/z2RaJIZ87w-2000.jpeg" alt="sketch of the forest scene" width="2000" height="1500"></picture></p>
+<p>In order to make this physically, I needed to move off the breadboard. I also sought
+a smaller, less powerful microcontroller to run this off of, and my partner Paul
+recommended using a Trinket M0 as a nice alternative. As you can see below, the Trinket
+has a much smaller footprint (and far fewer pins!).</p>
+<p><picture><source type="image/webp" srcset="/content/2021/2021-09-21_pcomp-week-2-IO/jO0TwTdWdt-1500.webp 1500w"><img src="/content/2021/2021-09-21_pcomp-week-2-IO/jO0TwTdWdt-1500.jpeg" alt="Breadboard vs Trinket M0" width="1500" height="2000"></picture></p>
+<p>So I re-built the circuit using the Trinket! The trinket came with CircuitPython on it,
+so I had to put Arduino on it instead, following the <a href="https://www.notion.so/PCOMP-Week2-HW-b18840d9398e43249ec5c22eee4bd06d#cf5cbfda2c2a436f93144c324e6103e2">instructions here</a>.
+<code>https://youtu.be/t9tXw4suKr4</code></p>
+<p>Next, I soldered this all to a PCB. This is the first time I've done this, so I learned
+the hard way that:</p>
+<ol>
+<li>the type of solder you use greatly affects how easy it is to solder</li>
+<li>holding things together is hard, but tape is pretty nice</li>
+<li>make sure you know what you want to solder to the board <em>before you solder to the board</em></li>
+</ol>
+<p><picture><source type="image/webp" srcset="/content/2021/2021-09-21_pcomp-week-2-IO/gzCGi9SJ2Y-2000.webp 2000w"><img src="/content/2021/2021-09-21_pcomp-week-2-IO/gzCGi9SJ2Y-2000.jpeg" alt="Soldered Trinket M0 on PCB" width="2000" height="1500"></picture></p>
+<p>I also used a pair of screw terminals for the first time, which lets me connect
+the LEDs onto stranded wire to be loosely coiled inside of a box. The terminals also
+let me swap out the LEDs at will, since they don't get soldered to the board.</p>
+<p>A quick test:
+<code>https://youtu.be/Np_jfTaCvCM</code></p>
+<p>I didn't have time to put together a final product, so this is just a prototype.
+I grabbed a spare box, cut two holes in it for the LED and the phototransistor,
+and put together this!</p>
+<p><picture><source type="image/webp" srcset="/content/2021/2021-09-21_pcomp-week-2-IO/gOpP7bqZ4o-2000.webp 2000w"><img src="/content/2021/2021-09-21_pcomp-week-2-IO/gOpP7bqZ4o-2000.jpeg" alt="Tent prototype" width="2000" height="1890"></picture></p>
+<hr>
+<p>A little side note, the Trinket M0 comes with a nice LED built-in on the board! This
+LED is used to represent board statuses, but also by default is left on. In trying
+to figure out how to turn off the LED, I got a very brief introduction to the DotStar
+library and learned that there is a difference between a DotStar and a Neopixel LED.</p>
+<ul>
+<li><a href="https://hackaday.io/project/9017-skywalker-lightsaber/log/72354-adafruit-trinket-m0-controlling-the-onboard-dotstar-led-via-arduino-ide">https://hackaday.io/project/9017-skywalker-lightsaber/log/72354-adafruit-trinket-m0-controlling-the-onboard-dotstar-led-via-arduino-ide</a></li>
+<li><a href="https://forums.adafruit.com/viewtopic.php?f=25&amp;t=124501&amp;sid=21195cd2275abc7ba8a32912d47cff6f">https://forums.adafruit.com/viewtopic.php?f=25&amp;t=124501&amp;sid=21195cd2275abc7ba8a32912d47cff6f</a></li>
+</ul>
+<hr>
+<p>Ok, back into the third lab; debouncing and noise!</p>
+<p>The phototransistor made for a bit of difficulty here; there was a lot of noise
+in the raw data, and my numbers needed to be re-calibrated based on each of the ambient
+light states (day, night, on the floor, at home).</p>
+<p>Here's the raw data over &lt;1s from the sensor
+<picture><source type="image/webp" srcset="/content/2021/2021-09-21_pcomp-week-2-IO/VvchjvvfT--2000.webp 2000w"><img src="/content/2021/2021-09-21_pcomp-week-2-IO/VvchjvvfT--2000.jpeg" alt="raw data from phototransistor" width="2000" height="634"></picture></p>
+<p>And here's the peaks grabbed after de-noiseing, over &gt;30s
+<picture><source type="image/webp" srcset="/content/2021/2021-09-21_pcomp-week-2-IO/BdLPa00L0Y-1994.webp 1994w"><img src="/content/2021/2021-09-21_pcomp-week-2-IO/BdLPa00L0Y-1994.jpeg" alt="de-noised peaks" width="1994" height="622"></picture></p>
+<p>Maybe a better representation of the de-noised peaks:
+<picture><source type="image/webp" srcset="/content/2021/2021-09-21_pcomp-week-2-IO/DkuLWI_LYc-1994.webp 1994w"><img src="/content/2021/2021-09-21_pcomp-week-2-IO/DkuLWI_LYc-1994.jpeg" alt="de-noised peaks serial monitor" width="1994" height="622"></picture></p>
+<p>Code run:</p>
+<pre><code>int peakValue = 0;
+int threshold = 20;   //set your own value based on your sensors
+int noise = 5;        //set a noise value based on your particular sensor
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  //read sensor on pin A0:
+  int sensorValue = analogRead(A0);
+  // check if it's higher than the current peak:
+  if (sensorValue &gt; peakValue) {
+    peakValue = sensorValue;
+  }
+  if (sensorValue &lt;= threshold - noise ) {
+    if (peakValue &gt; threshold + noise) {
+      // you have a peak value:
+      Serial.println(peakValue);
+      // reset the peak value:
+      peakValue = 0;
+    }
+  }
+}
+</code></pre>
+<p>I'll admit that despite my background in code, I rarely have had to do de-noising. I know that it's extremely useful, but I still don't quite grok it. I'll have to do a bit more of this
+to understand it.</p>
+
+  </div>
+  <div class="blogFooter">
+    <p> Posted/updated 2021-09-21 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/pcomp">pcomp</a>
+      </div>
+    
+    
+  </div>
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">

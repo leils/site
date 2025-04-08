@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Nyan Herd</title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/more">& more</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		  <div class="content-background">
+  <div class="blogHeader">
+    <h1>Nyan Herd</h1>
+    <hr>
+    
+      <picture><source type="image/webp" srcset="/content/2022/2022-03-09_tpe-ride-simulation-hw/8kJzwvT5Vi-860.webp 860w"><img alt="./nyan.png" src="/content/2022/2022-03-09_tpe-ride-simulation-hw/8kJzwvT5Vi-860.jpeg" width="860" height="413"></picture>
+    
+  </div>
+    <p>This week <a href="https://wp.nyu.edu/tandonschoolofengineering-lm_amusementpark/">Linette</a>, <a href="https://sleeplessauthor.medium.com">Leigh</a> and I teamed up to bring forth a truly meme-y experience.
+Behold, the Nyan Herd.</p>
+<p><code>https://youtu.be/2Ysqca5n0gI</code></p>
+<p>In this experience you get to fly across the universe with your own personal herd of Nyan Cats. Leigh and Linette did the heavy lifting in Unreal, while I helped get it hooked into the Stewart Platform. The movements might be a little rough around the edges; we learned just how frustrating source control can be, and that left us little less time than we liked for the roll/yaw sequencing.</p>
+<p>It's hard to get on video, but we're definitely playing the song. For full effect, play the song with the video I guess. We also truly apologize if it gets stuck in your head.</p>
+<p>An earlier &quot;hello world&quot;:</p>
+<p><code>https://youtu.be/mM8lSl-OSeU</code></p>
+
+  </div>
+  <div class="blogFooter">
+    <p> Posted/updated 2022-03-09 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/theme-park-eng">theme-park-eng</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/virtual">virtual</a>
+      </div>
+    
+    
+      <div class="pageTech">
+        Tech: 
+        
+          , <a href="/tech/Unreal Engine">Unreal Engine</a>
+          , <a href="/tech/Max">Max</a>
+          , <a href="/tech/OSC">OSC</a>
+      </div>
+    
+  </div>
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">

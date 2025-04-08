@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>OSC control</title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/more">& more</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		  <div class="content-background">
+  <div class="blogHeader">
+    <h1>OSC control</h1>
+    <hr>
+    
+  </div>
+    <p><code>https://youtu.be/A-_FIqZES1U</code></p>
+<p>The slider works upside-down because the servo was placed that way (0 is with the bunny highest, 180 lowest). For this setup, I used <a href="https://hexler.net/touchosc">TouchOSC</a> on my phone to send commands to Max, which I then used to convert the data to reasonable numbers and forward them to the Arduino. This could have been simplified by sending commands directly to Arduino through OSC, but it was interesting to get a dual-input setup (being able to use both the computer and the phone as control).</p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-02-23_tpe-osc-control/TEtVm0iz89-2104.webp 2104w"><img src="/content/2022/2022-02-23_tpe-osc-control/TEtVm0iz89-2104.jpeg" alt="Max nodes" width="2104" height="1264"></picture></p>
+<p>A few tweaks to make in the future:</p>
+<ul>
+<li>Ensure that numbers coming from Max and TouchOSC stay synced; ie a slider moved in TouchOSC should be reflected in Max.</li>
+<li>Choose a single place to sanitize numbers</li>
+<li>Something about ServoEase disagreed with this transition (or I simply messed up the code and need more time to debug).</li>
+</ul>
+
+  </div>
+  <div class="blogFooter">
+    <p> Posted/updated 2022-02-23 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/theme-park-eng">theme-park-eng</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/physical-computing">physical computing</a>
+      </div>
+    
+    
+  </div>
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">

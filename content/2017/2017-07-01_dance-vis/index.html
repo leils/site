@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dance Vis</title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/more">& more</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		  <div class="content-background">
+  <div class="blogHeader">
+    <h1>Dance Vis</h1>
+    <hr>
+    
+      <picture><source type="image/webp" srcset="/content/2017/2017-07-01_dance-vis/i4zDRQpUB3-1273.webp 1273w"><img alt="./skeldrag3.png" src="/content/2017/2017-07-01_dance-vis/i4zDRQpUB3-1273.jpeg" width="1273" height="952"></picture>
+    
+  </div>
+    <p>This project aims to explore different outlets for artistic rendering of dance movement. Here, motion captured dancer movement is visualized in 3d via an OpenGL graphics pipeline, portraying the dancer as a skeleton with various ribbons tracing the dancers' movements through space.</p>
+<p>This layered image is created by allowing &quot;snapshots&quot; of the body at set intervals of time to be rendered all at once.</p>
+<p><picture><source type="image/webp" srcset="/content/2017/2017-07-01_dance-vis/fv4KAKLYFz-1262.webp 1262w"><img src="/content/2017/2017-07-01_dance-vis/fv4KAKLYFz-1262.jpeg" alt="OpenGL 1" width="1262" height="951"></picture></p>
+<p>The program included multiple modes, including one where a &quot;brushstroke&quot; texture was used to trace the movement.
+<picture><source type="image/webp" srcset="/content/2017/2017-07-01_dance-vis/XDcf7pRtnX-1264.webp 1264w"><img src="/content/2017/2017-07-01_dance-vis/XDcf7pRtnX-1264.jpeg" alt="OpenGL 2" width="1264" height="948"></picture></p>
+<p>Finally, the motion-capture was ported to Unity, through which it was rendered in VR on both Android and iPhone devices.
+<picture><source type="image/webp" srcset="/content/2017/2017-07-01_dance-vis/o_WX1vz-dN-1216.webp 1216w"><img src="/content/2017/2017-07-01_dance-vis/o_WX1vz-dN-1216.jpeg" alt="VR Port" width="1216" height="710"></picture></p>
+<p>While the project was limited to pre-recorded motion capture of swing dancers, it is feasible to imagine this same pipeline getting input from live motion capture data, encouraging even more interaction and play with the performer.
+To read the full report, click <a href="https://leils.github.io/dance-visualization/">here</a>.</p>
+<p><em>Used in this piece: OpenCV, Unity</em></p>
+
+  </div>
+  <div class="blogFooter">
+    <p> Posted/updated 2017-06-01 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/experiment">experiment</a>
+      </div>
+    
+    
+  </div>
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Sneaky Houdini</title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/more">& more</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		  <div class="content-background">
+  <div class="blogHeader">
+    <h1>Sneaky Houdini</h1>
+    <hr>
+    
+      <picture><source type="image/webp" srcset="/content/2022/2022-02-15_tpe-sneaky-bunny/At947vIPJM-1280.webp 1280w"><img alt="./bunny_hero.jpeg" src="/content/2022/2022-02-15_tpe-sneaky-bunny/At947vIPJM-1280.jpeg" width="1280" height="960"></picture>
+    
+  </div>
+    <p>This week's prompt: <em>&quot;Make an ... object that expresses emotion towards a person&quot;.</em></p>
+<p>Sneaky Houdini is a cute little rabbit with a big personality. A magician's assistant, he's decided that it's time to take the stage himself! Houdini has snuck off with the magician's wand in an attempt to steal the show. We've finally found him hidden in the magician's hat, but he's not going to give up the wand that easily!</p>
+<p><code>https://youtu.be/6FTiz0JwXf0</code></p>
+<p>Each time you reach for him on his wand, he ducks back down into the hat! He'll stay there as long as you hover ... but when you leave, he'll pop right back out again.</p>
+<h3>What's he made of?</h3>
+<p>This little piece is made up of a Huzzah ESP32 Feather, a micro servo, and a VL6180X time-of-flight sensor. It's got one of the first rack-and-pinion systems that I've built from scratch as well. I laser cut all gears out of thick matboard, which was rigid enough to stand up to the light wear, and easy (and cheap) enough to source.</p>
+<p>A nice intro that I (vaguely) followed is <a href="https://www.instructables.com/Linear-Motion-by-Rack-and-Pinion/">available on Instructables</a>.</p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-02-15_tpe-sneaky-bunny/qcsk-aeEXG-1280.webp 1280w"><img src="/content/2022/2022-02-15_tpe-sneaky-bunny/qcsk-aeEXG-1280.jpeg" alt="rack and pinion gears cut from matboard" width="1280" height="1280"></picture></p>
+<p>The system is pretty simple, and self-explanatory via a breadboard diagram.
+<picture><source type="image/webp" srcset="/content/2022/2022-02-15_tpe-sneaky-bunny/4DmRWIG_N6-2019.webp 2019w"><img src="/content/2022/2022-02-15_tpe-sneaky-bunny/4DmRWIG_N6-2019.jpeg" alt="Breadboard diagram including a ESP32 Feather, micro servo, and time-of-flight sensor" width="2019" height="996"></picture></p>
+<p>Code for this little guy is <a href="https://github.com/leils/spring_2022_theme_park_eng/blob/main/bunny_hat/retreating_bunny/retreating_bunny.ino">available on GitHub</a>.</p>
+<h3>Some behind-the-scenes video:</h3>
+<p><code>https://youtu.be/HjDcO6MhkaU</code></p>
+
+  </div>
+  <div class="blogFooter">
+    <p> Posted/updated 2022-02-15 </p>
+
+    
+      <div class="pageTags">
+        
+        Tagged: 
+        
+           <a href="/tags/content">content</a>
+          , <a href="/tags/theme-park-eng">theme-park-eng</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/experiment">experiment</a>
+          , <a href="/tags/interactive">interactive</a>
+          , <a href="/tags/physical-computing">physical computing</a>
+      </div>
+    
+    
+  </div>
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">
