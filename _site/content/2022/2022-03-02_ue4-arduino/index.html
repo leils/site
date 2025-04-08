@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="/bundle.css">
+<link rel="stylesheet" href="/site/bundle.css">
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -12,10 +12,10 @@
         </div>
 
 		<div class="navigation">
-			<a href="/">the work</a>
-			<a href="/more">& more</a>
-			<a href="/about">about</a>
-			<a href="/everything-else">everything else</a>
+			<a href="/site/">the work</a>
+			<a href="/site/more">& more</a>
+			<a href="/site/about">about</a>
+			<a href="/site/everything-else">everything else</a>
 			
 		</div>
 		  <div class="content-background">
@@ -23,7 +23,7 @@
     <h1>Unreal Plant</h1>
     <hr>
     
-      <picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Fhero-unreal-plant.png&width=1870&format=webp&via=transform 1870w"><img alt="./hero-unreal-plant.png" src="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Fhero-unreal-plant.png&width=1870&format=jpeg&via=transform" width="1870" height="876"></picture>
+      <picture><source type="image/webp" srcset="/site/content/2022/2022-03-02_ue4-arduino/ldRdMW9fRI-1870.webp 1870w"><img alt="./hero-unreal-plant.png" src="/site/content/2022/2022-03-02_ue4-arduino/ldRdMW9fRI-1870.jpeg" width="1870" height="876"></picture>
     
   </div>
     <p>I seem to have a bit of a theme with plants; here's a plant that lives somewhere in between the digital and physical world.</p>
@@ -39,22 +39,22 @@
 <p><code>https://youtu.be/0dxa2UEIV90</code></p>
 <p>The light-sensitive plant is a <a href="https://www.leiac.me/2021/2021-12-21_bloom-together/">spin in an earlier project of mine</a>, where plants bloomed only when a light was shone at its leaves. Then, we’d used a simple html page to scrub back and forth through the video, and later tried to get it working with Unity.
 The connection over OSC was much easier to manage and simpler to put together, versus trying to get everything to communicate over serial.</p>
-<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Fmax.png&width=684&format=webp&via=transform 684w"><img src="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Fmax.png&width=684&format=jpeg&via=transform" alt="Max patch" width="684" height="417"></picture>
-<picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Flight_blueprint.png&width=2031&format=webp&via=transform 2031w"><img src="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Flight_blueprint.png&width=2031&format=jpeg&via=transform" alt="Blueprint for lighting" width="2031" height="1168"></picture></p>
+<p><picture><source type="image/webp" srcset="/site/content/2022/2022-03-02_ue4-arduino/gAOT5Fi1en-684.webp 684w"><img src="/site/content/2022/2022-03-02_ue4-arduino/gAOT5Fi1en-684.jpeg" alt="Max patch" width="684" height="417"></picture>
+<picture><source type="image/webp" srcset="/site/content/2022/2022-03-02_ue4-arduino/z4nq4o7Rmw-2031.webp 2031w"><img src="/site/content/2022/2022-03-02_ue4-arduino/z4nq4o7Rmw-2031.jpeg" alt="Blueprint for lighting" width="2031" height="1168"></picture></p>
 <p>The “watering” portion of things is where I found the most difficulty. On the physical end is just a servo attached loosely to the end of the plant, twitching back and forth and making the leaves shake.
 On the Unreal side was an entirely new set of tools that I was (and still am) unfamiliar with. I first tried to put together an interactable object following <a href="https://www.youtube.com/watch?v=sjrM9vb73MM">this tutorial</a>, which attaches a forward gaze vector to the first person camera. The level I’d chosen to work with had a third person game setup, so I had to tweak that to match. The third person camera was consistently behind the character as well, which meant the forward gaze lines often were blocked by the character mesh.
 After I’d done a bunch of work, the setup looked like this:</p>
-<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Finteractable-obj.png&width=2078&format=webp&via=transform 2078w"><img src="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Finteractable-obj.png&width=2078&format=jpeg&via=transform" alt="Interactable Object Blueprint" width="2078" height="735"></picture>
-<picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Ftpc-forward-trace.png&width=1869&format=webp&via=transform 1869w"><img src="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Ftpc-forward-trace.png&width=1869&format=jpeg&via=transform" alt="Third Person Character forward tracing" width="1869" height="917"></picture>
-<picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Ftpc-interact.png&width=1862&format=webp&via=transform 1862w"><img src="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Ftpc-interact.png&width=1862&format=jpeg&via=transform" alt="Third Person Character interact script" width="1862" height="938"></picture></p>
+<p><picture><source type="image/webp" srcset="/site/content/2022/2022-03-02_ue4-arduino/3JJJzg7pxD-2078.webp 2078w"><img src="/site/content/2022/2022-03-02_ue4-arduino/3JJJzg7pxD-2078.jpeg" alt="Interactable Object Blueprint" width="2078" height="735"></picture>
+<picture><source type="image/webp" srcset="/site/content/2022/2022-03-02_ue4-arduino/9LDdIm8PB4-1869.webp 1869w"><img src="/site/content/2022/2022-03-02_ue4-arduino/9LDdIm8PB4-1869.jpeg" alt="Third Person Character forward tracing" width="1869" height="917"></picture>
+<picture><source type="image/webp" srcset="/site/content/2022/2022-03-02_ue4-arduino/xZs5cqcd9M-1862.webp 1862w"><img src="/site/content/2022/2022-03-02_ue4-arduino/xZs5cqcd9M-1862.jpeg" alt="Third Person Character interact script" width="1862" height="938"></picture></p>
 <p>But then, I couldn’t figure out how to get the interact event to be passed around to other objects in order to change the color of the glass.
 I ended up making a separate keypress interaction with the whole plant display in order to both send the OSC message and change the glass color.</p>
-<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Fwatering_blueprint.png&width=1885&format=webp&via=transform 1885w"><img src="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Fwatering_blueprint.png&width=1885&format=jpeg&via=transform" alt="Blueprint for watering" width="1885" height="702"></picture></p>
+<p><picture><source type="image/webp" srcset="/site/content/2022/2022-03-02_ue4-arduino/Gp04nK-vwF-1885.webp 1885w"><img src="/site/content/2022/2022-03-02_ue4-arduino/Gp04nK-vwF-1885.jpeg" alt="Blueprint for watering" width="1885" height="702"></picture></p>
 <p><em>Oops ... I forgot to remove the color-change on the light (where I'd previously used the light instead of glass to indicate watering).</em></p>
 <p>Finally, I had attempted to make a rain effect by copying over some physics simulation from another project but was so utterly over my head that I set it aside for another day.</p>
 <hr>
 <h2>Other chores</h2>
-<p><picture><source type="image/webp" srcset="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Fmaterials-done.png&width=2574&format=webp&via=transform 2574w"><img src="/.11ty/image/?src=content%2F2022%2F2022-03-02_ue4-arduino%2Fmaterials-done.png&width=2574&format=jpeg&via=transform" alt="Materials lesson complete" width="2574" height="848"></picture></p>
+<p><picture><source type="image/webp" srcset="/site/content/2022/2022-03-02_ue4-arduino/1_P_68CMuN-2574.webp 2574w"><img src="/site/content/2022/2022-03-02_ue4-arduino/1_P_68CMuN-2574.jpeg" alt="Materials lesson complete" width="2574" height="848"></picture></p>
 
   </div>
   <div class="blogFooter">
@@ -65,22 +65,22 @@ I ended up making a separate keypress interaction with the whole plant display i
         
         Tagged: 
         
-           <a href="/tags/content">content</a>
-          , <a href="/tags/theme-park-eng">theme-park-eng</a>
-          , <a href="/tags/itp">itp</a>
-          , <a href="/tags/experiment">experiment</a>
-          , <a href="/tags/physical-computing">physical computing</a>
-          , <a href="/tags/virtual">virtual</a>
+           <a href="/site/tags/content">content</a>
+          , <a href="/site/tags/theme-park-eng">theme-park-eng</a>
+          , <a href="/site/tags/itp">itp</a>
+          , <a href="/site/tags/experiment">experiment</a>
+          , <a href="/site/tags/physical-computing">physical computing</a>
+          , <a href="/site/tags/virtual">virtual</a>
       </div>
     
     
       <div class="pageTech">
         Tech: 
         
-          , <a href="/tech/Arduino">Arduino</a>
-          , <a href="/tech/Unreal Engine">Unreal Engine</a>
-          , <a href="/tech/Max">Max</a>
-          , <a href="/tech/OSC">OSC</a>
+          , <a href="/site/tech/Arduino">Arduino</a>
+          , <a href="/site/tech/Unreal Engine">Unreal Engine</a>
+          , <a href="/site/tech/Max">Max</a>
+          , <a href="/site/tech/OSC">OSC</a>
       </div>
     
   </div>
@@ -89,7 +89,7 @@ I ended up making a separate keypress interaction with the whole plant display i
 
 		<div class="footer">
 			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
-			<a href="/absolutely-everything">appendix</a>
+			<a href="/site/absolutely-everything">appendix</a>
 		</div>
 		<dialog id="herodialog">
 			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
@@ -135,4 +135,4 @@ I ended up making a separate keypress interaction with the whole plant display i
 </html>
 
 <!doctype html>
-<link rel="stylesheet" href="/bundle.css">
+<link rel="stylesheet" href="/site/bundle.css">

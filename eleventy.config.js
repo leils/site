@@ -13,11 +13,6 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addPlugin(eleventyImageTransformPlugin);
     eleventyConfig.addPlugin(embedEverything);
 
-    console.log(process.env.NODE_ENV);
-    // if (process.env.NODE_ENV === 'production') {
-    //   eleventyConfig.
-    // }
-
     // eleventyConfig.addCollection("techTags", function(collectionApi) {
     //     let techMap = new Map();
     
@@ -55,11 +50,3 @@ module.exports = async function(eleventyConfig) {
     //     return techMap; // Must return a plain object!
     //   });
 };
-
-// module.exports.config = {
-//   const env = process.env.NODE_ENV || 'development';
-
-//   if (env == 'production') {
-// 	  pathPrefix: "/site/",
-//   }
-// }
