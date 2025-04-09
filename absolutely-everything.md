@@ -10,10 +10,12 @@ This website is, as all things, a work in progress. It's unpolished. But at leas
 At the bottom of this page is every page of this website, including the css and readme, including this one, some of which that are un-navigatable otherwise. I like the idea of a website like a maze, like a theme park ride queue, full of surprises and tricks if you're there for long enough. Will you read my stories? Play with my toys? I hope some of the things you stumble upon feel special, a gift, a poem.   
 
 ---
-I strive for this website to: 
-- **be honest** *(it is what it is, it is html and css and js, it generated from markdown, it is a labor of love, it is useless and pragmatic, it is a portfolio, it is an archive, it is a playground)*
-- **be charming** *(can I shape the joy of surprise in this internet space? will you sit here a while longer if I do?)*
-- **grow** *(inconsistent, as it may be. how can the site shape itself? can it grow without me?)*
+## I strive for this website to be: 
+- **handmade** *(the site is a crafted work, a hobby, a pasttime)*
+- **un-useful** *(the site is not concerned with maximizing utility)*
+- **charming** *(can I shape the joy of surprise in this internet space? will you sit here a while longer if I do?)*
+- **honest** *(it is what it is, it is html and css and js, it generated from markdown, it is a labor of love, it is useless and pragmatic, it is a portfolio, it is an archive, it is a playground)*
+- **growing** *(inconsistent, as it may be. how can the site shape itself? can it grow without me?)*
 
 ---
 About the site: 
@@ -31,4 +33,5 @@ Future ambitions:
 - the rite and the site, what's the site's rite
 - i keep thinking about web paper and [riso](https://codepen.io/crownedfoxes/pen/LYXMBEZ) ([colors](https://www.stencil.wiki/colors)) ([grainy gradients](https://css-tricks.com/grainy-gradients/)) ([and backgrounds](https://www.freecodecamp.org/news/grainy-css-backgrounds-using-svg-filters/)) ([and riso](https://tympanus.net/codrops/2024/06/27/digital-meets-physical-risograph-printing-with-webgl/))
 - how can I break content up into tidbits to be rendered into my templates as separate divs programatically? it's more complicated but conceptually what I'm looking for
+- can i make a custom md parser to add secret dialogs based
 

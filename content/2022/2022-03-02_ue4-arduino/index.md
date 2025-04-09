@@ -8,7 +8,7 @@ tech: ['Arduino', 'Unreal Engine', 'Max', 'OSC']
 ---
 I seem to have a bit of a theme with plants; here's a plant that lives somewhere in between the digital and physical world.
 
-`https://www.youtube.com/watch?v=JPoUF5xHRXs`
+https://www.youtube.com/watch?v=JPoUF5xHRXs
 
 [Arduino code is available on GitHub here.](https://github.com/leils/spring_2022_theme_park_eng/blob/main/unreal_interactive_plant/unreal_plant/unreal_plant.ino)
 
@@ -19,7 +19,7 @@ There are three things happening here:
 
 I started this with just a button press.
 
-`https://youtu.be/0dxa2UEIV90`
+https://youtu.be/0dxa2UEIV90
 
 The light-sensitive plant is a [spin in an earlier project of mine](https://www.leiac.me/2021/2021-12-21_bloom-together/), where plants bloomed only when a light was shone at its leaves. Then, we’d used a simple html page to scrub back and forth through the video, and later tried to get it working with Unity.
 The connection over OSC was much easier to manage and simpler to put together, versus trying to get everything to communicate over serial.

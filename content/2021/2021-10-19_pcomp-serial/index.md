@@ -15,7 +15,7 @@ Getting basic serial communication was pretty trivial, though it took me a minut
 
 A quick and simple test to get P5 output into the Arduino. Here, keyboard and mouse input directly control the LED brightness. (0-9 keys, and up/down mouse drags)
 
-`video: https://www.youtube.com/watch?v=6EB-KhKskao&feature=youtu.be`
+https://www.youtube.com/watch?v=6EB-KhKskao&feature=youtu.be
 
 ## Arduino to P5: The Candleholder
 
@@ -26,19 +26,19 @@ I fabricated this candle holder to serve as a base, and for the first pass at th
 ### Copper Tape
 ![Copper Tape on the candle holders](./copper-tape-trial.jpg)
 
-`video: https://www.youtube.com/watch?v=NnHmhBABSkI&feature=youtu.be`
+https://www.youtube.com/watch?v=NnHmhBABSkI&feature=youtu.be
 
 ### Photoresistors
 
 After some strong frustration, I pivoted to photoresistors instead. Here's a first test:
 
-`video: https://www.youtube.com/watch?v=fhLs3NNMP9Y`
+https://www.youtube.com/watch?v=fhLs3NNMP9Y
 
 This gave me a much clearer signal, and I was able to salvage the candle holder. Here's it is, un-taped and photoresistors installed:
 
 ![Candle Holder with photoresistors](./final_physical.jpg)
 
-`video: https://www.youtube.com/watch?v=FMOVWQwnjI4`
+https://www.youtube.com/watch?v=FMOVWQwnjI4
 
 To give an even better reading, I cut off the legs of the candles and taped the bottoms with electrical tape.
 
@@ -46,6 +46,6 @@ To give an even better reading, I cut off the legs of the candles and taped the 
 
 And here it is, in its full glory during the presentation.
 
-`video: https://www.youtube.com/watch?v=8fhWKUTtaE8`
+https://www.youtube.com/watch?v=8fhWKUTtaE8
 
 We learned a lot about groupthink and directing attention during this run, but it turned out even better than I expected. There’s a lot more work here that could be done to polish and refine the experience, but I’m really pleased with how this interaction tested. Using photoresistors under the candles worked really well, and I’m hoping to iterate on this setup with a few different outputs.

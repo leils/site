@@ -9,7 +9,7 @@ tech: ['Unreal Engine', 'Max', 'OSC']
 This week [Linette](https://wp.nyu.edu/tandonschoolofengineering-lm_amusementpark/), [Leigh](https://sleeplessauthor.medium.com) and I teamed up to bring forth a truly meme-y experience.
 Behold, the Nyan Herd.
 
-`https://youtu.be/2Ysqca5n0gI`
+https://youtu.be/2Ysqca5n0gI
 
 In this experience you get to fly across the universe with your own personal herd of Nyan Cats. Leigh and Linette did the heavy lifting in Unreal, while I helped get it hooked into the Stewart Platform. The movements might be a little rough around the edges; we learned just how frustrating source control can be, and that left us little less time than we liked for the roll/yaw sequencing.
 
@@ -17,4 +17,4 @@ It's hard to get on video, but we're definitely playing the song. For full effec
 
 An earlier "hello world":
 
-`https://youtu.be/mM8lSl-OSeU`
+https://youtu.be/mM8lSl-OSeU

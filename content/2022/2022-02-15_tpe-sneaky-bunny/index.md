@@ -9,7 +9,7 @@ This week's prompt: _"Make an ... object that expresses emotion towards a person
 
 Sneaky Houdini is a cute little rabbit with a big personality. A magician's assistant, he's decided that it's time to take the stage himself! Houdini has snuck off with the magician's wand in an attempt to steal the show. We've finally found him hidden in the magician's hat, but he's not going to give up the wand that easily!
 
-`https://youtu.be/6FTiz0JwXf0`
+https://youtu.be/6FTiz0JwXf0
 
 Each time you reach for him on his wand, he ducks back down into the hat! He'll stay there as long as you hover ... but when you leave, he'll pop right back out again.
 
@@ -28,4 +28,4 @@ The system is pretty simple, and self-explanatory via a breadboard diagram.
 Code for this little guy is [available on GitHub](https://github.com/leils/spring_2022_theme_park_eng/blob/main/bunny_hat/retreating_bunny/retreating_bunny.ino).
 
 ### Some behind-the-scenes video:
-`https://youtu.be/HjDcO6MhkaU`
+https://youtu.be/HjDcO6MhkaU

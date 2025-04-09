@@ -1,0 +1,22 @@
+.siteheader {
+  background-color: orangered;
+  color: white;
+  padding: 4px;
+  margin: 4px 0px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.heroline {
+  font-style: italic;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}

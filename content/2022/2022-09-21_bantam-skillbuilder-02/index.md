@@ -28,7 +28,7 @@ And milled out the shapes. I really disliked milling in acrylic, as I found the 
 
 ![Screen shot of Bantam Tools screen showing overlaid cut paths](./Screen_Shot_2022-09-16_at_1.21.21_PM.png)
 
-`https://youtu.be/etXq1FGldT4`
+https://youtu.be/etXq1FGldT4
 
 After milling these pieces, I fit them together and glued them in place. Unfortunately I must have gotten the tolerance wrong, because the fit was way too loose.
 
@@ -37,7 +37,7 @@ https://media.giphy.com/media/uqoUpllY0INSTCGFkx/giphy.gif
 
 The acrylic weld worked to hold the pieces together, despite the gaps, so I proceeded with this piece anyway. In the right-hand picture you can see both the light leaking through the gap in the gluing, and a bit of the writing that the glue picked up from the scrap metal I’d used underneath it.
 
-`https://youtu.be/1Uw4B2RUboY`
+https://youtu.be/1Uw4B2RUboY
 
 ![Image of pieces glued together, raised to the light. Light can be seen in cracks where the acrylic meets.](./exclam_Welded.png)
 

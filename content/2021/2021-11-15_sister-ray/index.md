@@ -12,7 +12,7 @@ Original Art: [Gabriel Alcala](http://www.gabrielalcala.com/shop/sister-ray-a-di
 
 Artist Gabriel Alcala created this beautiful piece, a diagram of Sister Ray by the Velvet Underground. Here, we bring this piece to life, drawing the characters out into the physical world and allowing you to get up close and personal with them.
 
-`video:https://youtu.be/cYpEcoGBH9Y`
+https://youtu.be/cYpEcoGBH9Y
 
 We were able to get the original file from the artist, from which we separated out each of the characters and grouped their parts for animation. Each of the characters had backgrounds added to them, and colors picked from the artists' pallate. Then, they were ported into AfterEffects for individual animation, and then out to Aero for placement in AR.
 

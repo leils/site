@@ -10,13 +10,13 @@ In the following labs, I worked with [Sammy](https://sammyray.cargo.site) and [M
 
 I’m surprised how straightforward it is to do this; less complicated than even lighting up an LED. We played around with this a bit, and ended up creating a “heartbeat” pattern. In order to make this visible/detectable in the video, we played with both resting the motor on guitar strings as well as against a glass cup.
 
-`video: https://youtu.be/t0Mjx1c1z8k`
+https://youtu.be/t0Mjx1c1z8k
 
 ## Lab 2 - Array
 
 Here’s where that complexity starts to come together. Using multiple motors at once, we were able to create a sensation that mimics the typing animation on a messaging app (the ellipsis). By placing this along the arm, a person can experience not only the visual tension of waiting but also a physical representation of it.
 
-`video: https://youtu.be/w7ZFhruaWcs`
+https://youtu.be/w7ZFhruaWcs
 
 When we “played” the motors against skin, the sensation was pretty distinctly translated. While we originally thought it might feel a bit like fingers tapping along your arm, instead they were distinctly digital feeling ... certainly a more direct representation of of the ellipsis rather than metaphorical.
 
@@ -26,7 +26,7 @@ Here, we used a Haptic Motor Driver breakout to control an ERM. Here, the exampl
 
 Here we are trying the haptic motor with the driver against glass:
 
-`video: https://youtu.be/lulnuRCpUAs`
+https://youtu.be/lulnuRCpUAs
 
 We realized that we were able to put two ERMs in serial on the motor driver as well. While they were not equally powerful, they did vibrate with the same patterns. Below, we tested this on Martha’s arm to get the middling effect.
 
@@ -40,7 +40,7 @@ Thinking of fun sensations to recreate, we landed on the feeling of having “bu
 
 This goal brought us back into the use of an array of haptic motors; by arranging a number of haptic motors on the stomach, we’re able to create a fluttering effect that moves around on the effected area. We paired this array of haptic motors with a time of flight sensor in order to gauge the tester’s distance from a particular point. With the sensor mounted to the table, we were able to interact with the setup my moving into and closer to the sensor’s detecting field. (I guess in this case, the “crush” is the table.)
 
-`video: https://youtu.be/ptJyBm3fnDU`
+https://youtu.be/ptJyBm3fnDU
 
 At any given time within a certain distance, one motor at a time is vibrating. As you step closer to the sensor, the speed at which the motors swap grows faster and faster. By taping these sensors to my shirt, we were able to create a “moving” vibration sensation that buzzed all over my stomach.
 

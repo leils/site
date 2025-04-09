@@ -21,7 +21,7 @@ I had some difficulty translating from Vectorworks to Mastercam; I kept loading 
 
 After cutting on the Shopbot, I rounded the bottom edge at the routing table with a round-over bit.
 
-`https://youtu.be/MEemjf3YcJI`
+https://youtu.be/MEemjf3YcJI
 
 Two things left behind by the milling and routing; some tool marks on the bed of the pocket, and some rough tearout on one side of the contour. My best guess is that on this side the cutting was going against the grain of this particular wood layer.
 

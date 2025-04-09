@@ -25,7 +25,7 @@ https://media.giphy.com/media/uMSY7aLe5n8CrkHe4e/giphy.gif
 
 
 The full effect requires a little bit of sound. I actually took this audio with my out-of-order typewriter, which has been gathering dust while it awaits a fixing.
-`https://youtu.be/1c6ynDyuHNo`
+https://youtu.be/1c6ynDyuHNo
 
 And as a bonus, the internals of the laser-cut moon:
 

@@ -13,7 +13,7 @@ It also has a manual interaction mode, turned on via an orange latching button. 
 
 A quick video of it working, including in the dark and light.
 
-`video: https://youtu.be/nzfTEQDWv7M`
+https://youtu.be/nzfTEQDWv7M
 
 ## Build notes:
 

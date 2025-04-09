@@ -9,7 +9,7 @@ thumbnail: ./bloom-hero.png
 
 With this piece, we provide the viewers with two flashlights with narrow beams. When the viewer shines the lights on the plant pots, the projected flowers bloom.
 
-`https://youtu.be/lWxl4aIA5CY`
+https://youtu.be/lWxl4aIA5CY
 
 ## Concept
 
@@ -26,7 +26,7 @@ The digital portion of the project includes a set of flowers blooming based on t
 These images are rear-projected onto a satin ice acrylic sheet. While we originally intended to use a milky white acrylic, some initial testing showed that satin ice acrylic created a much crisper image with brighter colors.
 
 
-`https://youtu.be/HWSiiLwIZkY`
+https://youtu.be/HWSiiLwIZkY
 
 With a simple fabricated housing of cardboard, this prototype is physically ready for testing. We created the housing for this acrylic to mimic a window sill from the viewer’s perspective, placing halved plant pots on the sill to hide the wiring and sensors. The original faux plants from the pots underwent a little surgery and were placed back into the pots, sensors embedded into the forefront leaf.
 

@@ -24,7 +24,7 @@ When setting up this DC input, it should be noted that the voltage regulator can
 
 Up next, a few basic things with LEDs. An LED lighting up, LEDs in parallel and series, and hooked up to a little switch.
 
-`video:https://youtu.be/TVZrL6iejoQ`
+https://youtu.be/TVZrL6iejoQ
 
 Adding up voltage:
 
@@ -37,10 +37,10 @@ When a third LED is added in series, the LEDs light up but only barely. Not enou
 
 Here, we learn to use a potentiometer, switches in series and parallel, and how to attach a motor.
 
-`video:https://youtu.be/QyCh0g0vWFE`
+https://youtu.be/QyCh0g0vWFE
 
 ### A Custom Switch
 
 Lastly, let me leave you with a little custom switch. This may be the most expensive switch I've ever used.
 
-`video:https://youtu.be/ZQ-dON4Fnts`
+https://youtu.be/ZQ-dON4Fnts

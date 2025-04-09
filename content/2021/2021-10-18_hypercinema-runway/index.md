@@ -10,11 +10,11 @@ There is something about this desire to capture the intangible past that I attem
 
 The first pass at this is below, and I'm actually pretty partial to it. It required me exporting the masked clip in order to mirror it horizontally, which was pretty annoying. It uses the Kandinksy model to generate the colorful video in the background, and some simple "light leaks" effects for the other dancers.
 
-`video: https://www.youtube.com/watch?v=EH2_9Eq522U`  
+https://www.youtube.com/watch?v=EH2_9Eq522U  
 
 For the second pass, I wanted to explore a more story-based approach, so I went back to the original clip and started working on a transition, rather than a full and immediate break from reality. Through a lot of trial and error, I ended up with the piece below.
 
-`video: https://www.youtube.com/watch?v=iw-3rjNT3dQ`
+https://www.youtube.com/watch?v=iw-3rjNT3dQ
 
 A few hiccups along the way:
 

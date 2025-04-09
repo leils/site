@@ -13,7 +13,7 @@ While the majority of my interest lies in the creation of real-world physical in
 
 Using Unreal, I created a simple room to demonstrate the effect of an “impossible” interaction. In this room, a shrine holds a glowing object of interest. When you walk behind that shrine, the object disappears; but the next time you walk around it, it reappears once more.
 
-`https://youtu.be/6Gql-UUlAy0`
+https://youtu.be/6Gql-UUlAy0
 
 ---
 

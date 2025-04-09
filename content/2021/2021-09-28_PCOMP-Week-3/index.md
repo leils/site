@@ -10,7 +10,7 @@ This week, some PWM and starting with servos!
 
 This was pretty straightforward. A simple map from analog input to motor output. I found that the motor was chittering, and I had a suspicion that the potentiometer output was a bit noisy. [I found this tutorial to filter potentiometer output](https://www.norwegiancreations.com/2015/10/tutorial-potentiometers-with-arduino-and-filtering/), but there was still plenty of noise in the servo after applying this. Not sure what this was exactly, but definitely something I'd like to work out before using servos and potentiometers together in the future.
 
-`video: [https://youtu.be/6eRpLKSuHto](https://youtu.be/6eRpLKSuHto)`
+https://youtu.be/6eRpLKSuHto
 
 ## Volume
 
@@ -18,7 +18,7 @@ I had a fun time with this, and by fun, I mean awful.
 
 I was able to get my little speaker to work, hooked up to a potentiometer. After some issues (read: I had things plugged in backwards) I was also able to get the amplifier working, though the bump in volume was pretty marginal.
 
-`video: [https://youtu.be/rWaAigbn6lo](https://youtu.be/rWaAigbn6lo)`
+https://youtu.be/rWaAigbn6lo
 
 However, I had a really interesting issue where anytime the potentiometer went lower than 120 (out of 1024), the entire microcontroller froze. It seemed like it may have short-circuited or something. In the end, I have to restart/reset the microcontroller to get it back to working.
 
@@ -49,7 +49,7 @@ I set up the circuit on a breadboard to test out (with some substitutions with p
 
 ![Breadboard setup for the proposed circuit](./forest-scene-breadboard.jpg)
 
-`[https://youtu.be/x_qZfo1QWig](https://youtu.be/x_qZfo1QWig)`
+https://youtu.be/x_qZfo1QWig
 
 A couple of surprises or issues:
 

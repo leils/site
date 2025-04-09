@@ -53,7 +53,7 @@ The thing that struck me about Moynihan train hall was the stark difference betw
 Julia experienced my curated path on a rainy day. It wasn't by any means perfect, but it sure was interesting.
 
 
-`https://youtu.be/v-fP7C0jNAU`
+https://youtu.be/v-fP7C0jNAU
 
 ![Tableau 01; escalator down](./place-1.jpg)
 ![Tableau 02; the empty cavern](./place-2.jpg)

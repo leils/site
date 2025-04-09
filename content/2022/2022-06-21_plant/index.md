@@ -10,7 +10,7 @@ tech: ['laser cutting', 'Arduino', 'Max MSP', 'Kinect', 'OSC']
 
 p l a n t is a kinetic sculpture that recognizes and responds to the presence of viewers.
 
-`https://youtu.be/ctKftBH3xLM`
+https://youtu.be/ctKftBH3xLM
 
 This sculpture is set up to be unassuming, surrounded by other greenery. While at first it’s completely still, the leaves bend towards the viewer as they step closer. It was built to have no detectable sensors on the sculpture itself; instead, the piece leverages the natural disinclination to look up to hide a sensor directly overhead.
 
@@ -26,7 +26,7 @@ In the proposed dark ride, these would be fabricated at various scales and be sc
 
 This kinetic sculpture is made out of laser-cut ply, fishing wire, and an Arduino base. Other than the Arduino parts, everything is found or re-used materials (including the metal canister and the wood each leaf is cut from).
 
-`https://youtu.be/ctKftBH3xLM`
+https://youtu.be/ctKftBH3xLM
 
 1. sketches/concept
 1. motion and material tests
@@ -44,21 +44,21 @@ The first tests were done in paper. Inspired by the work of [Casey Curran](https
 
 ![Layered paper for motion tests](./paper-tests.jpg)
 
-`https://youtube.com/watch?v=EEWEZEeWX1o`
+https://youtube.com/watch?v=EEWEZEeWX1o
 
 While these were satisfying in their own right, I wanted to see what this movement looked like with a more rigid material. The next step was to move into wood. I’d used kerf-cut wood to achieve bends before, but for pieces in motion. After a bit of experimentation, I put together a kerf pattern that allowed for enough give to move easily, but also could spring back to its original form when pressure was released.
 The kerf cuts I started from can be [found here](https://www.troteclaser.com/en-us/learn-support/helpcenter/bending-technique).
 
 ![Bending kerf-cut wooden leaf](./Plant-8.jpg)
 
-`https://youtube.com/watch?v=1qh9yFkGbc4`
+https://youtube.com/watch?v=1qh9yFkGbc4
 
 
 ### A SINGLE LEAF
 After the leaf material and design were satisfactory, I put together a motorized test.
 This allowed me to create a proof-of-concept for the moving plant. I connected a single servo to an ESP32 Feather, and controlled that motor via wifi.
 
- `https://youtube.com/watch?v=MM1_45ECQqQ`
+ https://youtube.com/watch?v=MM1_45ECQqQ
 
 ### MOCKUP
 
@@ -70,7 +70,7 @@ I then created a mock-up of the final piece in Fusion360 to get a rough idea of 
 
 After the mock-up, I built 4 more leaves and wired them up to a servo multiplexer. After confirming that everything worked, I salvaged materials to create a pot-like housing.
 
-`https://youtu.be/rPrndz2n5tY`
+https://youtu.be/rPrndz2n5tY
 
 ![Internals of kinetic sculpture](./Plant-6.jpg)
 
