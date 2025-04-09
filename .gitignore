@@ -136,4 +136,4 @@ dist
 .pnp.*
 
 # Eleventy generated _site/ folder created during dev
-_site/
+_site/*
