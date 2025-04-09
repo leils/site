@@ -13,7 +13,6 @@
 
 		<div class="navigation">
 			<a href="/site/">the work</a>
-			<a href="/site/more">& more</a>
 			<a href="/site/about">about</a>
 			<a href="/site/everything-else">everything else</a>
 			
@@ -31,7 +30,7 @@ Read more about that piece as it was created for the ITP 2021 Winter Showcase.</
 <hr>
 <p>This week, I took a bit of a detour. A spooky detour.</p>
 <p>https://media.giphy.com/media/Ne9STnE70KnuYilRP3/giphy.gif</p>
-<p><code>https://youtu.be/sCgfHm83ieI</code></p>
+<div id="sCgfHm83ieI" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/sCgfHm83ieI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p>This was created for the Social Genius Halloween Experience Event, taking place on the NYU ITP floor. Pulled from my fondness for Disneyland and Imagineering, I re-imagined the Singing Busts from the Haunted Mansion as an interactive choir, a ghostly chorus that you could all up with candles. The ghosts are a 4k fan-generated video, created for Halloween projections. You can find the <a href="https://youtu.be/HECrCf73Jv8">video here on Youtube</a>.</p>
 <p>It's a pretty simple execution: each of the ghosts are obscured by a black box, which fades away when a candle is placed on the candle holder. In addition, the volume gets louder with each added candle. A simple end-screen effect of lightning and text is added when all 5 candles are placed in the holder.</p>
 <p><picture><source type="image/webp" srcset="/site/content/2021/2021-10-26_spooky-serenade/x1T1fyT_bZ-2000.webp 2000w"><img src="/site/content/2021/2021-10-26_spooky-serenade/x1T1fyT_bZ-2000.jpeg" alt="Image of Candle Holder" width="2000" height="1500"></picture></p>
@@ -40,7 +39,7 @@ Read more about that piece as it was created for the ITP 2021 Winter Showcase.</
 <p>After that, it was time to hook up the Arduino. I set up <a href="https://editor.p5js.org/leils/sketches/xMh3R0dUP">a very simple serial input with the same circle-ghosts</a>, just to prove that I could read serial and parse the output.</p>
 <p><picture><source type="image/webp" srcset="/site/content/2021/2021-10-26_spooky-serenade/VmQWiGvmyp-790.webp 790w"><img src="/site/content/2021/2021-10-26_spooky-serenade/VmQWiGvmyp-790.jpeg" alt="Image of circles taking in serial input" width="790" height="598"></picture></p>
 <p>Then, it was on to video. It took a while to get the video to play at the right resolution and size (especially with the web editor's 5mb upload limit), so I ended up prototyping further with a heavily compressed version of the final video. With this, I was able to run some user tests and get good feedback to iterate on.</p>
-<p><code>https://youtu.be/JgJaLWfyUz4</code></p>
+<div id="JgJaLWfyUz4" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/JgJaLWfyUz4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p>In order to play the actual video, I moved off the web editor onto the desktop. This local version let me play a high resolution video and iterate a little faster for the final details. Below are some photos of the final install.</p>
 <p><picture><source type="image/webp" srcset="/site/content/2021/2021-10-26_spooky-serenade/pQVNPN6rXf-1500.webp 1500w"><img src="/site/content/2021/2021-10-26_spooky-serenade/pQVNPN6rXf-1500.jpeg" alt="Context view" width="1500" height="2000"></picture></p>
 <p><picture><source type="image/webp" srcset="/site/content/2021/2021-10-26_spooky-serenade/eGSd-xWpbT-2000.webp 2000w"><img src="/site/content/2021/2021-10-26_spooky-serenade/eGSd-xWpbT-2000.jpeg" alt="Side View of Candles" width="2000" height="1500"></picture></p>
@@ -76,7 +75,7 @@ All of the P5 code and relevant files are <a href="https://github.com/leils/grin
 		<hr>
 
 		<div class="footer">
-			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <span id="findline" class="secrethint">offline elsewhere*</span>.</p>
 			<a href="/site/absolutely-everything">appendix</a>
 		</div>
 		<dialog id="herodialog">

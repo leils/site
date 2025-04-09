@@ -13,7 +13,6 @@
 
 		<div class="navigation">
 			<a href="/site/">the work</a>
-			<a href="/site/more">& more</a>
 			<a href="/site/about">about</a>
 			<a href="/site/everything-else">everything else</a>
 			
@@ -31,23 +30,23 @@
 <p>Getting basic serial communication was pretty trivial, though it took me a minute to get back up to speed in P5. I also needed serial communication for a project in <em>Out of Order Storytelling</em> with Mia Rovegno and Kio Stark, so this was a perfect week to dive into making this work.</p>
 <h2>P5 to Arduino</h2>
 <p>A quick and simple test to get P5 output into the Arduino. Here, keyboard and mouse input directly control the LED brightness. (0-9 keys, and up/down mouse drags)</p>
-<p><code>video: https://www.youtube.com/watch?v=6EB-KhKskao&amp;feature=youtu.be</code></p>
+<div id="6EB-KhKskao" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/6EB-KhKskao" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <h2>Arduino to P5: The Candleholder</h2>
 <p>For <em>Out of Order Storytelling</em>, our task was to retell the story of Icarus. My partner (Abigail Faelnar) and I approached the presentation of this story as a wake. For this presentation, we wanted the finale to be an interactive piece surrounding the memorial portrait. The idea here was to make the placing of the candle meaningful, pulling the audience in as a participant in the story rather than just an observer.</p>
 <p>I fabricated this candle holder to serve as a base, and for the first pass at this used copper tape to create a switch between the candles and the wood. While it wasn't terrible at first, I soon discovered how finicky it could be to make a solid contact.</p>
 <h3>Copper Tape</h3>
 <p><picture><source type="image/webp" srcset="/site/content/2021/2021-10-19_pcomp-serial/yhxBHpDxH3-2000.webp 2000w"><img src="/site/content/2021/2021-10-19_pcomp-serial/yhxBHpDxH3-2000.jpeg" alt="Copper Tape on the candle holders" width="2000" height="2000"></picture></p>
-<p><code>video: https://www.youtube.com/watch?v=NnHmhBABSkI&amp;feature=youtu.be</code></p>
+<div id="NnHmhBABSkI" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/NnHmhBABSkI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <h3>Photoresistors</h3>
 <p>After some strong frustration, I pivoted to photoresistors instead. Here's a first test:</p>
-<p><code>video: https://www.youtube.com/watch?v=fhLs3NNMP9Y</code></p>
+<div id="fhLs3NNMP9Y" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/fhLs3NNMP9Y" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p>This gave me a much clearer signal, and I was able to salvage the candle holder. Here's it is, un-taped and photoresistors installed:</p>
 <p><picture><source type="image/webp" srcset="/site/content/2021/2021-10-19_pcomp-serial/g6otYugVaB-2000.webp 2000w"><img src="/site/content/2021/2021-10-19_pcomp-serial/g6otYugVaB-2000.jpeg" alt="Candle Holder with photoresistors" width="2000" height="1500"></picture></p>
-<p><code>video: https://www.youtube.com/watch?v=FMOVWQwnjI4</code></p>
+<div id="FMOVWQwnjI4" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/FMOVWQwnjI4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p>To give an even better reading, I cut off the legs of the candles and taped the bottoms with electrical tape.</p>
 <p><picture><source type="image/webp" srcset="/site/content/2021/2021-10-19_pcomp-serial/qFXVmoyTeC-2000.webp 2000w"><img src="/site/content/2021/2021-10-19_pcomp-serial/qFXVmoyTeC-2000.jpeg" alt="Bottom of candle with electrical tape" width="2000" height="2667"></picture></p>
 <p>And here it is, in its full glory during the presentation.</p>
-<p><code>video: https://www.youtube.com/watch?v=8fhWKUTtaE8</code></p>
+<div id="8fhWKUTtaE8" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/8fhWKUTtaE8" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p>We learned a lot about groupthink and directing attention during this run, but it turned out even better than I expected. There’s a lot more work here that could be done to polish and refine the experience, but I’m really pleased with how this interaction tested. Using photoresistors under the candles worked really well, and I’m hoping to iterate on this setup with a few different outputs.</p>
 
   </div>
@@ -71,7 +70,7 @@
 		<hr>
 
 		<div class="footer">
-			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <span id="findline" class="secrethint">offline elsewhere*</span>.</p>
 			<a href="/site/absolutely-everything">appendix</a>
 		</div>
 		<dialog id="herodialog">

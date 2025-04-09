@@ -13,7 +13,6 @@
 
 		<div class="navigation">
 			<a href="/site/">the work</a>
-			<a href="/site/more">& more</a>
 			<a href="/site/about">about</a>
 			<a href="/site/everything-else">everything else</a>
 			
@@ -27,11 +26,11 @@
     <p>This week, some PWM and starting with servos!</p>
 <h2>Servo</h2>
 <p>This was pretty straightforward. A simple map from analog input to motor output. I found that the motor was chittering, and I had a suspicion that the potentiometer output was a bit noisy. <a href="https://www.norwegiancreations.com/2015/10/tutorial-potentiometers-with-arduino-and-filtering/">I found this tutorial to filter potentiometer output</a>, but there was still plenty of noise in the servo after applying this. Not sure what this was exactly, but definitely something I'd like to work out before using servos and potentiometers together in the future.</p>
-<p><code>video: [https://youtu.be/6eRpLKSuHto](https://youtu.be/6eRpLKSuHto)</code></p>
+<div id="6eRpLKSuHto" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/6eRpLKSuHto" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <h2>Volume</h2>
 <p>I had a fun time with this, and by fun, I mean awful.</p>
 <p>I was able to get my little speaker to work, hooked up to a potentiometer. After some issues (read: I had things plugged in backwards) I was also able to get the amplifier working, though the bump in volume was pretty marginal.</p>
-<p><code>video: [https://youtu.be/rWaAigbn6lo](https://youtu.be/rWaAigbn6lo)</code></p>
+<div id="rWaAigbn6lo" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/rWaAigbn6lo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p>However, I had a really interesting issue where anytime the potentiometer went lower than 120 (out of 1024), the entire microcontroller froze. It seemed like it may have short-circuited or something. In the end, I have to restart/reset the microcontroller to get it back to working.</p>
 <p>It's not terrible, but there's something going on here that I'd like to understand and avoid in the future.</p>
 <h2>The Interactive Project</h2>
@@ -52,7 +51,7 @@
 <p><picture><source type="image/webp" srcset="/site/content/2021/2021-09-28_PCOMP-Week-3/MDvbI6EfwQ-1988.webp 1988w"><img src="/site/content/2021/2021-09-28_PCOMP-Week-3/MDvbI6EfwQ-1988.jpeg" alt="Breadboard diagram for forest scene" width="1988" height="1182"></picture></p>
 <p>I set up the circuit on a breadboard to test out (with some substitutions with parts I had nearby), and it was mostly successful!</p>
 <p><picture><source type="image/webp" srcset="/site/content/2021/2021-09-28_PCOMP-Week-3/jTGDlCEcli-2000.webp 2000w"><img src="/site/content/2021/2021-09-28_PCOMP-Week-3/jTGDlCEcli-2000.jpeg" alt="Breadboard setup for the proposed circuit" width="2000" height="1500"></picture></p>
-<p><code>[https://youtu.be/x_qZfo1QWig](https://youtu.be/x_qZfo1QWig)</code></p>
+<div id="x_qZfo1QWig" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/x_qZfo1QWig" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p>A couple of surprises or issues:</p>
 <ul>
 <li>The phototransistor output was very noisy, and I ended up with a very &quot;bouncy&quot; servo and LED. This wasn't an issue last week, but then again, I wasn't using a servo either.</li>
@@ -81,7 +80,7 @@
 		<hr>
 
 		<div class="footer">
-			<p>you can also <span id="findline" class="secrethint">find me*</span> on <a href="https://www.instagram.com/leia.make/">instagram</a> and <a href="https://github.com/leils">github</a>.</p>
+			<p>you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <span id="findline" class="secrethint">offline elsewhere*</span>.</p>
 			<a href="/site/absolutely-everything">appendix</a>
 		</div>
 		<dialog id="herodialog">

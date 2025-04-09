@@ -36,15 +36,20 @@
 /* Overall CSS for main pages
 /* ---------------------------------------------------------- */
 body {
-    background-color: bisque;
-    max-width: 60vw;
-    margin: 0 auto;
-    padding: 24px; /* Optional: Adds some padding for better spacing */
-    font-family: "IBM Plex Mono", monospace;
+  background-color: bisque;
+  max-width: 60vw;
+  margin: 0 auto;
+  padding: 24px;
+  /* Optional: Adds some padding for better spacing */
+  font-family: "IBM Plex Mono", monospace;
 }
 
 a {
   color: orangered;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  font-style: italic;
 }
 
 a:hover {
@@ -52,13 +57,136 @@ a:hover {
 }
 
 pre {
-  background-color: darkolivegreen; 
+  background-color: darkolivegreen;
   color: white;
   padding: 4px;
   overflow: scroll;
-
 }
 
+.secrethint {
+  cursor: help;
+}
+
+.content-body {
+  hr {
+    /* height: 40px;
+    border: none; */
+    /* border-top: 3px dashed black; */
+    margin: 50px 0;
+  }
+}
+
+.card-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.post-card {
+  border: 2px black dashed;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 4px;
+  max-width: 300px;
+
+  background: ivory;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+  /* animation adapted from https://stackoverflow.com/a/52963366  */
+  background-image: linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
+  background-position: left top, right bottom, left bottom, right top;
+
+  .thumbnail {
+    max-width: 300px;
+    margin: 0 auto;
+    height: auto;
+  }
+}
+
+.card:hover {
+  background-image: linear-gradient(90deg, orangered 50%, transparent 50%), linear-gradient(90deg, orangered 50%, transparent 50%), linear-gradient(0deg, orangered 50%, transparent 50%), linear-gradient(0deg, orangered 50%, transparent 50%);
+  background-size: 15px 3px, 15px 3px, 3px 15px, 3px 15px;
+  animation: border-dance 1s infinite linear;
+}
+
+@keyframes border-dance {
+  0% {
+    background-position: left top, right bottom, left bottom, right top;
+  }
+
+  100% {
+    background-position: left 15px top, right 15px bottom, left bottom 15px, right top 15px;
+  }
+}
+
+dialog {
+  max-width: 60%;
+}
+
+.tidbit-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  /* spacing between items */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.tidbit {
+  background: ivory;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    max-width: 90vw;
+    padding: 8px;
+  }
+
+  .tidbit-grid {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+}
+.content-background {
+  margin: 10px 0;
+  background: ivory;
+  padding: 1.5rem 3rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+    img {
+        max-width: 60%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+
+    @media only screen and (max-width: 600px) {
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+}
+  
 .siteheader {
   background-color: orangered;
   color: white;
@@ -78,128 +206,6 @@ pre {
   text-align: center;
 }
 
-.secrethint {
-  cursor: help;
-}
-
-.content-background {
-  margin: 10px 0;
-  background: ivory;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-  
-
-.content-body {
-  hr {
-    height: 40px;
-    border: none;
-  }
-}
-
 .footer {
   text-align: center;
-}
-
-.thumbnail {
-    max-width: 300px;
-    margin: 0 auto;
-}
-
-:is(h1, h2, h3, h4, h5, h6) {
-  font-style: italic;
-}
-
-.card-display {
-  display: flex ;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.post-card {
-  border: 2px black dashed;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 4px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.card{
-  margin: 4px;
-  max-width: 300px;
-
-  background: ivory;
-  padding: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-
-  /* animation adapted from https://stackoverflow.com/a/52963366  */
-  background-image: linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(90deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, transparent 50%);
-  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-  background-size: 15px 2px, 15px 2px, 2px 15px, 2px 15px;
-  background-position: left top, right bottom, left bottom, right top;
-}
-
-.card:hover {
-  background-image: linear-gradient(90deg, orangered 50%, transparent 50%), linear-gradient(90deg, orangered 50%, transparent 50%), linear-gradient(0deg, orangered 50%, transparent 50%), linear-gradient(0deg, orangered 50%, transparent 50%);
-  background-size: 15px 3px, 15px 3px, 3px 15px, 3px 15px;
-  animation: border-dance 1s infinite linear;
-  }
-  
-  @keyframes border-dance {
-  0% {
-      background-position: left top, right bottom, left bottom, right top;
-  }
-  
-  100% {
-      background-position: left 15px top, right 15px bottom, left bottom 15px, right top 15px;
-  }
-}
-
-dialog {
-  max-width: 60%;
-}
-
-.tidbit-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem; /* spacing between items */
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-.tidbit {
-  background: ivory;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-      max-width: 90vw;
-      padding: 8px;
-    }
-
-    .tidbit-grid {
-      grid-template-columns: 1fr;
-      padding: 0;
-    }
-
-  }
-img {
-    max-width: 50%;
-    height: auto;
-}
-
-@media only screen and (max-width: 600px) {
-    img {
-        max-width: 100%;
-        max-height: 100%;
-    }
 }
