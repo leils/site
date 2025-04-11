@@ -12,6 +12,7 @@ module.exports = async function(eleventyConfig) {
 
     eleventyConfig.addPlugin(eleventyImageTransformPlugin);
     eleventyConfig.addPlugin(embedEverything);
+    eleventyConfig.addPassthroughCopy("CNAME");
 
     // eleventyConfig.addCollection("techTags", function(collectionApi) {
     //     let techMap = new Map();

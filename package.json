@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "npx @11ty/eleventy --serve",
     "build": "npx @11ty/eleventy",
-    "build-ghpages": "env NODE_ENV=production npx @11ty/eleventy --pathprefix 'site'"
+    "build-ghpages": "env NODE_ENV=production npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
