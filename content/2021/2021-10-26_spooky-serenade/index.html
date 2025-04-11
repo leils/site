@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="/site/bundle.css">
+<link rel="stylesheet" href="/bundle.css">
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -12,9 +12,9 @@
         </div>
 
 		<div class="navigation">
-			<a href="/site/">the work</a>
-			<a href="/site/about">about</a>
-			<a href="/site/everything-else">everything else</a>
+			<a href="/">the work</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
 			
 		</div>
 		  <div class="content-background">
@@ -22,7 +22,7 @@
     <h1>Spooky Serenade</h1>
     <hr>
     
-      <picture><source type="image/webp" srcset="/site/content/2021/2021-10-26_spooky-serenade/4DsCbHYFPl-2000.webp 2000w"><img alt="./hero.jpg" src="/site/content/2021/2021-10-26_spooky-serenade/4DsCbHYFPl-2000.jpeg" width="2000" height="1500"></picture>
+      <picture><source type="image/webp" srcset="/content/2021/2021-10-26_spooky-serenade/4DsCbHYFPl-2000.webp 2000w"><img alt="./hero.jpg" src="/content/2021/2021-10-26_spooky-serenade/4DsCbHYFPl-2000.jpeg" width="2000" height="1500"></picture>
     
   </div>
     <p>This piece evolved into my larger project, <a href="https://www.leiac.me/2022/2022-02-01_Grim-Grinning-Ghosts/">Grim Grinning Ghosts</a>.
@@ -33,17 +33,17 @@ Read more about that piece as it was created for the ITP 2021 Winter Showcase.</
 <div id="sCgfHm83ieI" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/sCgfHm83ieI" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p>This was created for the Social Genius Halloween Experience Event, taking place on the NYU ITP floor. Pulled from my fondness for Disneyland and Imagineering, I re-imagined the Singing Busts from the Haunted Mansion as an interactive choir, a ghostly chorus that you could all up with candles. The ghosts are a 4k fan-generated video, created for Halloween projections. You can find the <a href="https://youtu.be/HECrCf73Jv8">video here on Youtube</a>.</p>
 <p>It's a pretty simple execution: each of the ghosts are obscured by a black box, which fades away when a candle is placed on the candle holder. In addition, the volume gets louder with each added candle. A simple end-screen effect of lightning and text is added when all 5 candles are placed in the holder.</p>
-<p><picture><source type="image/webp" srcset="/site/content/2021/2021-10-26_spooky-serenade/x1T1fyT_bZ-2000.webp 2000w"><img src="/site/content/2021/2021-10-26_spooky-serenade/x1T1fyT_bZ-2000.jpeg" alt="Image of Candle Holder" width="2000" height="1500"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2021/2021-10-26_spooky-serenade/x1T1fyT_bZ-2000.webp 2000w"><img src="/content/2021/2021-10-26_spooky-serenade/x1T1fyT_bZ-2000.jpeg" alt="Image of Candle Holder" width="2000" height="1500"></picture></p>
 <p>You might recognize this candle holder from my Out of Order Storytelling project. It is, in fact, repurposed from that project, though slightly updated and with a fresh new base. I laser cut a temporary cardboard base, as well as a tray for candles. I also cleaned up the wiring a bit, re-programing the Arduino to report which of the photoresistors were covered or uncovered, rather than the number of photoresistors that were reading below the threshold.</p>
 <p>The other side of this is all P5. I started by <a href="https://editor.p5js.org/leils/sketches/hVpZ-QWi4">prototyping a simple fade-in fade-out program using key inputs</a>. This program just renders three circles (used to represent three of the ghosts), using keystrokes as input. By pressing the keys 1-3, you can &quot;reveal&quot; a ghost.</p>
 <p>After that, it was time to hook up the Arduino. I set up <a href="https://editor.p5js.org/leils/sketches/xMh3R0dUP">a very simple serial input with the same circle-ghosts</a>, just to prove that I could read serial and parse the output.</p>
-<p><picture><source type="image/webp" srcset="/site/content/2021/2021-10-26_spooky-serenade/VmQWiGvmyp-790.webp 790w"><img src="/site/content/2021/2021-10-26_spooky-serenade/VmQWiGvmyp-790.jpeg" alt="Image of circles taking in serial input" width="790" height="598"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2021/2021-10-26_spooky-serenade/VmQWiGvmyp-790.webp 790w"><img src="/content/2021/2021-10-26_spooky-serenade/VmQWiGvmyp-790.jpeg" alt="Image of circles taking in serial input" width="790" height="598"></picture></p>
 <p>Then, it was on to video. It took a while to get the video to play at the right resolution and size (especially with the web editor's 5mb upload limit), so I ended up prototyping further with a heavily compressed version of the final video. With this, I was able to run some user tests and get good feedback to iterate on.</p>
 <div id="JgJaLWfyUz4" class="eleventy-plugin-youtube-embed" style="position:relative;width:100%;padding-top: 56.25%;"><iframe style="position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;" width="100%" height="100%" frameborder="0" title="Embedded YouTube video" src="https://www.youtube-nocookie.com/embed/JgJaLWfyUz4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <p>In order to play the actual video, I moved off the web editor onto the desktop. This local version let me play a high resolution video and iterate a little faster for the final details. Below are some photos of the final install.</p>
-<p><picture><source type="image/webp" srcset="/site/content/2021/2021-10-26_spooky-serenade/pQVNPN6rXf-1500.webp 1500w"><img src="/site/content/2021/2021-10-26_spooky-serenade/pQVNPN6rXf-1500.jpeg" alt="Context view" width="1500" height="2000"></picture></p>
-<p><picture><source type="image/webp" srcset="/site/content/2021/2021-10-26_spooky-serenade/eGSd-xWpbT-2000.webp 2000w"><img src="/site/content/2021/2021-10-26_spooky-serenade/eGSd-xWpbT-2000.jpeg" alt="Side View of Candles" width="2000" height="1500"></picture></p>
-<p><picture><source type="image/webp" srcset="/site/content/2021/2021-10-26_spooky-serenade/0HdF2qAitE-2370.webp 2370w"><img src="/site/content/2021/2021-10-26_spooky-serenade/0HdF2qAitE-2370.jpeg" alt="Final frame" width="2370" height="1986"></picture>
+<p><picture><source type="image/webp" srcset="/content/2021/2021-10-26_spooky-serenade/pQVNPN6rXf-1500.webp 1500w"><img src="/content/2021/2021-10-26_spooky-serenade/pQVNPN6rXf-1500.jpeg" alt="Context view" width="1500" height="2000"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2021/2021-10-26_spooky-serenade/eGSd-xWpbT-2000.webp 2000w"><img src="/content/2021/2021-10-26_spooky-serenade/eGSd-xWpbT-2000.jpeg" alt="Side View of Candles" width="2000" height="1500"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2021/2021-10-26_spooky-serenade/0HdF2qAitE-2370.webp 2370w"><img src="/content/2021/2021-10-26_spooky-serenade/0HdF2qAitE-2370.jpeg" alt="Final frame" width="2370" height="1986"></picture>
 All of the P5 code and relevant files are <a href="https://github.com/leils/grinning-ghosts">available here on Github</a>, including the Arduino code.</p>
 
   </div>
@@ -55,19 +55,19 @@ All of the P5 code and relevant files are <a href="https://github.com/leils/grin
         
         Tagged: 
         
-           <a href="/site/tags/content">content</a>
-          , <a href="/site/tags/experiment">experiment</a>
-          , <a href="/site/tags/itp">itp</a>
-          , <a href="/site/tags/pcomp">pcomp</a>
-          , <a href="/site/tags/interactive">interactive</a>
+           <a href="/tags/content">content</a>
+          , <a href="/tags/experiment">experiment</a>
+          , <a href="/tags/itp">itp</a>
+          , <a href="/tags/pcomp">pcomp</a>
+          , <a href="/tags/interactive">interactive</a>
       </div>
     
     
       <div class="pageTech">
         Tech: 
         
-          , <a href="/site/tech/Arduino">Arduino</a>
-          , <a href="/site/tech/P5">P5</a>
+          , <a href="/tech/Arduino">Arduino</a>
+          , <a href="/tech/P5">P5</a>
       </div>
     
   </div>
@@ -76,7 +76,7 @@ All of the P5 code and relevant files are <a href="https://github.com/leils/grin
 
 		<div class="footer">
 			<p>you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <span id="findline" class="secrethint">offline elsewhere*</span>.</p>
-			<a href="/site/absolutely-everything">appendix</a>
+			<a href="/absolutely-everything">appendix</a>
 		</div>
 		<dialog id="herodialog">
 			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
@@ -122,4 +122,4 @@ All of the P5 code and relevant files are <a href="https://github.com/leils/grin
 </html>
 
 <!doctype html>
-<link rel="stylesheet" href="/site/bundle.css">
+<link rel="stylesheet" href="/bundle.css">

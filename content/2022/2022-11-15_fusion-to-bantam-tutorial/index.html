@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="/site/bundle.css">
+<link rel="stylesheet" href="/bundle.css">
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -12,9 +12,9 @@
         </div>
 
 		<div class="navigation">
-			<a href="/site/">the work</a>
-			<a href="/site/about">about</a>
-			<a href="/site/everything-else">everything else</a>
+			<a href="/">the work</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
 			
 		</div>
 		  <div class="content-background">
@@ -25,8 +25,8 @@
   </div>
     <p><em>Note: This tutorial is written in Nov 2022 and reflects the software as such. This is a 2D SVG tutorial, and does not address 3D or GCODE workflows.</em></p>
 <p>Let’s say this is the object I’d like to mill using BantamTools. I already have it modeled in Fusion360, and a simple sketch. How do I export this sketch and process it to use in BantamTools as an SVG?</p>
-<p><picture><source type="image/webp" srcset="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/myfLc9pEsS-1684.webp 1684w"><img src="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/myfLc9pEsS-1684.jpeg" alt="View of a CAD model in Fusion360, a rectangular box with engraved circle and rectangle" width="1684" height="1574"></picture></p>
-<p><picture><source type="image/webp" srcset="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/mPtKm-n4Zs-1628.webp 1628w"><img src="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/mPtKm-n4Zs-1628.jpeg" alt="Fusion360 sketch; a rectangle with circle and smaller rectangle inside." width="1628" height="1176"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-11-15_fusion-to-bantam-tutorial/myfLc9pEsS-1684.webp 1684w"><img src="/content/2022/2022-11-15_fusion-to-bantam-tutorial/myfLc9pEsS-1684.jpeg" alt="View of a CAD model in Fusion360, a rectangular box with engraved circle and rectangle" width="1684" height="1574"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-11-15_fusion-to-bantam-tutorial/mPtKm-n4Zs-1628.webp 1628w"><img src="/content/2022/2022-11-15_fusion-to-bantam-tutorial/mPtKm-n4Zs-1628.jpeg" alt="Fusion360 sketch; a rectangle with circle and smaller rectangle inside." width="1628" height="1176"></picture></p>
 <h2>Overview:</h2>
 <ol>
 <li>Export the sketch from Fusion360 as a DXF</li>
@@ -37,14 +37,14 @@
 <hr>
 <h2>Fusion360</h2>
 <p>Select your sketch. <code>Right-Click -&gt; Save As DXF</code></p>
-<p><picture><source type="image/webp" srcset="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/DxdQ6LzzmE-1208.webp 1208w"><img src="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/DxdQ6LzzmE-1208.jpeg" alt="Screen Shot 2022-11-15 at 3.27.27 PM.png" width="1208" height="938"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-11-15_fusion-to-bantam-tutorial/DxdQ6LzzmE-1208.webp 1208w"><img src="/content/2022/2022-11-15_fusion-to-bantam-tutorial/DxdQ6LzzmE-1208.jpeg" alt="Screen Shot 2022-11-15 at 3.27.27 PM.png" width="1208" height="938"></picture></p>
 <hr>
 <h2>Illustrator</h2>
 <p>Open that DXF file in Illustrator.</p>
 <p>DXF stores the <strong>paths</strong>, but not a <strong>unit</strong>, so you have to define what units you designed this in. I used Millimeters, but make sure you choose the units you’ve used (Inches, perhaps) and <strong>make sure Unit(s) = 1</strong>.</p>
-<p><picture><source type="image/webp" srcset="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/gz6JVNAz6Z-962.webp 962w"><img src="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/gz6JVNAz6Z-962.jpeg" alt="Illustrator dialog for opening DXF." width="962" height="882"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-11-15_fusion-to-bantam-tutorial/gz6JVNAz6Z-962.webp 962w"><img src="/content/2022/2022-11-15_fusion-to-bantam-tutorial/gz6JVNAz6Z-962.jpeg" alt="Illustrator dialog for opening DXF." width="962" height="882"></picture></p>
 <p>Here’s what my DXF looks like in Illustrator.</p>
-<p><picture><source type="image/webp" srcset="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/LWtu1TigXG-1828.webp 1828w"><img src="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/LWtu1TigXG-1828.jpeg" alt="Illustrator: Rectangle with circle and smaller rectangle inside, on a white artboard" width="1828" height="1640"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-11-15_fusion-to-bantam-tutorial/LWtu1TigXG-1828.webp 1828w"><img src="/content/2022/2022-11-15_fusion-to-bantam-tutorial/LWtu1TigXG-1828.jpeg" alt="Illustrator: Rectangle with circle and smaller rectangle inside, on a white artboard" width="1828" height="1640"></picture></p>
 <p>In Illustrator, you should:</p>
 <ul>
 <li>Clean up any lines that will NOT be cut or engraved. Your DXF may include reference lines or construction geometry that you don’t want to cut.</li>
@@ -58,33 +58,33 @@
 <li>For each artboard, I delete all but one path</li>
 <li>Rename each artboard based on what I want to do with that path.</li>
 </ol>
-<p><picture><source type="image/webp" srcset="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/ARA0UHwEqC-2028.webp 2028w"><img src="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/ARA0UHwEqC-2028.jpeg" alt="Illustrator: Multiple artboards, each with a single path." width="2028" height="612"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-11-15_fusion-to-bantam-tutorial/ARA0UHwEqC-2028.webp 2028w"><img src="/content/2022/2022-11-15_fusion-to-bantam-tutorial/ARA0UHwEqC-2028.jpeg" alt="Illustrator: Multiple artboards, each with a single path." width="2028" height="612"></picture></p>
 <p>Once your artboards and paths are all sorted, it’s time to export them as SVGs.</p>
 <p><code>File -&gt; Save As</code> , choose <code>SVG</code>, and make sure you check <code>Use Artboards</code>.</p>
-<p><picture><source type="image/webp" srcset="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/eBePrKCAon-1208.webp 1208w"><img src="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/eBePrKCAon-1208.jpeg" alt="Illustrator save dialog 01" width="1208" height="834"></picture></p>
-<p><picture><source type="image/webp" srcset="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/gVbGK_SEPg-868.webp 868w"><img src="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/gVbGK_SEPg-868.jpeg" alt="Illustrator save dialog 02" width="868" height="244"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-11-15_fusion-to-bantam-tutorial/eBePrKCAon-1208.webp 1208w"><img src="/content/2022/2022-11-15_fusion-to-bantam-tutorial/eBePrKCAon-1208.jpeg" alt="Illustrator save dialog 01" width="1208" height="834"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-11-15_fusion-to-bantam-tutorial/gVbGK_SEPg-868.webp 868w"><img src="/content/2022/2022-11-15_fusion-to-bantam-tutorial/gVbGK_SEPg-868.jpeg" alt="Illustrator save dialog 02" width="868" height="244"></picture></p>
 <p>Click <code>Save</code>, and this should export all your artboards as individual SVGs as you can see below. The files highlighted below are the files we’ll be loading into BantamTools.</p>
-<p><picture><source type="image/webp" srcset="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/DR6HLDwgaf-1100.webp 1100w"><img src="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/DR6HLDwgaf-1100.jpeg" alt="Finder: 4 exported SVG files" width="1100" height="438"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-11-15_fusion-to-bantam-tutorial/DR6HLDwgaf-1100.webp 1100w"><img src="/content/2022/2022-11-15_fusion-to-bantam-tutorial/DR6HLDwgaf-1100.jpeg" alt="Finder: 4 exported SVG files" width="1100" height="438"></picture></p>
 <hr>
 <h2>BantamTools</h2>
 <p>Choose <code>Initial Setup -&gt; Open File</code>. Open each of your files.</p>
-<p><picture><source type="image/webp" srcset="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/WWYoYoAMsr-1206.webp 1206w"><img src="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/WWYoYoAMsr-1206.jpeg" alt="Bantam Dialog" width="1206" height="632"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-11-15_fusion-to-bantam-tutorial/WWYoYoAMsr-1206.webp 1206w"><img src="/content/2022/2022-11-15_fusion-to-bantam-tutorial/WWYoYoAMsr-1206.jpeg" alt="Bantam Dialog" width="1206" height="632"></picture></p>
 <p>Once loaded, the rendered preview will probably look very messed up. That’s ok! Just make sure all your files are loaded (see the files on the left).</p>
-<p><picture><source type="image/webp" srcset="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/PoQqUoXFrw-2566.webp 2566w"><img src="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/PoQqUoXFrw-2566.jpeg" alt="Bantam with 3 files loaded" width="2566" height="1042"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-11-15_fusion-to-bantam-tutorial/PoQqUoXFrw-2566.webp 2566w"><img src="/content/2022/2022-11-15_fusion-to-bantam-tutorial/PoQqUoXFrw-2566.jpeg" alt="Bantam with 3 files loaded" width="2566" height="1042"></picture></p>
 <p>For each of these files, update the ToolPaths to reflect the following:</p>
 <ul>
 <li><em>Either</em> <code>Engraving</code> or <code>Cutout</code>. If <code>Engraving</code> , choose an engraving depth.</li>
 <li>Cutout placement, based on whether you’re cutting the <strong>inside</strong> or the <strong>outside</strong> of the path.</li>
 <li>Scale from <code>Document bounds</code>. This makes sure we can align the paths the way we designed them.</li>
 </ul>
-<p><picture><source type="image/webp" srcset="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/OuH8K7n9mc-938.webp 938w"><img src="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/OuH8K7n9mc-938.jpeg" alt="Bantam Toolpath Dialog" width="938" height="1032"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-11-15_fusion-to-bantam-tutorial/OuH8K7n9mc-938.webp 938w"><img src="/content/2022/2022-11-15_fusion-to-bantam-tutorial/OuH8K7n9mc-938.jpeg" alt="Bantam Toolpath Dialog" width="938" height="1032"></picture></p>
 <p>When you’re done updating these, your preview should reflect your original design.</p>
-<p><picture><source type="image/webp" srcset="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/xgLj6z6I2O-2688.webp 2688w"><img src="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/xgLj6z6I2O-2688.jpeg" alt="Bantam with updated toolpaths" width="2688" height="1018"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-11-15_fusion-to-bantam-tutorial/xgLj6z6I2O-2688.webp 2688w"><img src="/content/2022/2022-11-15_fusion-to-bantam-tutorial/xgLj6z6I2O-2688.jpeg" alt="Bantam with updated toolpaths" width="2688" height="1018"></picture></p>
 <p>And that’s it!</p>
 <hr>
 <p><em>Note that you may need to also change the scale of your SVG plans.</em></p>
 <p><code>Plan setup -&gt; Scale</code>, make sure you change them for <strong>every file</strong>. This is also where you’d move your files/plans around on the material if you need to.</p>
-<p><picture><source type="image/webp" srcset="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/VH9rzmtw0V-2962.webp 2962w"><img src="/site/content/2022/2022-11-15_fusion-to-bantam-tutorial/VH9rzmtw0V-2962.jpeg" alt="Bantam Plan Dialog" width="2962" height="1200"></picture></p>
+<p><picture><source type="image/webp" srcset="/content/2022/2022-11-15_fusion-to-bantam-tutorial/VH9rzmtw0V-2962.webp 2962w"><img src="/content/2022/2022-11-15_fusion-to-bantam-tutorial/VH9rzmtw0V-2962.jpeg" alt="Bantam Plan Dialog" width="2962" height="1200"></picture></p>
 <hr>
 <p>For more details on the Bantam Classic SVG workflow, check out <a href="https://support.bantamtools.com/hc/en-us/articles/360051958314-Classic-Advanced-SVG-Workflows">their official tutorial here</a>.</p>
 
@@ -97,18 +97,18 @@
         
         Tagged: 
         
-           <a href="/site/tags/content">content</a>
-          , <a href="/site/tags/blog">blog</a>
-          , <a href="/site/tags/tutorial">tutorial</a>
+           <a href="/tags/content">content</a>
+          , <a href="/tags/blog">blog</a>
+          , <a href="/tags/tutorial">tutorial</a>
       </div>
     
     
       <div class="pageTech">
         Tech: 
         
-          , <a href="/site/tech/Fusion360">Fusion360</a>
-          , <a href="/site/tech/Illustrator">Illustrator</a>
-          , <a href="/site/tech/BantamTools">BantamTools</a>
+          , <a href="/tech/Fusion360">Fusion360</a>
+          , <a href="/tech/Illustrator">Illustrator</a>
+          , <a href="/tech/BantamTools">BantamTools</a>
       </div>
     
   </div>
@@ -117,7 +117,7 @@
 
 		<div class="footer">
 			<p>you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <span id="findline" class="secrethint">offline elsewhere*</span>.</p>
-			<a href="/site/absolutely-everything">appendix</a>
+			<a href="/absolutely-everything">appendix</a>
 		</div>
 		<dialog id="herodialog">
 			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
@@ -163,4 +163,4 @@
 </html>
 
 <!doctype html>
-<link rel="stylesheet" href="/site/bundle.css">
+<link rel="stylesheet" href="/bundle.css">
