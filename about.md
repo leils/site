@@ -9,7 +9,9 @@ Leia is currently an exhibit developer at the Exploratorium. They have been a me
 
 ---
 
-*Currently thinking about ... fiber art and woven material, what is a body, [plot田](https://www.instagram.com/plooooooot/), sunlight, [this website](/absolutely-everything). Once, a long time ago, a professor looked at a list I'd made for the day, and called it the best poem he'd read all week.* 
+*Currently thinking about ... [Fidget Camp 2025](https://fidgetcamp.com/), fiber art and woven material, [typeknitting](https://typeknitting.net/), what is a body, [plot田](https://www.instagram.com/plooooooot/), sunlight, [this website](/absolutely-everything).*
+
+*Once, a long time ago, a professor looked at a todo list I'd made for the day, and called it the best poem he'd read all week.* 
 
 ---
 
@@ -17,8 +19,9 @@ Leia is currently an exhibit developer at the Exploratorium. They have been a me
 
 - *Guest Critic* IMA Capstone (Blair Simmons) | NYU IMA - 2025
 - [CultureHub Re-Fest](https://www.culturehub.org/re-fest-2025) | NYC La Mama - 2025
+- *Guest Critic* ITP Thesis | NYU TIP - 2025
 - *mention* [From Arrangement to Engagement: shuang’s Curation as Art Practice](https://www.art-insider.com/from-arrangement-to-engagement-shuangs-curation-as-art-practice/7144) - 2025 
-- [Bart Basel](https://bartbasel.org/) | Sf - 2024
+- [Bart Basel](https://bartbasel.org/) | SF - 2024
 - *Organizer* [FidgetCamp](https://fidgetcamp.com) | MadSci SF - 2024 
 - [SPAMtember](https://hudsonweekly.com/spamtember-unveils-playful-creativity-a-humorous-exploration-of-cultural-identity-at-all-street-gallery/) | All St Gallery - 2023
 - *Speaker* at [tiat 5 & 6](https://ashherr.github.io/tiat/) | SF - 2023
