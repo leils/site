@@ -1,4 +1,85 @@
-<h3>and others in my heart</h3>
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		  <div class="blogHeader">
+    <h1></h1>
+    
+    <hr>
+  </div>
+  
+  <div class="content-body">
+  <h3>and others in my heart</h3>
 <p>a non-exhaustive list inspired by webrings and communities of links and <a href="https://kayserifserif.place/carry/">katherine's <em>i carry your website with me</em></a> of people in proximity and inspiration</p>
 <p><a href="https://spencer.place">spencer.place</a> and <a href="https://www.tabb.me">tabb.me</a> and <a href="https://tuan-h.com/archive">tuan-h.com</a> and <a href="https://juliamargaretlu.com">juliamargaretlu.com</a> and <a href="https://adnanaga.com">adnanaga.com</a> and <a href="https://shuangcai.cargo.site">shuangcai.cargo.site</a> and <a href="https://kayserifserif.place">kayserifserif.place</a> and <a href="https://www.blairsimmons.com">blairsimmons.come</a> and  <a href="https://www.mand3l.com">mand3l.com</a> and m* and s*</p>
 <p><sub><sup>*some sites have lapsed, alas</sup></sub></p>
+
+  </div>
+ 
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <span id="findline" class="secrethint">offline elsewhere*</span>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">

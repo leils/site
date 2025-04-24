@@ -1,4 +1,30 @@
-<h3>dailies</h3>
+<!DOCTYPE html>
+<link rel="stylesheet" href="/bundle.css">
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+	</head>
+	<body>
+        <div class="siteheader">
+            <div class="heroline secrethint" id="heroline">~ lsc ~ this site is pre-fermenting* ~</div>
+        </div>
+
+		<div class="navigation">
+			<a href="/">the work</a>
+			<a href="/about">about</a>
+			<a href="/everything-else">everything else</a>
+			
+		</div>
+		  <div class="blogHeader">
+    <h1></h1>
+    
+    <hr>
+  </div>
+  
+  <div class="content-body">
+  <h3>dailies</h3>
 <p>I adopted a daily practice starting in 2023 of doing one creative act per day, as part of a 100-day-of-making challenge. What started as &quot;100 days of words&quot;, has turned into &quot;every day, creating&quot;. My rules are loose and breathable.</p>
 <ol>
 <li><strong>It must be a creative act.</strong> A creative act is anything from painting a masterpiece, to writing a poem, to taking a single picture of something that catches my eye.</li>
@@ -6,3 +32,58 @@
 <li><strong>It should happen within the day.</strong> This one is ... more flexible. My aim is to do the creative act between the time I wake up in the morning, and the time I go to sleep at night. However, if it is posted before noon the next day, that's ok too.</li>
 <li><strong>I am allowed breaks days.</strong> I must post that it's a break day. (Writing the word &quot;break&quot; is a creative act too).</li>
 </ol>
+
+  </div>
+ 
+
+		<hr>
+
+		<div class="footer">
+			<p>you can also find me on <a href="https://www.instagram.com/leia.make/">instagram</a> and <span id="findline" class="secrethint">offline elsewhere*</span>.</p>
+			<a href="/absolutely-everything">appendix</a>
+		</div>
+		<dialog id="herodialog">
+			<p>pre-fermenting: ingredients have been mixed, roughly stirred by hand, water and flour and the magic in the air, this will become something new and the change is rapid but we just have to wait to see when it'll be ready</p>
+			<form method="dialog">
+				<button id="heroCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<dialog id="finddialog">
+			<p>* also found frequently in sunlight, on the pier, in the middle of it all, at a cafe table
+			</p><form method="dialog">
+				<button id="findCloseBtn">OK</button>
+			</form>
+		</dialog>
+
+		<script>
+			const heroline = document.getElementById("heroline");
+			const herodialog = document.getElementById("herodialog");
+			const herocloseBtn = document.getElementById("heroCloseBtn");
+
+			heroline.addEventListener("click", () => {
+				herodialog.showModal();
+			});
+
+			herocloseBtn.addEventListener("click", () => {
+				herodialog.close();
+			});
+
+			const findline = document.getElementById("findline");
+			const finddialog = document.getElementById("finddialog");
+			const findCloseBtn = document.getElementById("findCloseBtn");
+
+			findline.addEventListener("click", () => {
+				finddialog.showModal();
+			});
+
+			findCloseBtn.addEventListener("click", () => {
+				finddialog.close();
+			});
+		</script>
+
+	</body>
+</html>
+
+<!doctype html>
+<link rel="stylesheet" href="/bundle.css">
