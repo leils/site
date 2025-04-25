@@ -21,7 +21,7 @@ Leia is currently an exhibit developer at the Exploratorium. They have been a me
 - [CultureHub Re-Fest](https://www.culturehub.org/re-fest-2025) | NYC La Mama - 2025
 - [Bart Basel](https://bartbasel.org/) | SF - 2024
 - [Incubator Artists Show](https://grayarea.org/event/gray-area-incubator-salon-2023-2/) | Gray Area - 2023
-- [mid conversation](https://www.eventbrite.com/e/studio-45-presents-mid-conversation-a-solo-exhibition-by-leia-s-chang-tickets-714190160997), a solo show | [Studio 45](https://www.workatthestudio.com) - 2023
+- [Words to Remember By](https://leiac.me/content/2024/2024-01-01_Words-to-Remember-By/), a solo show | [Studio 45](https://www.workatthestudio.com) - 2023
 - [After the Imagination](https://www.instagram.com/p/CqMdQHeNFD9/) | NYC resistor - 2023 
 - *Co-Curator* [Useless Machines](https://www.theblanc.art/exhibition/useless-machines-a-curated-student-show) | Blanc Gallery - 2023
 - [Sell Out Art Show](https://www.syzygysf.com/event-details/sell-out-art-show) | SYZYGY SF - 2022 

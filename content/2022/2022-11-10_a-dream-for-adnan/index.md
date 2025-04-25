@@ -6,7 +6,7 @@ tags: ['itp', 'outside-the-box']
 thumbnail: ./lighting-hero.png
 tech: ['Adobe Audition', 'Touchdesigner', 'Davinci Resolve']
 ---
-A bespoke experience for [Adnan](https://adnanaga.com/), based on a dream he described to me. See [last week’s moodboard](https://www.leiac.me/2022/2022-11-01_dreamscape-moodboard/) for more context.
+A bespoke experience for [Adnan](https://adnanaga.com/), based on a dream he described to me. See [last week’s moodboard](https://www.leiac.me/content/2022/2022-11-01_dreamscape-moodboard/) for more context.
 
 ```
 Instructions to experience this dream:

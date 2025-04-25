@@ -21,7 +21,7 @@ I started this with just a button press.
 
 https://youtu.be/0dxa2UEIV90
 
-The light-sensitive plant is a [spin in an earlier project of mine](https://www.leiac.me/2021/2021-12-21_bloom-together/), where plants bloomed only when a light was shone at its leaves. Then, we’d used a simple html page to scrub back and forth through the video, and later tried to get it working with Unity.
+The light-sensitive plant is a [spin in an earlier project of mine](https://www.leiac.me/content/2021/2021-12-21_bloom-together/), where plants bloomed only when a light was shone at its leaves. Then, we’d used a simple html page to scrub back and forth through the video, and later tried to get it working with Unity.
 The connection over OSC was much easier to manage and simpler to put together, versus trying to get everything to communicate over serial.
 
 ![Max patch](./max.png)

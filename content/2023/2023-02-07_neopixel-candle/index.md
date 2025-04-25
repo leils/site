@@ -8,7 +8,7 @@ tech: ['arduino', 'neopixel', 'wood', 'acrylic', 'laser-cutter']
 ---
 I LOVE CANDLES. 
 
-I have so many candles. One of my [favorite projects from last year](https://www.leiac.me/2022/2022-02-01_Grim-Grinning-Ghosts/) was based on interacting with fake candles. I also make [wooden candle holders and candlesticks](https://www.instagram.com/p/Cl1w2n_OujY/). I light a candle almost every night (although I’ve been considering changing that habit due to air pollutants that are released when burning paraffin candles within inclosed spaces).  
+I have so many candles. One of my [favorite projects from last year](https://www.leiac.me/content/2022/2022-02-01_Grim-Grinning-Ghosts/) was based on interacting with fake candles. I also make [wooden candle holders and candlesticks](https://www.instagram.com/p/Cl1w2n_OujY/). I light a candle almost every night (although I’ve been considering changing that habit due to air pollutants that are released when burning paraffin candles within inclosed spaces).  
 
 Our challenge this week is to create an artificial candle using a NeoPixel jewel, so I guess I’ll be adding yet another candle to my collection. 
 

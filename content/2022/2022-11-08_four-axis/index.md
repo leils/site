@@ -23,7 +23,7 @@ I decided to run this test with the leftover poplar that I’d already turned ro
 
 ![mallet-14.jpg](./mallet-14.jpg)
 
-I took inspiration from [framed ~ obscured](https://www.leiac.me/2022/2022-10-14_framed-obscured/), another experiment that I’m currently working on. I already had these swoopy designs in Illustrator, so I drew up yet another version and exported these as SVGs into Fusion.
+I took inspiration from [framed ~ obscured](https://www.leiac.me/content/2022/2022-10-14_framed-obscured/), another experiment that I’m currently working on. I already had these swoopy designs in Illustrator, so I drew up yet another version and exported these as SVGs into Fusion.
 
 ![Untitled](./Untitled.png)
 

@@ -6,7 +6,7 @@ tags: ["experiment", "itp", "pcomp", "interactive"]
 thumbnail: ./hero.jpg
 tech: ['Arduino', 'P5']
 ---
-This piece evolved into my larger project, [Grim Grinning Ghosts](https://www.leiac.me/2022/2022-02-01_Grim-Grinning-Ghosts/).
+This piece evolved into my larger project, [Grim Grinning Ghosts](https://www.leiac.me/content/2022/2022-02-01_Grim-Grinning-Ghosts/).
 Read more about that piece as it was created for the ITP 2021 Winter Showcase.
 
 ---

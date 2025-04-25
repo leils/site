@@ -66,5 +66,5 @@ This project holds a lot of possibility for the future. I believe that much of m
 ### Footnotes
 
 1. Book recommended by Morgan Chen, who used it for her thesis in 2022. I highly recommend this book to anyone considering topics surrounding or including Asian American immigration.
-2. *******************[What I can remember](https://www.leiac.me/2022/2022-12-17_what-i-can-remember/)******************* is a piece created for ITP Winter Show 2022, featuring a photograph of myself and my grandmother. It projects stories told through my handwriting onto the image, bringing it to life.
-3. *******[Unclear](https://www.leiac.me/2019/2019-11-10_unclear/)******* is a digital mirror that obscures your image with a “fog”, which can be dispelled with your hands. Move too close, and the mirror cracks.
+2. *******************[What I can remember](https://www.leiac.me/content/2022/2022-12-17_what-i-can-remember/)******************* is a piece created for ITP Winter Show 2022, featuring a photograph of myself and my grandmother. It projects stories told through my handwriting onto the image, bringing it to life.
+3. *******[Unclear](https://www.leiac.me/content/2019/2019-11-10_unclear/)******* is a digital mirror that obscures your image with a “fog”, which can be dispelled with your hands. Move too close, and the mirror cracks.

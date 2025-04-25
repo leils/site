@@ -12,7 +12,7 @@ Inspired by my love for Disney Imagineering, this piece brings a taste of The Ha
 
 https://youtu.be/Jm6Aruuc6bE
 
-This project was originally conceived for the ITP Halloween Experience event, [where a lower fidelity version was showcased](https://www.leiac.me/2021/2021-10-26_spooky-serenade/). This updated version was moved from a small monitor onto a larger [VNTANA Z Hologram Display](https://www.vntanahologram.com). This allowed for the text and ghosts to "float" in front of the viewer, and appear to be hovering in space when the installation is placed in semi-bright rooms or around other props. Note that this effect is difficult to document and therefore does not appear much in the video above.
+This project was originally conceived for the ITP Halloween Experience event, [where a lower fidelity version was showcased](https://www.leiac.me/content/2021/2021-10-26_spooky-serenade/). This updated version was moved from a small monitor onto a larger [VNTANA Z Hologram Display](https://www.vntanahologram.com). This allowed for the text and ghosts to "float" in front of the viewer, and appear to be hovering in space when the installation is placed in semi-bright rooms or around other props. Note that this effect is difficult to document and therefore does not appear much in the video above.
 
 Within the candle holder is housed a series of photo resistors used to detect candle placement. Additionally, tiny 5V solenoids are placed underneath each candle and are triggered on the completion event. These solenoids are actually run for only a few milliseconds at 12V in order to get the impact necessary to eject the candles.
 

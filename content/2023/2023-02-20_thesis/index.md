@@ -65,7 +65,7 @@ This altar was created out of my mantlepiece, under the thought that “we all h
 - Portraits of the family, not just deceased ancestors
 - Artifacts of “culture”, in the form of family heirlooms alongside objects purchased because of their relationship to my heritage (such as a pair of cast-iron scissors manufactured in Taiwan)
 - Books that I consider related to being “Asian-American” (including the first traditional Chinese book written in English, and several modern novels written by and about Asian Americans)
-- Another piece of artwork I created focusing on identity: [what identities do you choose to wear](https://www.leiac.me/2022/2022-12-09_what-identities-do-you-wear/)
+- Another piece of artwork I created focusing on identity: [what identities do you choose to wear](https://www.leiac.me/content/2022/2022-12-09_what-identities-do-you-wear/)
 
 I also tested my two proposed altar objects (the fogged portrait and the changing offering recipe book) on the altar by playing them on an iPad propped on the mantle.
 
@@ -134,7 +134,7 @@ https://youtu.be/72wJpdM89Wo
 
 ### But what to do with the words?
 
-Leaving the words on the screen doesn’t quite feel like enough. I envision an archive of all the input (alongside randomized output) for people to look through, like a journal with its pages spread out. [My Winter Show project](https://www.leiac.me/2022/2022-12-17_what-i-can-remember/) showed me that there’s a lot of power and resonance in sharing personal stories, and that’s the feeling that I hope to find at the end of this process. 
+Leaving the words on the screen doesn’t quite feel like enough. I envision an archive of all the input (alongside randomized output) for people to look through, like a journal with its pages spread out. [My Winter Show project](https://www.leiac.me/content/2022/2022-12-17_what-i-can-remember/) showed me that there’s a lot of power and resonance in sharing personal stories, and that’s the feeling that I hope to find at the end of this process. 
 
  I’ve toyed with bringing the words out into the physical world, in engraving and laser cutting. I’m not sure where this is going yet, but the see-through words are very interesting to me.
 

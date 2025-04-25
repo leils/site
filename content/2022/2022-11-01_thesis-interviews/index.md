@@ -11,7 +11,7 @@ Things I did this week for thesis:
 - Began a survey for interview intake, providing me with some pre-interview data and thoughts.
 - Interviewed 4 people, a total of 6 hours of interviews. More are scheduled to take place in the next few weeks.
 - Chatted with Morgan Chen, an ITP graduate who also did research on Chinese-American second-generation immigrant experience.
-- I remain fascinated by obscuring/framing, and have done some explorations in acrylic on photography. (more about this exploration [Framed ~ Obscured](https://www.leiac.me/2022/2022-10-14_framed-obscured/))
+- I remain fascinated by obscuring/framing, and have done some explorations in acrylic on photography. (more about this exploration [Framed ~ Obscured](https://www.leiac.me/content/2022/2022-10-14_framed-obscured/))
 ![IMG_7072.jpeg](./IMG_7072.jpeg)
 
 

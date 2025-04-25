@@ -10,7 +10,7 @@ As I’ve been traveling for the last 6 days, I haven’t had a chance to set up
 
 Instead, I tried to study the lights that I encountered while on the go, which are showcased and described on my Tumblr collection.  
 
-I also visited the SF Moma, which had a very interesting exhibition on display called Conversation Pieces. The premise of the exhibit was to showcase furniture and other household objects whose design diverges from strict usability or conventional expectations. The furniture pieces were quite interesting (you can see more of my thoughts and snapshots from this in my [Field Notes](https://www.leiac.me/2023/2023-02-28_field-notes-moma/)), but the lights in particular were quite beautiful.
+I also visited the SF Moma, which had a very interesting exhibition on display called Conversation Pieces. The premise of the exhibit was to showcase furniture and other household objects whose design diverges from strict usability or conventional expectations. The furniture pieces were quite interesting (you can see more of my thoughts and snapshots from this in my [Field Notes](https://www.leiac.me/content/2023/2023-02-28_field-notes-moma/)), but the lights in particular were quite beautiful.
 The description of the exhibition explicitly calls out these lights as non-task lamps: lights that function more in the realm of aesthetic and intrigue over functionality. However, the way that each of these pieces approaches this is very different. 
 
 ---

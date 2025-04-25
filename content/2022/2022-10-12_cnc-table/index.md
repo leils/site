@@ -6,7 +6,7 @@ tags: ['subtraction', 'itp', 'fabrication']
 thumbnail: './cnc-project-01-12.jpg'
 tech: ['CNC', 'CAD', 'Fusion 360', 'Shopbot']
 ---
-[Check out this latest update for my CNC table!](https://www.leiac.me/2022/2022-11-30_cnc-table/)
+[Check out this latest update for my CNC table!](https://www.leiac.me/content/2022/2022-11-30_cnc-table/)
 I want a side table as a catch-all table by my front door. It’s a narrow space with a few requirements:
 
 1. Fits in this area (14 inches wide) without intruding on the entry path
@@ -19,7 +19,7 @@ I took inspiration from this render:
 
 ## Sketches
 
-I made a few sketches, and decided on the joints to use. I used [last week’s joinery test](https://www.leiac.me/2022/2022-10-05_cnc-joinery/) to test dogbone placement, and decided to put the circles on the long sides of the cuts.
+I made a few sketches, and decided on the joints to use. I used [last week’s joinery test](https://www.leiac.me/content/2022/2022-10-05_cnc-joinery/) to test dogbone placement, and decided to put the circles on the long sides of the cuts.
 
 ![IMG_7027.heic](./IMG_7027.jpg)
 

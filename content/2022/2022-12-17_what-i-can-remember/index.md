@@ -30,7 +30,7 @@ https://media.giphy.com/media/PWa6SttVpEaUuNBrmB/giphy.gif
 
 This project originated in a class with Simone Salvo entitled *Medium of Memory*. In this class, we explored differing ways of intervening on memories and objects to create art and storytelling. 
 
-This project was shown at the [ITP/IMA Winter Show 2022](https://itp.nyu.edu/shows/winter2022/projects/).
+This project was shown at the [ITP/IMA Winter Show 2022](https://itp.nyu.edu/shows/winter2022/projects/) and my solo show, [Words to Remember By](https://leiac.me/content/2024/2024-01-01_Words-to-Remember-By/).
 
 ---
 ## Process 

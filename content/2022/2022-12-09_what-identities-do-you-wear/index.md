@@ -14,6 +14,8 @@ For presentation, each ring is accompanied by a short writing, and a sample of t
 
 The writings are more than documentation; they are a recording of my recollection of each fragment’s history and its impact on my path, an artifact of my reflections on how I have become the person I am today.
 
+*what identities do you choose to wear?* has been shown at the Gray Area SF, and in my solo show, [Words to Remember By](https://leiac.me/content/2024/2024-01-01_Words-to-Remember-By/).
+
 ---
 
 ![ring01](./ring01.jpg)

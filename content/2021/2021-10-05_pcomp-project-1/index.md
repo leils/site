@@ -5,7 +5,7 @@ description: A mechanized diorama
 tags: ["experiment", "itp", "pcomp", "fabrication", "interactive"]
 thumbnail: ./tent-cover.jpeg
 ---
-And here it is! Project 1; a sweet little nighttime diorama! It might be a bit of a little escape for me, living here in a big city. See some [prior work & thoughts here](https://www.leiac.me/2021/2021-09-28_PCOMP-Week-3/).
+And here it is! Project 1; a sweet little nighttime diorama! It might be a bit of a little escape for me, living here in a big city. See some [prior work & thoughts here](https://www.leiac.me/content/2021/2021-09-28_PCOMP-Week-3/).
 
 This little tent lights up in the dark, the moon rising behind it. It's tuned to the ambient light on my mantle, which is where it's intended to live.
 

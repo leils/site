@@ -85,7 +85,7 @@ For body detection, I used an overhead-mounted Kinect Azure and MaxMSP. Using DP
 By then taking the centroids of the detected blobs, I could calculate what angle the blob appeared compared to the central point, and trigger the related servo.
 My Max Project is available [here on github](https://github.com/leils/spring_2022_theme_park_eng/tree/main/expedition-earth/interactive-plant/kinect-blob-to-servo).
 
-Control of the Arduino was done through OSC messages over WiFi, which I’ve used before in [previous experiments](https://www.leiac.me/2022/2022-02-23_tpe-osc-control/).
+Control of the Arduino was done through OSC messages over WiFi, which I’ve used before in [previous experiments](https://www.leiac.me/content/2022/2022-02-23_tpe-osc-control/).
 
 ![Picture of final kinetic plant](./plant_cover.jpg)
 

@@ -24,7 +24,7 @@ I took inspiration from this render:
 
 I started on paper, because working on paper at the beginning is much easier & allows me to flesh out ideas quickly.
 
-I made a few sketches of various potential shapes before settling on this one, which utilizes slot and tenon joins to hold itself together. I’d previously done some [joinery tests](https://www.leiac.me/2022/2022-10-05_cnc-joinery/) to determine what I wanted to use for this type of plywood.
+I made a few sketches of various potential shapes before settling on this one, which utilizes slot and tenon joins to hold itself together. I’d previously done some [joinery tests](https://www.leiac.me/content/2022/2022-10-05_cnc-joinery/) to determine what I wanted to use for this type of plywood.
 
 ![cnc-project-01-05.jpg](./cnc-project-01-05.jpg)
 
@@ -58,7 +58,7 @@ I bought a 4x8’ sheet of 3/4” 5-ply Canadian Birch, pre-cut into 4x3’ piec
 
 ### Shopbots
 
-I cut out the top, bottom slats, and back panel on a Shopbot. You can [read more on this in an older post](https://www.leiac.me/2022/2022-10-12_cnc-table/), but generally this went off without a hitch before the machines unfortunately went out of service.
+I cut out the top, bottom slats, and back panel on a Shopbot. You can [read more on this in an older post](https://www.leiac.me/content/2022/2022-10-12_cnc-table/), but generally this went off without a hitch before the machines unfortunately went out of service.
 
 ![cnc-project-01-07.jpg](./cnc-project-01-07.jpg)
 
