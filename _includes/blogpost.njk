@@ -27,7 +27,8 @@ layout: sitewrapper.njk
       <div class="pageTech">
         Tech: 
         {% for t in tech %}
-          {{ comma() }} <a href="/tech/{{ t }}">{{ t }}</a>
+          {# {{ comma() }} <a href="/tech/{{ t }}">{{ t }}</a> #}
+          {{ comma() }} {{ t }}
         {%- endfor %}
       </div>
     {% endif %}
