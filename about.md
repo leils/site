@@ -3,9 +3,9 @@ layout: page.njk
 title: about Leia
 date: 2025-04-07
 ---
-Leia S. Chang (they/them, b. 1995) is an artist, creative technologist, and educator exploring the complexities of identity from their perspective as a second-generation non-binary Asian American. With a strong command over creative fabrication and materiality, Leia integrates digital media into physical forms to build interactive installations that spotlight the connection between memory, identity, and storytelling. Leia's work captures ephemeral moments in both poetic texts and tangible objects made from wood, resin, and other found material.
+Leia S. Chang (they/them) is an artist, organizer, and creative technologist exploring unusual materiality and embodied identity. With a strong command over creative fabrication, Leia channels their perspective as a second-generation Chinese-American into interactive installations, poetic texts, and tangible multi-media objects made of wood, resin, and found materials. Their work often integrates digital media into physical forms with the aim of spotlighting the connection between memory, identity, and storytelling. 
 
-Leia is currently an exhibit developer at the Exploratorium. They have been a member of Gray Area Incubator and have shown work at La Mama, The Blanc Gallery, Gray Area SF, SYZYGY CoOp, and Resistor NYC, has co-curated an exhibition on Useless Machines with artist/educator Blair Simmons. They organize and facilitate workshops on digital fabrication and creative coding, as well as gather the creative community across the Bay Area. Leia holds an MPS from NYU TISCH’s Interactive Telecommunications Program (2023), and a BS in Computer Science from California Polytechnic University of San Luis Obispo (2017).
+Leia is currently an exhibit developer at the Exploratorium in San Francisco. Their work has been shown at the likes of La Mama’s CultureHub, theBlanc Art Space, the Gray Area SF and Resistor NYC. They organize creative communities and facilitate workshops on making-as-art. Leia holds an MPS from NYU ITP, and a BS in Computer Science from Cal Poly SLO.
 
 ---
 
@@ -27,18 +27,18 @@ Leia is currently an exhibit developer at the Exploratorium. They have been a me
 - [Sell Out Art Show](https://www.syzygysf.com/event-details/sell-out-art-show) | SYZYGY SF - 2022 
 
 #### Teaching/Facilitating
-- *Organizer* [FidgetCamp](https://fidgetcamp.com) | MadSci SF - 2024 
+- *Organizer* [FidgetCamp](https://fidgetcamp.com) | MadSci SF - 2024-2025 
 - Creative Code & Design Technology Teacher | Lick Wilmerding HS - 2023-2024 
 - *Graduate Assistant* Useless Machines (Blair Simmons) | NYU IMA - 2023 
 - *Graduate Assistant* Digital Fabrication (Phil Caridi) | NYU IMA - 2022 
 - *Facilitator* Feedback Collective | NYU ITP - 2022-23 
 
 #### Guest
-- *Guest Critic* IMA Capstone (Blair Simmons) | NYU IMA - 2025
-- *Guest Critic* ITP Thesis | NYU TIP - 2025
+- *Critic* IMA Capstone (Blair Simmons) | NYU IMA - 2025
+- *Critic* ITP Thesis | NYU TIP - 2025
 - *Speaker* at [tiat 5 & 6](https://ashherr.github.io/tiat/) | SF - 2023
-- *Guest Speaker* for Geopositioning Genealogy (Tanika I. Williams) | NYU IMA - 2023
-- *Guest Critic* Largescale Kinetic Sculptures (Phil Caridi) | NYU IMA - 2023 
+- *Speaker* for Geopositioning Genealogy (Tanika I. Williams) | NYU IMA - 2023
+- *Critic* Largescale Kinetic Sculptures (Phil Caridi) | NYU IMA - 2023 
 
 #### Mentions
 - [From Arrangement to Engagement: shuang’s Curation as Art Practice](https://www.art-insider.com/from-arrangement-to-engagement-shuangs-curation-as-art-practice/7144) - 2025 
