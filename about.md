@@ -34,6 +34,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - *Facilitator* Feedback Collective | NYU ITP - 2022-23 
 
 #### Guest
+- *Panelist* Power of Storytelling | Lick Wilmerding HS - 2025 
 - *Critic* IMA Capstone (Blair Simmons) | NYU IMA - 2025
 - *Critic* ITP Thesis | NYU TIP - 2025
 - *Speaker* at [tiat 5 & 6](https://ashherr.github.io/tiat/) | SF - 2023
