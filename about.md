@@ -42,9 +42,10 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - *Critic* Largescale Kinetic Sculptures (Phil Caridi) | NYU IMA - 2023 
 
 #### Mentions
+- [web~sites mentioned in Naive Weekly](https://www.naiveweekly.com/i/161743652/wayside-flowers) as a wayside flower
 - [From Arrangement to Engagement: shuang’s Curation as Art Practice](https://www.art-insider.com/from-arrangement-to-engagement-shuangs-curation-as-art-practice/7144) - 2025 
 - [SPAMtember](https://hudsonweekly.com/spamtember-unveils-playful-creativity-a-humorous-exploration-of-cultural-identity-at-all-street-gallery/) | All St Gallery - 2023
 - [ITP Instagram](https://www.instagram.com/p/CoyVPdUAt1P/) project spotlight - 2023 
 - Adjacent [Issue 10: endoscope](https://adjacent-ecoscope.itp.io/Noting-the-Details) - 2023 
 
--*last updated Apr 2025*-
+-*last updated May 2025*-
