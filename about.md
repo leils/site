@@ -9,7 +9,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 
 ---
 
-*Currently thinking about ... [Fidget Camp 2025](https://fidgetcamp.com/), fiber art and woven material, [typeknitting](https://typeknitting.net/), what is a body, [plot田](https://www.instagram.com/plooooooot/), sunlight, [this website](/absolutely-everything).*
+*Currently thinking about ... [Fidget Camp 2025 archive](https://fidgetcamp.com/2025), fiber art and woven material, [typeknitting](https://typeknitting.net/), what is a body, [plot田](https://www.instagram.com/plooooooot/), sunlight, [this website](/absolutely-everything).*
 
 *Once, a long time ago, a professor looked at a todo list I'd made for the day, and called it the best poem he'd read all week.* 
 
