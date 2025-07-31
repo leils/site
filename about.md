@@ -9,7 +9,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 
 ---
 
-*Currently thinking about ... [Fidget Camp 2025 archive](https://fidgetcamp.com/2025), fiber art and woven material, [typeknitting](https://typeknitting.net/), what is a body, [plot田](https://www.instagram.com/plooooooot/), sunlight, [this website](/absolutely-everything).*
+*Currently thinking about ... web as material, Babel by R.F. Kuang, [Fidget Camp 2025 archive](https://fidgetcamp.com/2025), fiber art and woven material, [typeknitting](https://typeknitting.net/), what is a body, [plot田](https://www.instagram.com/plooooooot/), sunlight, [this website](/absolutely-everything).*
 
 *Once, a long time ago, a professor looked at a todo list I'd made for the day, and called it the best poem he'd read all week.* 
 
@@ -28,7 +28,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 
 #### Teaching/Facilitating
 - *Guest Workshop* Exhibition Design for [Wild Ways of Making (Meenu Singh & Taylor Tabb)](https://dschool.stanford.edu/study/elective-courses/wild-ways-of-making) | Stanford - 2025
-- *Organizer* [FidgetCamp](https://fidgetcamp.com) | MadSci SF - 2024-2025 
+- *Organizer* [FidgetCamp](https://fidgetcamp.com) | San Francisco - 2024-2025 
 - Creative Code & Design Technology Teacher | Lick Wilmerding HS - 2023-2024 
 - *Graduate Assistant* Useless Machines (Blair Simmons) | NYU IMA - 2023 
 - *Graduate Assistant* Digital Fabrication (Phil Caridi) | NYU IMA - 2022 
@@ -49,4 +49,4 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - [ITP Instagram](https://www.instagram.com/p/CoyVPdUAt1P/) project spotlight - 2023 
 - Adjacent [Issue 10: endoscope](https://adjacent-ecoscope.itp.io/Noting-the-Details) - 2023 
 
--*last updated May 2025*-
+-*last updated July 2025*-
