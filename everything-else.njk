@@ -41,7 +41,23 @@ subtitle: The other content, writing, posts, experiments that have been posted t
       {% renderFile "./tidbits/testimonials.md" %}
     </div>
     <div class="tidbit">
-      {% renderFile "./tidbits/others.md" %}
+      <h3>yearlong notes</h3>
+      <p>On my phone I keep a note for the year, a place to stash ideas and inspirations, words that I like, things to look up
+        for later. I built a shortcut that allows me to jot things down and automatically add them to the note, with an empty
+        line separating it.
+        <br>
+          I don't pretend to remember all of what these words mean, but they meant something to me at the time, enough to write
+          them down. At the end of the year, I publish the whole note here.</p>
+        <ul>
+          {%- for p in collections.yearnote | reverse -%}
+            <li>
+              <a href="{{ p.url }}">{{ p.data.date }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+      <div class="tidbit">
+        {% renderFile "./tidbits/others.md" %}
+      </div>
     </div>
   </div>
-</div>

@@ -4,7 +4,7 @@
 /* ---------------------------------------------------------- */
 body {
   background-color: bisque;
-  max-width: 60vw;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 24px;
   /* Optional: Adds some padding for better spacing */
@@ -28,6 +28,7 @@ pre {
   color: white;
   padding: 4px;
   overflow: scroll;
+  text-wrap: auto;
 }
 
 .secrethint {

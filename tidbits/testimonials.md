@@ -1,3 +1,3 @@
 ## testimonials
 
-*"way more useful than ChatGPT"* - Robb Godshaw 
+*"way more useful than ChatGPT"* - Robb 

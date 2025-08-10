@@ -3,8 +3,8 @@ const embedEverything = require("eleventy-plugin-embed-everything");
 const process = require('node:process');
 
 
-module.exports = async function(eleventyConfig) {
-	  const { EleventyRenderPlugin } = await import("@11ty/eleventy");
+module.exports = async function (eleventyConfig) {
+    const { EleventyRenderPlugin } = await import("@11ty/eleventy");
     eleventyConfig.addPlugin(EleventyRenderPlugin);
 
     const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
@@ -14,9 +14,14 @@ module.exports = async function(eleventyConfig) {
     eleventyConfig.addPlugin(embedEverything);
     eleventyConfig.addPassthroughCopy("CNAME");
 
+    // eleventyConfig.addFilter("justYear", (dateString) => {
+    //     dateObj = new Date(dateString);
+    //     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('yyyy');
+    // });
+
     // eleventyConfig.addCollection("techTags", function(collectionApi) {
     //     let techMap = new Map();
-    
+
     //     collectionApi.getAll().forEach(item => {
     //       if ("tech" in item.data) {
     //         item.data.tech.forEach(tag => {
@@ -27,12 +32,12 @@ module.exports = async function(eleventyConfig) {
     //         });
     //       }
     //     });
-    
+
     //     return techMap;
     //   });
     // eleventyConfig.addCollection("techTags", function(collectionApi) {
     //     const techMap = {};
-    
+
     //     collectionApi.getAll().forEach(item => {
     //       const techList = item.data.tech;
     //       if (Array.isArray(techList)) {
@@ -44,7 +49,7 @@ module.exports = async function(eleventyConfig) {
     //         });
     //       }
     //     });
-    
+
     //     // console.log(Object.keys(techMap));
     //     // console.log('HELLLO!!!!!!!!!')
     //     // console.log(techMap);

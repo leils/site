@@ -1,0 +1,525 @@
+---
+title: 2024 Running Note
+date: "2024-12-31"
+description: A year-long running note
+tags: [blog, braindump, yearnote]
+thumbnail:
+tech: []
+---
+On my phone I keep a note for the year, a place to stash ideas and inspirations, words that I like, things to look up for later. I built a shortcut that allows me to jot things down and automatically add them to the note, with an empty line separating it. 
+
+I don't pretend to remember all of what these words mean, but they meant something to me at the time, enough to write them down. 
+
+This is 2024.
+
+---
+```
+# 2024 Bin
+
+happy new year 
+
+storytelling weaving baskets 
+
+lamination as a signifier of importance 
+Lamination as a time stopper, preservation 
+Laminated things as name tags, placards 
+
+the hands of my mother 
+(materials: tools: what created them) 
+symbols of labor 
+
+
+a digital essence you have to tend daily 
+or it will die 
+
+lines drawn on the floor 
+how we naturally choreograph 
+
+i can't get to freedom without you 
+
+education, agitation, and organizing 
+
+double stacked apple box shelf 
+crochet garland of leaves 
+hang the post cards in the hall 
+hang the painting on the wall 
+a corner for reading and give it light 
+
+the only way to keep the object from becoming junk is to keep its context close by 
+what does it look like to label, attach the stories of all your objects 
+
+i cannot say that i understood what i have just seen 
+but i can say 
+that i am struck 
+as when hit with the light of day from the dark 
+
+A little website where every time you click, it walks a character, but if you click too fast, the character slips
+
+your practice as a diary 
+
+what is mediated through your platforms? your work, practice, ideas, opinions? 
+
+why is everything a Cold War 
+
+a palimpsest off chance encounters 
+
+what the hell is a global citizen
+
+Traveling unburdened is the greatest luxury
+
+the work of an artist is to stand in awe and wonder 
+
+three texts, clicking changes the three 
+
+the rain sometimes cleans, sometimes washes away, sometimes drums, sometimes just fucking gets everything soggy 
+
+as a note: they SUCK
+
+i wonder if so many "holy" or "sacred" objects in white culture are socially acceptable to be parodied because they live in organizations of power; there is no way to NOT "punch up" when making fun of them 
+
+The goal of so much white Christian culture has been historically to spread, proliferate, and conquer. Essentially, to share these values symbols and religions, as far and wide as possible. If the goal, historically, has been to spread and share the symbols, what does that mean about cultural appropriation? Is it possible for minority culture to culturally appropriate like Christian culture if the whole point for the last many years has been for it to spread?
+
+jesus saves but jesus is a pinterest web bookmark app 
+
+PCB dollhouse
+
+Lightning bug PCB
+
+Should i use AI for this? 
+"I dunno, I'm a computer. I shouldn't make decisions about anything." 
+
+pcb that an led noodle is meant to wrap around 
+
+the city is full of young trees 
+
+what are the aesthetics of accessibility 
+
+inflatable tampon 
+
+rules of grounding 
+1. when your train goes above ground, look out the window 
+2. no airpods when walking outside 
+3. look up 
+
+wheredrop 
+
+puffer vests that inflate when your valuation goes up 
+
+puffer vests that inflate more when you're near another startup founder 
+
+airdrop for news you don't wanna say out loud 
+"i'm gay" 
+"i'm sorry your mom died" 
+
+besotted by the version of Hamlet starring Andrew Scott 
+for the first time, understanding the full meaning of the play 
+
+a newspaper for your friends 
+a newsletter of everyone's updates 
+
+Anu ~ instead of aunt or uncle 
+
+ahnu 
+numa 
+
+hello 
+
+i want studio mates 
+people in the workshop that are doing their own thing and building, making, sharing, inspiring 
+i want a space to hang my work, try new things, let the works in process breathe 
+
+fix it day at the shops 
+
+stitching together the past and the future 
+taipei and san francisco 
+LA and NY
+
+positional qr code 
+
+qr codes that are not qr codes 
+
+custom wet paper embossing, embossing animations 
+
+How much energy does it take for me to doomscroll?
+
+the use of ai in the theme parks space is actually extremely compelling in creating realistic, individual interactions with a character 
+
+in a makerspace community, every gathering should have a set of legos. 
+we need a box of something to break the ice, to let you idly build, to get into the "create" mindset without breaking out the big tools 
+
+how do you hold a space? a physical one? a digital one? 
+
+Look up when there's a view 
+Sit in the sun 
+Airpods away 
+Look for change 
+Leave your laptop at work 
+
+pop up rules 
+make something move, sing, talk, critique 
+with paper, trash, wood
+in 29 minutes, in an hour, in three days 
+
+Yesterday I: Went to work. Taught two classes, helped a bunch of students out with their work, graded a series of worksheets, helped clean up after lunch, returned a dress, learned how to put in contacts, submitted my jumpsuit measurements, made dinner, handed off work to our attendants, 
+
+The day before I don’t even remember. I must have done something; Paul was gone. I cleaned the house, did laundry, emptied the dishwasher, tidied the living room. 
+
+Today I: brought a typewriter to school. Built a soldering station. Tidied and cleaned up my desk, replaced the ink in a marker, got us both coffee. Helped some students understand circuits, scheduled some things, emptied the shredding stuff. Used the table saw. Watered my plants. 
+
+Brain wall with section for main project, side project, ideas on ice 
+
+A camera that takes images and sends them to a storage place elsewhere, like a box at home. You can only see the images when you go to that place, "retrieve" the images, and print them out. 
+
+how can you store pins on the lid of an altoids box 
+can I make a built-in pin storage there 
+
+mere mortals: the machinery of mankind 
+seas of people 
+
+what things around us have a memory? a digital one? a physical one? 
+
+praxis salon 
+craft night but specifically for makers 
+
+studio share lab 
+turn my space into your studio 
+just for an evening 
+share what you're excited about and what you want to learn 
+
+a community lab, a make sesh, a place to cross pollinate skills and ideas 
+
+raku firing using your childhood journals, drawings, artifacts 
+
+a built in cabinet with room for a record player 
+
+charm and harm sit quietly on the floorboards next to each other 
+pretending to be strangers 
+
+poetic computation like making a pillow out of metal 
+
+phone autocorrect that changed "I" to "AI" 
+"AI went for a walk today" 
+"AI made a sandwich for lunch" 
+"AI felt pretty sad about the state of the world" 
+
+repair, reuse, reprogram 
+
+do objects generally cool down and warm up at the same rate?
+
+including your children in the "how was your day?" conversation, from before they can talk 
+
+making sure to give your children independent space so they can have updates on their own 
+
+Forbidden area stairway to nowhere, insulation that is a staircase into another floor that clearly should not be able to exist
+
+how do you build your positivity in as a default? how do you shape your space that way? what's your upward-looking invite? 
+"Share one moment of satisfaction from this weekend" 
+"tell me the highlight of your morning" 
+
+TCC tough conversation club 
+
+reuse, repair, reprogram 
+
+"I'm going on airplane mode for the next X hours" 
+
+a stamp, a sigil, for yourself that we use to stamp your projects and notebook and so-on 
+at the end of the year, we use these to stamp your project, and you get to take it back with you as a symbol of your readiness to sign the work you've made 
+
+ending on moments of satisfaction, revelation, connection 
+
+go forth and enjoy the day, the celebration is just beginning 
+
+do people clap at the end of movies, of flights, because they desire a sense of closure and squeeze-release? 
+
+In the age of instant gratification, there's not much that's bound by time anymore. You don't wait for your favorite tv show to come on the air, you don't feel lucky when you catch your favorite song on the radio. 
+Instead, things are money bound. Some are both time and money bound, like going to a concert or a touring artist. But your books, your movies, your music ... it's money and not time. 
+
+kei sekimachi - weaving traditions 
+"the weaver's weaver"
+
+ship of theseus, book 
+
+gumball machine but inside each gumball is a new gender for you 
+
+i want to mark my key ring with "2024" 
+start marking your tools with the year you got them 
+
+promise to stop for you when you stop to photograph the roses
+
+items made of materials that remove their utility 
+
+Touch grass, keyboard, and mouse
+
+you can tell how long a bus driver has been driving by the way they handle the intersection of Church and 16th. The left turn isn't particularly sharp, but the power rails lean to the right, and threaten to detach from every bus that makes its way underneath. 
+I once overheard two bus drivers talking about this intersection as an enemy. To attack it, they said, was to drive straight forward at the pole, to almost hit it, and to weave the other direction at the last minute, as if to trick the cables into thinking you weren't going to turn at all. 
+
+miniature architecture designs with balloons bulging out 
+
+experience the day with me 
+but the day is a record 
+i text you, with photos, from that day, like i'm sending you things in the moment 
+
+a recipe book called inheritance 
+
+translation flattens subtlety
+
+stowaways
+cutouts of normal objects with figures hidden in them
+
+lego backdrops for photoshoots 
+
+train headlights breaching the curve of the tunnel 
+
+I'm watching a man walk around with threaten his arm. He thrusts it skyward and wings flutter the threats and others into the sky.
+
+How much can you say with stillness?
+
+meet the makers product realization lab d school stanford 
+
+a single trigger that sets off all sorts of bells around the room 
+
+30 days of applications 
+
+art installation that's an anonymized list of all the times you got screwed over 
+
+pugging as an action 
+where you slowly optimize and evolve something into uselessness 
+example: the american pickup truck, cybertruck, the potato?, 
+
+pugification as the "taming" of something naturally or wildly useful, then further changing it and evolving it to its own detriment 
+
+what if i'm losing my artistic engagement 
+
+what is handwritten 
+what do i actually value 
+
+i’ve been afraid to tell the story of this ring for years. It’s there, right in front of me, but I can’t seem to tell it. 
+
+a tribute to lost memories and items with their full descriptions
+
+weaving together our lives 
+tying together 
+
+how do you adorn each other 
+wealth 
+happiness 
+collaboration 
+give and take 
+
+our first date was perfect without trying 
+and that says everything 
+
+there's a poem we love called when love arrives 
+
+the clouds are spreading like a spine across the sky 
+
+zen cane wrapped objects that aren't rocks 
+technology 
+old phones 
+
+How related are the terms, Mr. and master?
+
+A website that is a digital archive of all the things we own and their backstories 
+
+i'm back on unintentional shrines 
+
+san francisco city football club fan club 
+sfcfcfc 
+
+an sfcfcfc scarf that just keeps being fc. 
+an sfcfcfc fan website that side scrolls forever through the fcs 
+
+i need time and space to do things 
+make things 
+experiment 
+actually be a fucking artist 
+not take care of this goddamn house 
+
+Leia Chang, Professional 
+
+where are you going? 
+somewhere else 
+
+I return once again to the idea of projecting my work on my own face. 
+
+Accountable 
+Beholden to 
+Responsible for 
+How can you be these things to yourself 
+And your art 
+And your designs for greatness 
+
+weaving the patterns of a song so you can feel it 
+where each type of weave is a note 
+
+a login system where you first choose your username out of all the usernames and then you choose your password out of all the passwords 
+
+digital dna 
+
+what can you vacuum seal that's unexpected? 
+
+when you use the web browser you are the web browser
+
+humans together are on average much better at guessing things than individuals. if you average all the guesses of an audience, you get within 5% of a true value
+
+high wedge heels with a false bottom to sneak things into places 
+
+glizzyglides 
+
+fruitiger aero 
+
+book for sound 
+a book of audio 
+
+resting - what does it mean to let your phone rest 
+
+feedback site with Julia 
+
+the nest LA
+
+tell me one question you have right now 
+
+generated text woven into textile
+
+who prompts the prompter 
+
+perfect days movie 
+
+after yang movie 
+
+maddie design notes celeste 
+
+didi movie 
+
+belle - movie 
+
+the feeling of shedding 
+like contacts 13 hours in 
+an idea too stale for movement 
+
+bird id 
+
+merlin bird id 
+
+Building a desire path through your digital technology
+
+Daily little blessings
+
+Today is a good day to slow down
+
+max's garage press 
+
+good bad band name tomato fight
+
+my favorite thing about the computer history museum is how little they planned for people wanting to touch everything 
+i think i've seen like 40 do not touch signs 
+
+https://www.fibremood.com/en/patterns/950-khloe-dress
+
+electrinos 
+circuties
+electronpics 
+
+
+fischer price comfort dongle 
+baby's first dongle 
+baby's first computer 
+
+absurdly beautiful dongles and other such objects 
+
+instillusion 
+installation illusion 
+
+who have you been catching 
+
+"we share a heartbeat" 
+-> what does ai share of us 
+we share words, a tongue? 
+
+data is a spine 
+
+an instagram story meant to be experienced from far away 
+
+naurtier 
+
+soft launch monthly publication ~ zine 
+where you send things that are almost ready 
+
+website that shows you how far away you are from your friends in dollar amounts (flights) or other metrics
+
+can you use a pen plotter to deposit like ... film development chemicals? Like can you only develop parts of film or exposed images? how could that work? lol 
+
+embroidered pattern, dragged across a scanner bed, re-embroidered in its new form 
+
+usbee - it's a usb stick that's a bee but the stinger is the usb 
+
+shaving your own undercut simulator
+blackjack hair cutting 
+
+a poem that only reveals itself as you read it out loud 
+
+animatronic butterflies trapped inside an opaque-ish containor
+
+grid meld zine 
+grid experiment zine 
+
+what holds the essence of spring? How can we harness it in the home? 
+
+clock that visually shows hours of the day that have light 
+and just show you where you are in those hours 
+￼
+A little thing that installs in this triangle, and is an NFC to a 
+- Personal playlist for this spot? 
+- A gathering of dog photos? 
+
+recuperation, reinvesting discarded items with new energy and purpose.
+
+we share a dumb tongue made of stone 
+
+assembly hobbies versus creation hobbies 
+
+rosas danst rosas 
+
+i should make an exhibit around precision, accuracy, and failure rate 
+
+Visual hook, eye-catching. An image of an eyeball with a fish hook through it.
+
+The fictionalized journal where all of the writings with negative sentiment or wiped out. You see only blank spaces basically
+
+what if the 3d printer was printing your handwriting 
+in the air 
+your words droop over each other 
+
+local memory like an etch a sketch
+
+dayjobmaxxing, says a friend 
+but what else 
+health, exercise, friend, art 
+
+fey trap mushroom circle around a toilet 
+
+break the art into workshop and workbook level sales 
+
+i don't know the language of the internet
+
+a book whose pages you toss in the air and read as you pick them up 
+a book that's actually a series of webpages linking to each other, and they change over time 
+
+afraid of the unfamiliar 
+make it familiar 
+go 
+
+Beautiful things can happen when you spend time with nature
+
+white wall gallery but it's all white walls that move around
+
+twelve goose heads 
+peek up through patches 
+of grass and weeds 
+of concrete bollards 
+there's a lake 
+on the other side of the freeway 
+once they would have walked to 
+now altogether 
+they take flight 
+```
