@@ -3,20 +3,25 @@ title: What I Can Remember
 date: "2022-12-17"
 description: On photographs and memory
 tags: ['medium-of-memory', 'showcase', 'itp', 'art', 'fabrication']
-thumbnail: ./hero_01.jpg
+thumbnail: ./culturehub-2025.jpg
 tech: ['laser-cutter', 'procreate', 'cnc']
 ---
-*Photograph on acetate, laser-cut acrylic, rear-projected hand-drawn video*
-
----
+*Piece as shown at CultureHub ReFest 2025* 
 
 *What I Can Remember* is an exercise in retelling stories. It centers around a photograph, a memory captured in a moment. How much of a moment do you remember? What do you do to make it clear? What if it is never clear?
 
+This project is an intervention on this memory, using the photograph as a canvas to explore the stories hidden inside it. In this piece, I write about my grandmother and the house we lived in. Memories are fuzzy, just as the acrylic surrounding this photo renders Through the use of projection, I bring both the photograph and the writing to life, letting the words play with the portrayed figures, and the frame surrounding them. some of the text. These writings are intentionally or serendiptiously obscured; moments that I don't remember well, or moments that are beginning to be lost to the effects of time. When the projection turns off, the piece reverts back to what it actually is; just a photograph.
+
+![Photograph if a grandmother and child, in a black frame. Light-colored writing appears through the image.](./culturehub1.jpg)
+
+--- 
+Previous versions of this piece are documented below.
+
 https://youtu.be/ywGGJQtFMoQ 
 
----
+![Image of a translucent photograph of grandmother and child on organic acrylic shapes](./hero_01.jpg)
 
-This project is an intervention on this memory, using the photograph as a canvas to explore the stories hidden inside it. In this piece, I write about my grandmother and the house we lived in. Memories are fuzzy, just as the acrylic surrounding this photo renders Through the use of projection, I bring both the photograph and the writing to life, letting the words play with the portrayed figures, and the frame surrounding them. some of the text. These writings are intentionally or serendiptiously obscured; moments that I don't remember well, or moments that are beginning to be lost to the effects of time. When the projection turns off, the piece reverts back to what it actually is; just a photograph.
+*Photograph on acetate, laser-cut acrylic, rear-projected hand-drawn video*
 
 ![Image of a translucent photograph of grandmother and child, framed by organic acrylic shapes](./lit_image.jpg)
 
