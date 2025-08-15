@@ -2,7 +2,7 @@
 title: 2024 Running Note
 date: "2024-12-31"
 description: A year-long running note
-tags: [blog, braindump, yearnote]
+tags: [braindump, yearnote]
 thumbnail:
 tech: []
 ---

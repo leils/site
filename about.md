@@ -35,6 +35,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - *Facilitator* Feedback Collective | NYU ITP - 2022-23 
 
 #### Guest
+- *Speaker* at tiat 12 | SF - 2025
 - *Panelist* Power of Storytelling | Lick Wilmerding HS - 2025 
 - *Critic* IMA Capstone (Blair Simmons) | NYU IMA - 2025
 - *Critic* ITP Thesis | NYU TIP - 2025
@@ -43,10 +44,25 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - *Critic* Largescale Kinetic Sculptures (Phil Caridi) | NYU IMA - 2023 
 
 #### Mentions
-- [web~sites mentioned in Naive Weekly](https://www.naiveweekly.com/i/161743652/wayside-flowers) as a wayside flower
+- [deskstop.computer](https://www.deskstop.computer/files/leiachang) - 2025
+- [web~sites mentioned in Naive Weekly](https://www.naiveweekly.com/i/161743652/wayside-flowers) as a wayside flower - 2025
 - [From Arrangement to Engagement: shuang’s Curation as Art Practice](https://www.art-insider.com/from-arrangement-to-engagement-shuangs-curation-as-art-practice/7144) - 2025 
 - [SPAMtember](https://hudsonweekly.com/spamtember-unveils-playful-creativity-a-humorous-exploration-of-cultural-identity-at-all-street-gallery/) | All St Gallery - 2023
 - [ITP Instagram](https://www.instagram.com/p/CoyVPdUAt1P/) project spotlight - 2023 
 - Adjacent [Issue 10: endoscope](https://adjacent-ecoscope.itp.io/Noting-the-Details) - 2023 
 
 -*last updated July 2025*-
+
+---
+
+<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+
+<!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+<script type="text/javascript">
+/* curator-feed-default-feed-layout */
+(function(){
+var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+i.src="https://cdn.curator.io/published/64590b28-e330-43d2-a8ee-977195de720e.js";
+e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
+</script>

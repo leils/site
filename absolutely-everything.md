@@ -33,5 +33,7 @@ Future ambitions:
 - the rite and the site, what's the site's rite
 - i keep thinking about web paper and [riso](https://codepen.io/crownedfoxes/pen/LYXMBEZ) ([colors](https://www.stencil.wiki/colors)) ([grainy gradients](https://css-tricks.com/grainy-gradients/)) ([and backgrounds](https://www.freecodecamp.org/news/grainy-css-backgrounds-using-svg-filters/)) ([and riso](https://tympanus.net/codrops/2024/06/27/digital-meets-physical-risograph-printing-with-webgl/))
 - how can I break content up into tidbits to be rendered into my templates as separate divs programatically? it's more complicated but conceptually what I'm looking for
-- can i make a custom md parser to add secret dialogs based
+- can i make a custom md parser to add secret dialogs
+- sketchbook gallery of images only 
+- update page template to place images to the side
 
