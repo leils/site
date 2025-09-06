@@ -44,6 +44,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - *Critic* Largescale Kinetic Sculptures (Phil Caridi) | NYU IMA - 2023 
 
 #### Mentions
+- [SF Gazetteer](https://sf.gazetteer.co/the-work-of-art-in-the-age-of-artificial-intelligence?giftLink=578422cf4a4e4c366184dc159e06de08&fbclid=PAZnRzaAMohNdleHRuA2FlbQIxMQABp9HO4jnlXyQNH5KdJMQBcQawEjkYHce00VmaarYj_rw-tCgFLApvYUHlADFc_aem_84fBslW_co-VTCCPkRwgvQ) - 2025
 - [deskstop.computer](https://www.deskstop.computer/files/leiachang) - 2025
 - [web~sites mentioned in Naive Weekly](https://www.naiveweekly.com/i/161743652/wayside-flowers) as a wayside flower - 2025
 - [From Arrangement to Engagement: shuang’s Curation as Art Practice](https://www.art-insider.com/from-arrangement-to-engagement-shuangs-curation-as-art-practice/7144) - 2025 
