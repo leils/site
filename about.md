@@ -27,6 +27,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - [Sell Out Art Show](https://www.syzygysf.com/event-details/sell-out-art-show) | SYZYGY SF - 2022 
 
 #### Teaching/Facilitating
+- *Organizer* [TIAT](https://www.tiat.place/) SF | San Francisco - 2025
 - *Workshop* [MicroMovement: Interacting with Hardware](https://grayarea.org/course/gray-area-festival-2025-microcontroller-hardware/) for Gray Area Festival - 2025
 - *Guest Workshop* Exhibition Design for [Wild Ways of Making (Meenu Singh & Taylor Tabb)](https://dschool.stanford.edu/study/elective-courses/wild-ways-of-making) | Stanford - 2025
 - *Organizer* [FidgetCamp](https://fidgetcamp.com) | San Francisco - 2024-2025 

@@ -36,4 +36,6 @@ Future ambitions:
 - can i make a custom md parser to add secret dialogs
 - sketchbook gallery of images only 
 - update page template to place images to the side
+- update full list page template so that ... you don't have to navigate to a new page to see work? can i just click something and have a view pane instead
+- "currently thinking about" as a datestamped list 
 
