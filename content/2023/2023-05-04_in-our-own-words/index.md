@@ -29,7 +29,7 @@ When you sit at the altar it will ask you a question, showing you the responses 
 
 ---
 
-In Our Own Words has been showcased at [After the Imagination](https://www.instagram.com/p/CqMdQHeNFD9/) (Apr. 2023), The [ITP/IMA 2023 Spring Show](https://itp.nyu.edu/shows/spring2023/) (May 2023), [Words to Remember By](https://leiac.me/content/2024/2024-01-01_Words-to-Remember-By/)(July 2023),  (Sept 2023), and the [Gray Area Artist Showcase](https://grayarea.org/event/gray-area-artist-showcase-and-member-happy-hour/) (Dec 2023).
+In Our Own Words has been showcased at [After the Imagination](https://www.instagram.com/p/CqMdQHeNFD9/) (Apr. 2023), The [ITP/IMA 2023 Spring Show](https://itp.nyu.edu/shows/spring2023/) (May 2023), [Words to Remember By](https://leiac.me/content/2024/2024-01-01_Words-to-Remember-By/)(July 2023),  (Sept 2023), the [Gray Area Artist Showcase](https://grayarea.org/event/gray-area-artist-showcase-and-member-happy-hour/) (Dec 2023), and the [tiat seminal show](https://www.tiat.place/exhibitions) (Nov 2025).
 
 https://youtu.be/uRzqG3wk5_4
 

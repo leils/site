@@ -9,7 +9,10 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 
 ---
 
-*Currently thinking about ... web as material, Babel by R.F. Kuang, [Fidget Camp 2025 archive](https://fidgetcamp.com/2025), fiber art and woven material, [typeknitting](https://typeknitting.net/), what is a body, [plot田](https://www.instagram.com/plooooooot/), sunlight, [this website](/absolutely-everything).*
+*Currently thinking about ... weaving, [creative misuse of banal materials](https://youtu.be/MUCyNRWmuyg?si=3_FAVkWFmYDmBDxl&t=362), [tiat community organizing](https://www.tiat.place/), work-life balance, time tracking, the body.*
+
+*Previously ...*
+- *web as material, Babel by R.F. Kuang, [Fidget Camp 2025 archive](https://fidgetcamp.com/2025), fiber art and woven material, [typeknitting](https://typeknitting.net/), what is a body, [plot田](https://www.instagram.com/plooooooot/), sunlight, [this website](/absolutely-everything).*
 
 *Once, a long time ago, a professor looked at a todo list I'd made for the day, and called it the best poem he'd read all week.* 
 
@@ -18,16 +21,18 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 ### also seen at ...
 
 #### Shows 
-- [CultureHub Re-Fest](https://www.culturehub.org/re-fest-2025) | NYC La Mama - 2025
-- [Bart Basel](https://bartbasel.org/) | SF - 2024
-- [Incubator Artists Show](https://grayarea.org/event/gray-area-incubator-salon-2023-2/) | Gray Area - 2023
-- [Words to Remember By](https://leiac.me/content/2024/2024-01-01_Words-to-Remember-By/), a solo show | [Studio 45](https://www.workatthestudio.com) - 2023
+- [tiat seminal show](https://www.tiat.place/exhibitions) | tiat sf - Nov 2025
+- [CultureHub Re-Fest](https://www.culturehub.org/re-fest-2025) | NYC La Mama - March 2025
+- [Bart Basel](https://bartbasel.org/) | SF - Dec 2024
+- [Incubator Artists Show](https://grayarea.org/event/gray-area-incubator-salon-2023-2/) | Gray Area - Nov 2023
+- [Words to Remember By](https://leiac.me/content/2024/2024-01-01_Words-to-Remember-By/), a solo show | [Studio 45](https://www.workatthestudio.com) - Oct 2023
 - [After the Imagination](https://www.instagram.com/p/CqMdQHeNFD9/) | NYC resistor - 2023 
 - *Co-Curator* [Useless Machines](https://www.theblanc.art/exhibition/useless-machines-a-curated-student-show) | Blanc Gallery - 2023
 - [Sell Out Art Show](https://www.syzygysf.com/event-details/sell-out-art-show) | SYZYGY SF - 2022 
 
 #### Teaching/Facilitating
 - *Organizer* [TIAT](https://www.tiat.place/) SF | San Francisco - 2025
+- *Guest Workshop* Exhibition Design | Stanford - Oct 2025
 - *Workshop* [MicroMovement: Interacting with Hardware](https://grayarea.org/course/gray-area-festival-2025-microcontroller-hardware/) for Gray Area Festival - 2025
 - *Guest Workshop* Exhibition Design for [Wild Ways of Making (Meenu Singh & Taylor Tabb)](https://dschool.stanford.edu/study/elective-courses/wild-ways-of-making) | Stanford - 2025
 - *Organizer* [FidgetCamp](https://fidgetcamp.com) | San Francisco - 2024-2025 
@@ -38,6 +43,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 
 #### Guest
 - *Speaker* at [tiat 12](https://www.youtube.com/watch?v=MUCyNRWmuyg&feature=youtu.be&themeRefresh=1) | SF - 2025
+- *Speaker* at Creative Code Showcase Event Preview | Gray Area SF - June 2025
 - *Panelist* Power of Storytelling | Lick Wilmerding HS - 2025 
 - *Critic* IMA Capstone (Blair Simmons) | NYU IMA - 2025
 - *Critic* ITP Thesis | NYU TIP - 2025
@@ -46,6 +52,8 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - *Critic* Largescale Kinetic Sculptures (Phil Caridi) | NYU IMA - 2023 
 
 #### Mentions
+- [Secret San Francisco](https://secretsanfrancisco.com/tiat-art-and-technology-gallery-pop-up/) - Nov 2025
+- LA Times Sunday Edition *Exhibit Photographed on front page* - Aug 10 2025
 - [SF Gazetteer](https://sf.gazetteer.co/the-work-of-art-in-the-age-of-artificial-intelligence?giftLink=578422cf4a4e4c366184dc159e06de08&fbclid=PAZnRzaAMohNdleHRuA2FlbQIxMQABp9HO4jnlXyQNH5KdJMQBcQawEjkYHce00VmaarYj_rw-tCgFLApvYUHlADFc_aem_84fBslW_co-VTCCPkRwgvQ) - 2025
 - [deskstop.computer](https://www.deskstop.computer/files/leiachang) - 2025
 - [web~sites mentioned in Naive Weekly](https://www.naiveweekly.com/i/161743652/wayside-flowers) as a wayside flower - 2025
@@ -54,7 +62,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - [ITP Instagram](https://www.instagram.com/p/CoyVPdUAt1P/) project spotlight - 2023 
 - Adjacent [Issue 10: endoscope](https://adjacent-ecoscope.itp.io/Noting-the-Details) - 2023 
 
--*last updated Sept 2025*-
+-*last updated Nov 2025*-
 
 ---
 
