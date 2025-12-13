@@ -9,10 +9,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 
 ---
 
-*Currently thinking about ... weaving, [creative misuse of banal materials](https://youtu.be/MUCyNRWmuyg?si=3_FAVkWFmYDmBDxl&t=362), [tiat community organizing](https://www.tiat.place/), work-life balance, time tracking, the body.*
-
-*Previously ...*
-- *web as material, Babel by R.F. Kuang, [Fidget Camp 2025 archive](https://fidgetcamp.com/2025), fiber art and woven material, [typeknitting](https://typeknitting.net/), what is a body, [plot田](https://www.instagram.com/plooooooot/), sunlight, [this website](/absolutely-everything).*
+*Currently thinking about ... [what feels like me ◐](/alignment), weaving, [creative misuse of banal materials](https://youtu.be/MUCyNRWmuyg?si=3_FAVkWFmYDmBDxl&t=362), [tiat community organizing](https://www.tiat.place/), work-life balance, time tracking, the body.*
 
 *Once, a long time ago, a professor looked at a todo list I'd made for the day, and called it the best poem he'd read all week.* 
 
@@ -42,9 +39,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - *Facilitator* Feedback Collective | NYU ITP - 2022-23 
 
 #### Guest
-- *Speaker* at [tiat 12](https://www.youtube.com/watch?v=MUCyNRWmuyg&feature=youtu.be&themeRefresh=1) | SF - 2025
-- *Speaker* at Creative Code Showcase Event Preview | Gray Area SF - June 2025
-- *Panelist* Power of Storytelling | Lick Wilmerding HS - 2025 
+- *Panelist* at [LWHS EIB Head, Heart, Hands](https://www.eventbrite.com/e/lwhs-head-heart-hands-eib-conference-series-tickets-1968274802920) series | SF - 2025
 - *Critic* IMA Capstone (Blair Simmons) | NYU IMA - 2025
 - *Critic* ITP Thesis | NYU TIP - 2025
 - *Speaker* at [tiat 5 & 6](https://ashherr.github.io/tiat/) | SF - 2023
@@ -52,6 +47,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - *Critic* Largescale Kinetic Sculptures (Phil Caridi) | NYU IMA - 2023 
 
 #### Mentions
+- [Where Art & Technology Meet to Create, in San Francisco](https://brokeassstuart.com/p/where-art-technology-meet-to-create-in-san-francisco), broke-ass stuart - Dec 2025 
 - [Secret San Francisco](https://secretsanfrancisco.com/tiat-art-and-technology-gallery-pop-up/) - Nov 2025
 - LA Times Sunday Edition *Exhibit Photographed on front page* - Aug 10 2025
 - [SF Gazetteer](https://sf.gazetteer.co/the-work-of-art-in-the-age-of-artificial-intelligence?giftLink=578422cf4a4e4c366184dc159e06de08&fbclid=PAZnRzaAMohNdleHRuA2FlbQIxMQABp9HO4jnlXyQNH5KdJMQBcQawEjkYHce00VmaarYj_rw-tCgFLApvYUHlADFc_aem_84fBslW_co-VTCCPkRwgvQ) - 2025
