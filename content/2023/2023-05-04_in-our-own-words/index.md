@@ -3,19 +3,16 @@ title: In Our Own Words
 date: "2023-05-04"
 description: An altar for our small stories.
 tags: ['itp', 'itp-thesis', 'showcase']
-thumbnail: ./hero.jpg
+thumbnail: ./hero_01.jpg
 tech: ['raspberryPi','python']
 ---
 
-https://vimeo.com/826379955 
 
-In Our Own Words is about the stories that make us who we are, and finding ways of sharing them. Part altar and part confessional, it was originally built as a tool to help me process and understand parts of myself. Now, it's an altar for everyone and an archive of the people that have visited it. By sharing personal stories, we give people a window into our shared identities, building empathy and understanding through printed words. 
+In Our Own Words is about the stories that make us who we are, and finding ways of sharing them. Part altar and part confessional, the piece is a public and private interface for storytelling, and archive of the people that have visited it. By sharing personal stories, we give people a window into our shared identities, building empathy and understanding through printed words. 
 
 ![Question and answer printed on thermal paper](./question.jpg)
 
 In Our Own Words is a set of questions. 
-
-![person-reading.jpg](./person-reading.jpg)
 
 In Our Own Words is an archive of answers. 
 
@@ -27,6 +24,8 @@ In Our Own Words is a forest of messages, of words, of questions, and most of al
 
 When you sit at the altar it will ask you a question, showing you the responses from other people that have visited before you. Share your own story, and your words will be added to the archive, to be read and witnessed by others. The altar is surrounded by and lives within this archive. In order to reach the altar, you pass through the stories first. I believe that our identities are built of all parts of us, big and small. From the details (the way you take your coffee, whether you make your bed) to the bigger things (formative childhood memories), these moments accumulate into the person that you are today. They shape the choices you make and become the stories you tell yourself about who you choose to be. In Our Own Words was built to treat these stories with tenderness, holding them in the open for everyone to see. When you read the stories, I hope you think about the people who wrote them.
 
+https://vimeo.com/826379955 
+
 ---
 
 In Our Own Words has been showcased at [After the Imagination](https://www.instagram.com/p/CqMdQHeNFD9/) (Apr. 2023), The [ITP/IMA 2023 Spring Show](https://itp.nyu.edu/shows/spring2023/) (May 2023), [Words to Remember By](https://leiac.me/content/2024/2024-01-01_Words-to-Remember-By/)(July 2023),  (Sept 2023), the [Gray Area Artist Showcase](https://grayarea.org/event/gray-area-artist-showcase-and-member-happy-hour/) (Dec 2023), and the [tiat seminal show](https://www.tiat.place/exhibitions) (Nov 2025).
@@ -34,7 +33,6 @@ In Our Own Words has been showcased at [After the Imagination](https://www.insta
 https://youtu.be/uRzqG3wk5_4
 
 ![Overhead view of the altar. Person is sitting at it, typing on a keyboard. Strings of paper hang around it.](./overhead.jpg)
-![Altar as seen through the forest archive](./overview.jpg)
 ![Altar at Gray Area 2023](./IMG_3730.jpg)
 
 ## Technical Overview

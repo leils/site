@@ -28,7 +28,8 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - [Sell Out Art Show](https://www.syzygysf.com/event-details/sell-out-art-show) | SYZYGY SF - 2022 
 
 #### Teaching/Facilitating
-- *Organizer* [TIAT](https://www.tiat.place/) SF | San Francisco - 2025
+- *Instructor* Gray Area Creative Code Immersive | SF - 2026
+- *Board* [TIAT](https://www.tiat.place/) SF | SF - 2025
 - *Guest Workshop* Exhibition Design | Stanford - Oct 2025
 - *Workshop* [MicroMovement: Interacting with Hardware](https://grayarea.org/course/gray-area-festival-2025-microcontroller-hardware/) for Gray Area Festival - 2025
 - *Guest Workshop* Exhibition Design for [Wild Ways of Making (Meenu Singh & Taylor Tabb)](https://dschool.stanford.edu/study/elective-courses/wild-ways-of-making) | Stanford - 2025
@@ -39,6 +40,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - *Facilitator* Feedback Collective | NYU ITP - 2022-23 
 
 #### Guest
+- *In conversation* with Vanessa Chang | Gray Area SF - 2026
 - *Panelist* at [LWHS EIB Head, Heart, Hands](https://www.eventbrite.com/e/lwhs-head-heart-hands-eib-conference-series-tickets-1968274802920) series | SF - 2025
 - *Critic* IMA Capstone (Blair Simmons) | NYU IMA - 2025
 - *Critic* ITP Thesis | NYU TIP - 2025
@@ -58,7 +60,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - [ITP Instagram](https://www.instagram.com/p/CoyVPdUAt1P/) project spotlight - 2023 
 - Adjacent [Issue 10: endoscope](https://adjacent-ecoscope.itp.io/Noting-the-Details) - 2023 
 
--*last updated Nov 2025*-
+-*last updated Feb 2026*-
 
 ---
 
