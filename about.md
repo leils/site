@@ -9,7 +9,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 
 ---
 
-*Currently thinking about ... [what feels like me ◐](/alignment), weaving, [creative misuse of banal materials](https://youtu.be/MUCyNRWmuyg?si=3_FAVkWFmYDmBDxl&t=362), [tiat community organizing](https://www.tiat.place/), work-life balance, time tracking, the body.*
+*Currently thinking about ... the sf heatwave, whittling, [alignment ◐](/alignment), time spent with yourself. *
 
 *Once, a long time ago, a professor looked at a todo list I'd made for the day, and called it the best poem he'd read all week.* 
 
@@ -17,24 +17,26 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 
 ### also seen at ...
 
-#### Shows 
+#### Exhibitions
+- *Co-Curator* [time.place](https://www.tiat.place/exhibitions/time-place) | tiat SF - 2026
 - [tiat seminal show](https://www.tiat.place/exhibitions) | tiat sf - Nov 2025
 - [CultureHub Re-Fest](https://www.culturehub.org/re-fest-2025) | NYC La Mama - March 2025
 - [Bart Basel](https://bartbasel.org/) | SF - Dec 2024
 - [Incubator Artists Show](https://grayarea.org/event/gray-area-incubator-salon-2023-2/) | Gray Area - Nov 2023
-- [Words to Remember By](https://leiac.me/content/2024/2024-01-01_Words-to-Remember-By/), a solo show | [Studio 45](https://www.workatthestudio.com) - Oct 2023
+- *Solo Show* [Words to Remember By](https://leiac.me/content/2024/2024-01-01_Words-to-Remember-By/), a solo show | [Studio 45](https://www.workatthestudio.com) - Oct 2023
 - [After the Imagination](https://www.instagram.com/p/CqMdQHeNFD9/) | NYC resistor - 2023 
 - *Co-Curator* [Useless Machines](https://www.theblanc.art/exhibition/useless-machines-a-curated-student-show) | Blanc Gallery - 2023
 - [Sell Out Art Show](https://www.syzygysf.com/event-details/sell-out-art-show) | SYZYGY SF - 2022 
 
 #### Teaching/Facilitating
 - *Instructor* Gray Area Creative Code Immersive | SF - 2026
+- *Workshop* Designing Art for Installation | Flora x tiat Incubator - 2026
 - *Board* [TIAT](https://www.tiat.place/) SF | SF - 2025
-- *Guest Workshop* Exhibition Design | Stanford - Oct 2025
+- *Workshop* Exhibition Design | Stanford - Oct 2025
 - *Workshop* [MicroMovement: Interacting with Hardware](https://grayarea.org/course/gray-area-festival-2025-microcontroller-hardware/) for Gray Area Festival - 2025
-- *Guest Workshop* Exhibition Design for [Wild Ways of Making (Meenu Singh & Taylor Tabb)](https://dschool.stanford.edu/study/elective-courses/wild-ways-of-making) | Stanford - 2025
+- *Workshop* Exhibition Design for [Wild Ways of Making (Meenu Singh & Taylor Tabb)](https://dschool.stanford.edu/study/elective-courses/wild-ways-of-making) | Stanford - 2025
 - *Organizer* [FidgetCamp](https://fidgetcamp.com) | San Francisco - 2024-2025 
-- Creative Code & Design Technology Teacher | Lick Wilmerding HS - 2023-2024 
+- *Teacher* Creative Code & Design Technology | Lick Wilmerding HS - 2023-2024 
 - *Graduate Assistant* Useless Machines (Blair Simmons) | NYU IMA - 2023 
 - *Graduate Assistant* Digital Fabrication (Phil Caridi) | NYU IMA - 2022 
 - *Facilitator* Feedback Collective | NYU ITP - 2022-23 
@@ -60,7 +62,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - [ITP Instagram](https://www.instagram.com/p/CoyVPdUAt1P/) project spotlight - 2023 
 - Adjacent [Issue 10: endoscope](https://adjacent-ecoscope.itp.io/Noting-the-Details) - 2023 
 
--*last updated Feb 2026*-
+-*last updated Mar 2026*-
 
 ---
 
