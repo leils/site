@@ -3,9 +3,9 @@ layout: page.njk
 title: about Leia
 date: 2025-04-07
 ---
-Leia S. Chang (they/them) is an artist, organizer, and creative technologist exploring unusual materiality and embodied identity. With a strong command over creative fabrication, Leia channels their perspective as a second-generation Chinese-American into interactive installations, poetic texts, and tangible multi-media objects made of wood, resin, and found materials. Their work often integrates digital media into physical forms with the aim of spotlighting the connection between memory, identity, and storytelling. 
+Leia S. Chang (they/them) is an artist, (poet?), organizer, and creative technologist exploring unusual materiality and embodied identity. With a strong command over creative fabrication, Leia channels their perspective as a second-generation Chinese-American into interactive installations, poetic texts, and tangible multi-media objects made of wood, resin, and found materials. Their work often integrates digital media into physical forms with the aim of spotlighting the connection between memory, identity, and storytelling. 
 
-Leia is currently an exhibit developer at the Exploratorium in San Francisco. Their work has been shown at the likes of La Mama’s CultureHub, theBlanc Art Space, the Gray Area SF and Resistor NYC. They organize creative communities and facilitate workshops on making-as-art. Leia holds an MPS from NYU ITP, and a BS in Computer Science from Cal Poly SLO.
+Leia is currently an exhibit developer at the Exploratorium in San Francisco. Their work has been shown at the likes of La Mama’s CultureHub, theBlanc Art Space, TIAT sf, the Gray Area SF, and Resistor NYC. They organize creative communities and facilitate workshops on making-as-art. Leia holds an MPS from NYU ITP, and a BS in Computer Science from Cal Poly SLO.
 
 ---
 
@@ -17,7 +17,8 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 
 ### also seen at ...
 
-#### Exhibitions
+#### Exhibitions & Inclusions
+- [Taper #16: For Good Measure](https://taper.badquar.to/16/) - May 2026
 - *Co-Curator* [time.place](https://www.tiat.place/exhibitions/time-place) | tiat SF - 2026
 - [tiat seminal show](https://www.tiat.place/exhibitions) | tiat sf - Nov 2025
 - [CultureHub Re-Fest](https://www.culturehub.org/re-fest-2025) | NYC La Mama - March 2025
@@ -42,6 +43,8 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - *Facilitator* Feedback Collective | NYU ITP - 2022-23 
 
 #### Guest
+- *Presenter* at [Taper 16 launch](https://www.instagram.com/p/DZfwFJ6j6mA/) - SF 2026
+- [Artiact Case No. 14](https://www.instagram.com/p/DaG2OmPlmog/) - Jun 2026
 - *In conversation* with Vanessa Chang | Gray Area SF - 2026
 - *Panelist* at [LWHS EIB Head, Heart, Hands](https://www.eventbrite.com/e/lwhs-head-heart-hands-eib-conference-series-tickets-1968274802920) series | SF - 2025
 - *Critic* IMA Capstone (Blair Simmons) | NYU IMA - 2025
@@ -62,7 +65,7 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - [ITP Instagram](https://www.instagram.com/p/CoyVPdUAt1P/) project spotlight - 2023 
 - Adjacent [Issue 10: endoscope](https://adjacent-ecoscope.itp.io/Noting-the-Details) - 2023 
 
--*last updated Mar 2026*-
+-*last updated June 2026*-
 
 ---
 
