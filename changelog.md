@@ -11,3 +11,4 @@ title: changelog
 - Aug 9, 2025: Added my yearly braindumps as posts, likely to be turned into a separate tidbit ot some point. Changed code `pre` styling to support text wrapping, changed body max-width to not act so weird on medium sized windows.
 - Aug 14, 2025: Added instagram feed via curator onto about page. Updated some "seen at", added shrine fabrication project, moved yearly braindumps out of blog.
 - Dec 12, 2025: Added alignment page, archive of the "thinking about" as a tidbit, table styling. added a number of links to faculty on the itp table. 
+- Sept 6, 2026: Inspired by a blog about making your own corner of the internet, cleaning up CSS & wrote a theme park guide for a friend. Minor tweaks, preparing for subdomained everyday site. 

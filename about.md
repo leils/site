@@ -5,11 +5,10 @@ date: 2025-04-07
 ---
 Leia S. Chang (they/them) is an artist, (poet?), organizer, and creative technologist exploring unusual materiality and embodied identity. With a strong command over creative fabrication, Leia channels their perspective as a second-generation Chinese-American into interactive installations, poetic texts, and tangible multi-media objects made of wood, resin, and found materials. Their work often integrates digital media into physical forms with the aim of spotlighting the connection between memory, identity, and storytelling. 
 
-Leia is currently an exhibit developer at the Exploratorium in San Francisco. Their work has been shown at the likes of La Mama’s CultureHub, theBlanc Art Space, TIAT sf, the Gray Area SF, and Resistor NYC. They organize creative communities and facilitate workshops on making-as-art. Leia holds an MPS from NYU ITP, and a BS in Computer Science from Cal Poly SLO.
+Leia is currently a New Media Exhibit Developer at the Exploratorium in San Francisco. Their work has been shown at the likes of La Mama’s CultureHub, theBlanc Art Space, TIAT sf, the Gray Area SF, and Resistor NYC. They organize creative communities and facilitate workshops on making-as-art. Leia holds an MPS from NYU ITP, and a BS in Computer Science from Cal Poly SLO.
 
 ---
-
-*Currently thinking about ... the sf heatwave, whittling, [alignment ◐](/alignment), time spent with yourself. *
+*Currently thinking about ... what it means to be a creative, what it means to be a creative technologist, the resource of attention and energy, camping, commuter cycling, dynamic websites.*
 
 *Once, a long time ago, a professor looked at a todo list I'd made for the day, and called it the best poem he'd read all week.* 
 
@@ -30,13 +29,13 @@ Leia is currently an exhibit developer at the Exploratorium in San Francisco. Th
 - [Sell Out Art Show](https://www.syzygysf.com/event-details/sell-out-art-show) | SYZYGY SF - 2022 
 
 #### Teaching/Facilitating
+- *Organizer* [FidgetCamp](https://fidgetcamp.com) | San Francisco - 2024-2026 
 - *Instructor* Gray Area Creative Code Immersive | SF - 2026
 - *Workshop* Designing Art for Installation | Flora x tiat Incubator - 2026
-- *Board* [TIAT](https://www.tiat.place/) SF | SF - 2025
+- *Board* [TIAT](https://www.tiat.place/) SF | SF - 2025-2026
 - *Workshop* Exhibition Design | Stanford - Oct 2025
 - *Workshop* [MicroMovement: Interacting with Hardware](https://grayarea.org/course/gray-area-festival-2025-microcontroller-hardware/) for Gray Area Festival - 2025
 - *Workshop* Exhibition Design for [Wild Ways of Making (Meenu Singh & Taylor Tabb)](https://dschool.stanford.edu/study/elective-courses/wild-ways-of-making) | Stanford - 2025
-- *Organizer* [FidgetCamp](https://fidgetcamp.com) | San Francisco - 2024-2025 
 - *Teacher* Creative Code & Design Technology | Lick Wilmerding HS - 2023-2024 
 - *Graduate Assistant* Useless Machines (Blair Simmons) | NYU IMA - 2023 
 - *Graduate Assistant* Digital Fabrication (Phil Caridi) | NYU IMA - 2022 
